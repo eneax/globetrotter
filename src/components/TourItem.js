@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Top = () => {
+const TourItem = () => {
   return (
     <div>
-      Top
+      TourItem
     </div>
   )
 }
 
-export default Top;
+export default TourItem;

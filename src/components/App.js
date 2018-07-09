@@ -7,7 +7,8 @@ import {
 import 'tachyons';
 import Navbar from './Navbar';
 import Home from './Home';
-import Top from './Top';
+import TopTours from './TopTours';
+import TourItem from './TourItem';
 import Group from './Group';
 import Promo from './Promo';
 import About from './About';
@@ -21,7 +22,8 @@ class App extends Component {
           <Navbar />
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route path='/top' component={Top} />
+            <Route exact path='/top' component={TopTours} />
+            <Route path='/top/:topId' component={TourItem} />
             <Route path='/group' component={Group} />
             <Route path='/promo' component={Promo} />
             <Route path='/about' component={About} />
