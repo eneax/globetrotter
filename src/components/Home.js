@@ -6,6 +6,8 @@ import coverTwo from '../images/cover2.jpg';
 import coverThree from '../images/cover3.jpg';
 import coverFour from '../images/cover4.jpg';
 
+import Footer from './Footer';
+
 const Home = () => {
   return (
     <div className='ph3-ns'>
@@ -62,6 +64,8 @@ const Home = () => {
 
         </div>
       </div>
+
+      <Footer />
 
     </div>
   )

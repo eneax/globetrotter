@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Grop = () => {
+const Group = () => {
   return (
     <div>
-      Grop
+      Group
     </div>
   )
 }
 
-export default Grop;
+export default Group;
