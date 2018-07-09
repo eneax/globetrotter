@@ -8,6 +8,29 @@ import coverFour from '../images/cover4.jpg';
 
 import Footer from './Footer';
 
+const homeLinks = [
+  {
+    id: 'about',
+    name: 'About',
+    cover: coverOne
+  },
+  {
+    id: 'promo',
+    name: 'Promotions',
+    cover: coverTwo
+  },
+  {
+    id: 'top',
+    name: 'Top Tours',
+    cover: coverThree
+  },
+  {
+    id: 'group',
+    name: 'Group Trip',
+    cover: coverFour
+  },
+];
+
 const Home = () => {
   return (
     <div className='ph3-ns'>
@@ -23,45 +46,23 @@ const Home = () => {
             tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
             vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
             no sea takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
+          </p>
         </div>
       </header>
 
       <div className='mw9 center'>
         <div className='cf'>
-
-          <Link to='/about'>
-            <div className='fl w-100 w-50-ns pv3'>
-              <div className='bg-white'>
-                <img className='projects-list' src={coverOne} alt='name' />
-              </div>
-            </div>
-          </Link>
-
-          <Link to='/promo'>
-            <div className='fl w-100 w-50-ns pv3'>
-              <div className='bg-white'>
-                <img className='projects-list' src={coverTwo} alt='name' />
-              </div>
-            </div>
-          </Link>
-
-          <Link to='/top'>
-            <div className='fl w-100 w-50-ns pv3'>
-              <div className='bg-white'>
-                <img className='projects-list' src={coverThree} alt='name' />
-              </div>
-            </div>
-          </Link>
-
-          <Link to='/group'>
-            <div className='fl w-100 w-50-ns pv3'>
-              <div className='bg-white'>
-                <img className='projects-list' src={coverFour} alt='name' />
-              </div>
-            </div>
-          </Link>
-
+          {
+            homeLinks.map(({ cover, id }) => (
+              <Link to={`/${id}`} key={id} >
+                <div className='fl w-100 w-50-ns pv3'>
+                  <div className='bg-white'>
+                    <img className='projects-list' src={cover} alt={`Cover for the ${id} Page`} />
+                  </div>
+                </div>
+              </Link>
+            ))
+          }
         </div>
       </div>
 
