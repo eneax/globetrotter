@@ -472,6 +472,52 @@ export default [
     name: 'Sud Africa & Seychelles',
     days: '15 giorni',
     price: 'A partire da € 3495.00 a persona',
+    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    resources: [
+      {
+        day: '1° GIORNO – JOHANNESBURG * MPUMALANGA',
+        desc: "Arrivo all'aeroporto di Johannesburg, incontro con la guida di lingua italiana e trasferimento nella regione di Mpumalanga. Pranzo lungo il percorso. Arrivo nella cittadina di White River per due pernottamenti all'Hulala Lakeside, piacevole country lodge, dall'atmosfera accogliente e familiare, ubicato sulle sponde di un laghetto. Cena e pernottamento."
+      },
+      {
+        day: '2° GIORNO - MPUMALANGA',
+        desc: "Dopo colazione escursione lungo la suggestiva Panorama Route ricca di paesaggi spettacolari: l'imponente Blyde River Canyon che sarà ammirato dal belvedere prospiciente i Three Rondavels, le cavità di Bourke's Luck Potholes risultato scavate dalla forza erosiva dell'acqua, la finestra panoramica di God's Window e numerose cascate di acqua cristallina. Pranzo in corso di escursione."
+      },
+      {
+        day: '3° GIORNO – MPUMALANGA * MAKALALI GAME RESERVE',
+        desc: 'Dopo la colazione partenza per la riserva privata di Makalali, dove si arriverà per l’ora di pranzo. Nel pomeriggio primo fotosafari a bordo di veicoli scoperti 4x4. Cena e pernottamento in lodge.'
+      },
+      {
+        day: '4° GIORNO - MAKALALI GAME RESERVE',
+        desc: 'Giornata di safari nella riserva alla ricerca dei grandi mammiferi africani. Pensione completa e pernottamento in lodge.'
+      },
+      {
+        day: "5° GIORNO - MAKALALI GAME RESERVE * JOHANNESBURG * CITTA' DEL CAPO + VOLO",
+        desc: "Dopo il safari del mattino, incontro con la guida parlante italiano e partenza alla volta di Johannesburg. Arrivo e volo per Città del Capo. Arrivo, incontro con la guida di lingua italiana e trasferimento in hotel. Cena libera e pernottamento presso il Pepper's Club Luxury Hotel, nuovissimo, moderno, raffinato ed elegante hotel nel cuore della città."
+      },
+      {
+        day: "6° GIORNO - CITTA' DEL CAPO, “LA PENISOLA DEL CAPO”",
+        desc: "Dopo la colazione, incontro con la guida e escursione alla Penisola del Capo, passando per gli esclusivi sobborghi lungo la costa atlantica come Sea Point, Camps Bay, Clifton e Llandudno. Arrivo ad Hout Bay e, condizioni del mare permettendo,escursione in barca a Seal Island popolata da una colonia di otarie del Capo. Arrivo al Capo di Buona Speranza e salita, a bordo della comoda funicolare, al faro di Cape Point dove la vista è spettacolare. Pranzo in ristorante locale e prosecuzione perla cittadina Simonstown nelle cui vicinanze a Boulder's Beach si trova una colonia di simpatici pinguini del Capo. Ultima visita della giornata, tempo permettendo, ai giardini botanici di Kirstenbosch, sulle falde orientali di Table Mountain, ospitanti 4000 specie di piante di cui 2600 endemiche della Provincia del Capo, la più famosa della quali è la Protea che viene considerata il fiore nazionale del Sudafrica. Rientro a Città del Capo, cena e pernottamento in hotel."
+      },
+      {
+        day: "7° GIORNO - CITTA' DEL CAPO E LA REGIONE DEI VIGNETI",
+        desc: 'Colazione in hotel. Partenza per la regione dei vigneti a poche decine di chilometri da Città del Capo per una visita di una delle tipiche tenute di Franschoek con pranzo e degustazione di vini. Rientro a Città del Capo e visita della città (Cape Castle, South African Museum, il curioso quartiere malese del "Bo-Kaap", Long Street e il centro cittadino, e, condizioni atmosferiche permettendo, ascesa in funiva sulla sommità di Table Mountain). Cena libera e pernottamento in hotel.'
+      },
+      {
+        day: "8° GIORNO - CITTA' DEL CAPO * SEYCHELLES",
+        desc: 'Colazione in hotel. Tempo a disposizione e trasferimento con assistenza in aeroporto per il volo alle Isole Seychelles.'
+      },
+      {
+        day: "Dal 9° al 14° GIORNO – SEYCHELLES",
+        desc: 'Arrivo alle Isole Seychelles. Trasferimento per l’hotel.Pranzo libero. Cena e pernottamento.'
+      },
+      {
+        day: "15° GIORNO - SEYCHELLES * ITALIA",
+        desc: 'Prima colazione in hotel. Trasferimento per l’aeroporto e partenza per il volo in Italia.'
+      }      
+    ]
   },
   {
     id: 'polinesia',
