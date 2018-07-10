@@ -8,7 +8,7 @@ import 'tachyons';
 import Navbar from './Navbar';
 import Home from './Home';
 import TopTours from './TopTours';
-import TourItem from './TourItem';
+import TopTourItem from './TopTourItem';
 import Group from './Group';
 import Promo from './Promo';
 import About from './About';
@@ -23,7 +23,7 @@ class App extends Component {
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/top' component={TopTours} />
-            <Route path='/top/:topId' component={TourItem} />
+            <Route path='/top/:topId' component={TopTourItem} />
             <Route path='/group' component={Group} />
             <Route path='/promo' component={Promo} />
             <Route path='/about' component={About} />
