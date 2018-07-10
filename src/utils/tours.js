@@ -62,6 +62,68 @@ export default [
     name: 'Australia',
     days: '16 giorni',
     price: 'A partire da € 2890.00 a persona',
+    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    resources: [
+      {
+        day: '1° GIORNO – ITALIA * SYDNEY',
+        desc: 'Partenza con volo di linea dall’ Italia per Sydney, pasti e pernottamento a bordo.'
+      },
+      {
+        day: '2° GIORNO - SYDNEY',
+        desc: 'Arrivo a Sydney. Trasferimento in albergo con guida parlante lingua italiana e sistemazione in hotel. Pernottamento.'
+      },
+      {
+        day: '3° GIORNO - SYDNEY',
+        desc: 'Prima colazione in hotel. Mattinata dedicata alla visita guidata della città. Pomeriggio libero. Pernottamento in hotel.'
+      },
+      {
+        day: '4° GIORNO – SYDNEY * BLUE MOUNTAINS * SYDNEY',
+        desc: 'Prima colazione in hotel. Intera giornata dedicata alla visita delle Blue Mountains con guida parlante lingua italiana e pranzo incluso. Rientro a Sydney nel pomeriggio. Tempo libero e pernottamento in hotel.'
+      },
+      {
+        day: '5° GIORNO – SYDNEY',
+        desc: 'Prima colazione in hotel. Crociera nella Baia di Sydney con pranzo incluso. Sistemazione e pernottamento in hotel.'
+      },
+      {
+        day: '6° GIORNO – SYDNEY * AYERS ROCK',
+        desc: 'Prima colazione in hotel. Trasferimento in aeroporto e partenza per Ayers Rock. Pomeriggio dedicato alla passeggiata alla base di Uluru, alla visita del centro culturale aborigeno ed alla visita del tramonto sul monolite. Pernottamento in hotel.'
+      },
+      {
+        day: '7° GIORNO – AYERS ROCK * ALICE SPRINGS',
+        desc: 'Prima colazione in hotel. Visita di Ayers Rock all’alba con guida. Trasferimento ad Alice Springs, arrivo nel pomeriggio e pernottamento in hotel.'
+      },
+      {
+        day: '8° GIORNO – ALICE SPRINGS * DARWIN',
+        desc: 'Prima colazione in hotel. Trasferimento in aeroporto. Partenza per Darwin, trasferimento in hotel.  Sistemazione e pernottamento.'
+      },
+      {
+        day: '9° GIORNO – DARWIN * KAKADU * NATIONAL PARK',
+        desc: 'Prima colazione in hotel. Escursioni di due giorni in bus con guida, per il Parco Nazionale del Kakadu. Sistemazione e pernottamento in hotel all’ interno del Parco.'
+      },
+      {
+        day: '10° GIORNO – KAKADU NATIONAL PARK * DARWIN',
+        desc: 'Prima colazione in hotel. Proseguimento dell’escursione ed in serata rientro a Darwin. Sistemazione e pernottamento in hotel.'
+      },
+      {
+        day: '11° GIORNO – DARWIN * CAIRNS * PORT DOUGLAS',
+        desc: 'Prima colazione in hotel. Trasferimento all’aeroporto di Darwin e volo per Cairns. All’ arrivo trasferimento a Port Douglas e sistemazione in hotel. Pernottamento.'
+      },
+      {
+        day: 'DAL 12° AL 14° GIORNO – PORT DOUGLAS',
+        desc: 'Prima colazione in hotel. Giornata a disposizione per visitare la foresta pluviale, effettuare escursioni alla Grande Barriera Corallina o per il relax balneare.'
+      },
+      {
+        day: '15° GIORNO – PORT DOUGLAS * CAIRNS',
+        desc: 'Prima colazione in hotel. Trasferimento all’aeroporto di Cairns in bus e volo per l’Italia.'
+      },
+      {
+        day: '16° GIORNO - ITALIA',
+        desc: 'Arrivo in Italia.'
+      }
+    ]
   },
   {
     id: 'peru',
@@ -69,6 +131,68 @@ export default [
     name: 'Perù',
     days: '14 giorni',
     price: 'A partire da € 2895.00 a persona',
+    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    resources: [
+      {
+        day: '1° GIORNO – ITALIA * LIMA',
+        desc: 'Partenza dall’Italia con volo di linea per Lima. Trasferimento e sistemazione in hotel. Cena libera e pernottamento.'
+      },
+      {
+        day: '2° GIORNO - LIMA * PARACAS',
+        desc: 'Prima colazione in hotel. Partenza per la visita della città, tra cui la Cattedrale nella Plaza Mayor, il Monastero di San Francesco e la Casa Aliaga. Visita della zona moderna con passeggiata nei quartieri residenziali di San Isidro e Miraflores. Proseguimento per Paracas. Sistemazione in hotel. Cena libera e pernottamento.'
+      },
+      {
+        day: '3° GIORNO - PARACAS * BALLESTAS * NAZCA',
+        desc: "Prima colazione in hotel. Al mattino escursione in barca alle isole Ballestas, conosciute come le Galapagos del Perù. Rientro in hotel e partenza per Nazca, visitando lungo il tragitto il Museo Regionale di Ica. All’arrivo visita al Museo Antonini, uno dei musei archeologici più importanti della costa sud del Perù, che espone i reperti più recenti provenienti dall’antico centro cerimoniale di Cahuachi, scoperti dalla missione italiana, guidata dall'archeologo Giuseppe Orefici. Il Museo Antonini è gestito dal Centro Italiano Studi e Ricerche Archeologiche Precolombiane. Sistemazione in hotel. Cena libera e pernottamento."
+      },
+      {
+        day: '4° GIORNO - NAZCA * AREQUIPA',
+        desc: 'Prima colazione in hotel e partenza per Arequipa, arrivo previsto dopo 8 ore circa. Sosta per il pranzo in ristorante locale. Arrivo e sistemazione in hotel. Cena libera e pernottamento.'
+      },
+      {
+        day: '5° GIORNO - AREQUIPA',
+        desc: 'Prima colazione in hotel. Mattinata a disposizione e pranzo libero. Nel pomeriggio visita della “Città Bianca”, che comprende il Convento di Santa Catalina, la Plaza de Armas e il Chiostro della Compagnia. Proseguimento per Yanahuara e Chilina, da cui si gode una vista panoramica del Vulcano Misti. Cena libera e pernottamento.'
+      },
+      {
+        day: '6° GIORNO - AREQUIPA * CANYON DEL COLCA',
+        desc: 'Prima colazione in hotel. Partenza per il Canyon del Colca, lungo un tragitto attraversante la Pampa Cañahuas, nella Riserva Nazionale Aguada Blanca, in un habitat ricco di vigogne. Pranzo in ristorante presso il paesino di Chivay. Cena e pernottamento in lodge.'
+      },
+      {
+        day: '7° GIORNO - CANYON DEL COLCA * PUNO',
+        desc: 'Prima colazione in hotel. Partenza per Puno, con sosta lungo presso “La Cruz del Condor”, dove, potrebbe essere possibile osservare questo maestoso uccello librarsi in aria. Qui si gode una vista spettacolare del Canyon del Colca, il più profondo del pianeta (3.000 m.). Pranzo al sacco a Chivay. Arrivo a Puno. Cena libera e pernottamento in hotel.'
+      },
+      {
+        day: '8° GIORNO - PUNO: LAGO TITICACA',
+        desc: 'Prima colazione in hotel. Escursione dell’intera giornata in motoscafo sul lago Titicaca per la visita alle famose isole galleggianti degli Uros. Si prosegue per l’isola di Taquile, abitata dagli indigeni Aymara. Pranzo in ristorante locale. Rientro a Puno in serata. Cena libera e pernottamento.'
+      },
+      {
+        day: '9° GIORNO - PUNO * CUSCO',
+        desc: "Prima colazione in hotel. Partenza con guida in italiano attraverso la Cordigliera delle Ande. Sosta per la visita alle piramidi di Pucarà e al Tempio di Raqchi, costruito in onore del Dio Wiracocha, oltre alla chiesa di Andahuaylillas. Pranzo nel corso dell'escursione. Arrivo a Cusco e sistemazione in hotel. Cena libera e pernottamento."
+      },
+      {
+        day: '10° GIORNO - CUSCO',
+        desc: 'Prima colazione in hotel. Mattinata e pranzo liberi. Nel pomeriggio passeggiata nella città di Cusco. A seguire si visiteranno i siti archeologici di Kenko, Puca Pucara e la fortezza di Sacsayhaman. Cena libera e pernottamento.'
+      },
+      {
+        day: '11° GIORNO - CUSCO * VALLE SACRA * AGUAS CALIENTES',
+        desc: "Prima colazione in hotel, partenza attraverso i paesaggi della Valle Sacra degli Inca, diretti alla cittadina di Ollantaytambo, dove è prevista la visita all’antica fortezza di origine Inca. Pranzo in ristorante e visita del mercato artigianale di Pisaq. Al termine trasferimento alla stazione di Ollantaytambo e partenza in treno per Aguas Calientes. All'arrivo trasferimento libero in hotel. Sistemazione, cena e pernottamento."
+      },
+      {
+        day: '12° GIORNO - AGUAS CALIENTES * MACHU PICCHU * CUSCO',
+        desc: 'Dopo la prima colazione, trasferimento in minibus regolare all’ingresso del sito archeologico. Visita guidata della cittadella e ritorno ad Aguas Calientes per il pranzo al Cafè Inkaterra Machu Picchu Pueblo. Nel pomeriggio rientro in treno a Ollantaytambo, da cui si prosegue per l’hotel di Cusco. Sistemazione e pernottamento in hotel.'
+      },
+      {
+        day: '13° GIORNO - CUSCO * ITALIA',
+        desc: 'Trasferimento in aeroporto e partenza per Lima. All’arrivo assistenza per il volo intercontinentale. Pasti a bordo.'
+      },
+      {
+        day: '14° GIORNO – ITALIA',
+        desc: 'Arrivo in Italia.'
+      }
+    ]
   },
   {
     id: 'america-bahamas',
