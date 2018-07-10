@@ -594,6 +594,80 @@ export default [
     name: 'Giappone & Fiji',
     days: '20 giorni',
     price: 'A partire da € 4995.00 a persona',
+    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    resources: [
+      {
+        day: '1° GIORNO - ROMA * TOKYO',
+        desc: 'Partenza con volo di linea alla volta di Tokyo.'
+      },
+      {
+        day: '2° GIORNO - TOKYO',
+        desc: 'Arrivo a Tokyo. Trasferimento libero per il centro città in treno. Sistemazione in hotel e pernottamento.'
+      },
+      {
+        day: '3° GIORNO - TOKYO',
+        desc: 'Prima colazione in hotel. Pranzo libero. Si consiglia la visita della città, con il Tempio Meiji ed i quartieri Harajuku e Omotesando, Torri di Shinjuku, Quartiere Ginza, Piazza Palazzo Imperiale, Mercato Ameyoko del quartiere Ueno e Tempio di Asakusa. Cena in ristorante tipico. Pernottamento in hotel.'
+      },
+      {
+        day: '4° GIORNO - TOKYO * MONTE FUJI * TOKYO',
+        desc: 'Prima colazione in hotel. La visita al Monte Fuji con guida comprende: Fuji visitors center, Salita fino alla 5^ stazione del monte Fuji, Pranzo Giapponese, Piccola crociera sul Lago Ashi, Funivia monte Komagatake. Rientro in hotel. Cena libera e pernottamento.'
+      },
+      {
+        day: '5° GIORNO - TOKYO * NIKKO * TOKYO',
+        desc: 'Prima colazione in hotel. Intera giornata a disposizione per visitare Nikko. Pranzo libero. Si consiglia: Santuario Toshogu, Villa Imperiale Tamozawa, il giardino Shoyo e le Cascate Kirifuri. Rientro a Tokyo e pernottamento. Cena in ristorante a base di Tempura.'
+      },
+      {
+        day: '6° GIORNO - TOKYO * TAKAYAMA',
+        desc: 'Prima colazione in hotel. Trasferimento in treno a Takayama. Pranzo libero. Suggeriamo visita a: Yatai Kaikan Hall, Kusakabe Folkcraft Museum e la famosa strada Kami Sannomachi che conserva le tradizionali case in legno. Cena e pernottamento in hotel.'
+      },
+      {
+        day: '7° GIORNO - TAKAYAMA * SHIRAKAWAGO * KANAZAWA',
+        desc: 'Prima colazione in hotel.  In mattinata suggeriamo di fare la visita al famoso mercato di Takayama. Pranzo libero. Proseguimento in Bus a Shirakawago – patrimonio dell’umanità dell’Unesco – famoso per le case dette Gassho – Zukuri, dalla particolarissima struttura. Proseguimento in bus per Kanazawa, sistemazione in hotel e pernottamento.'
+      },
+      {
+        day: '8° GIORNO - KANAZAWA * KYOTO',
+        desc: 'Prima colazione in hotel. Trasferimento in treno a Kyoto. Pranzo libero. Si consiglia la visita al Nagamachi Samurai House (vecchio quartiere con strette stradine di pietra) e al Kenrokuen Garden.  Sistemazione in hotel. Cena libera e pernottamento.'
+      },
+      {
+        day: '9° GIORNO - KYOTO * NARA * KYOTO',
+        desc: 'Prima colazione in hotel. Giornata a disposizione per la visita di Nara. Trasferimento in treno da Kioto. Si consiglia la visita a: Todaiji Temple con il suo Buddha, Kasuga Shrine con le sue 3.000 lanterne e il Parco dei Daini. Pranzo libero. Rientro a Kyoto per la cena libera ed il pernottamento.'
+      },
+      {
+        day: '10° GIORNO - KYOTO',
+        desc: 'Prima colazione in hotel. Giornata a disposizione per la visita di Kyoto. Pranzo libero. Si consiglia la visita a: Golden Pavilion, Nijo Castle, Palazzo imperiale, Tempio Sanjusangendo, Santuario Heian e Tempio Kiyomizu. Cena in ristorante tipico. Rientro in hotel e pernottamento.'
+      },
+      {
+        day: '11° GIORNO - KYOTO * HIROSHIMA * MIYAJIMA',
+        desc: 'Prima colazione in hotel. Partenza in treno per Hiroshima si consiglia la visita al Parco della Pace e al Memorial Museum. Pranzo libero. Proseguimento per Miyajima con traghetto. Cena e pernottamento in hotel.'
+      },
+      {
+        day: '12° GIORNO - MIYAJIMA * OSAKA',
+        desc: 'Prima colazione in Hotel. Mattinata a disposizione per la visita di Mayajima e del suo Santuario Itsukushima. Pranzo libero. Proseguimento in traghetto / treno per Osaka. Pernottamento in hotel.'
+      },
+      {
+        day: '13° GIORNO - OSAKA * NADI (Isole Fiji)',
+        desc: 'Prima colazione in hotel. Trasferimento e partenza alla volta di Nadi.'
+      },
+      {
+        day: '14° GIORNO - NADI * CORAL COAST',
+        desc: "Arrivo all’aeroporto di Nadi e trasferimento in hotel. Sistemazione ed inizio del soggiorno mare. Cena e pernottamento."
+      },
+      {
+        day: 'DAL 15° AL 18° GIORNO - NADI * CORAL COAST',
+        desc: 'Soggiorno mare. Trattamento di pensione completa. Possibilità di acquistare in loco escursioni in barca per la visita degli isolotti Fijiani.'
+      },
+      {
+        day: '19° GIORNO - NADI * ITALIA',
+        desc: 'Trasferimento in aeroporto per il rientro in Italia. Pasti e pernottamento a bordo.'
+      },
+      {
+        day: '20° GIORNO – ITALIA',
+        desc: 'Arrivo in Italia.'
+      }
+    ]
   },
   {
     id: 'yucatan-maya',
