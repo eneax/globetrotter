@@ -318,6 +318,80 @@ export default [
     name: 'Old West & Hawaii',
     days: '22 giorni',
     price: 'A partire da € 2995.00 a persona',
+    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    resources: [
+      {
+        day: '1° GIORNO – ITALIA * LOS ANGELES',
+        desc: 'Partenza dall’ Italia con volo di linea. Arrivo a Los Angeles e sistemazione in hotel. Pernottamento.'
+      },
+      {
+        day: '2° GIORNO – LOS ANGELES',
+        desc: 'Prima colazione in hotel. In mattinata visita guidata della città, indiscussa capitale del cinema che offre l’opportunità di incontrare l’attore preferito in un ristorante, di fare shopping sulla famosissima Rodeo Drive, di passeggiare sui marciapiedi di Hollywood dove i divi di ieri e oggi hanno lasciato le loro impronte. Nel pomeriggio visita dell’Universal Studios, il parco interamente dedicato al cinema. Pernottamento in hotel.'
+      },
+      {
+        day: '3° GIORNO – LOS ANGELES',
+        desc: 'Prima colazione in hotel. Giornata dedicata alla visita del parco Disneyland per un entusiasmante “tuffo” nella fantasia. Il parco offre innumerevoli attrazioni a tema per grandi e piccoli, negozi, luoghi di ristoro. Pernottamento in hotel.'
+      },
+      {
+        day: '4° GIORNO - LOS ANGELES * PHOENIX',
+        desc: "Prima colazione in hotel. Si attraversa lo spettacolare scenario del deserto della California e dell'Arizona fino a Phoenix. Cena libera e pernottamento."
+      },
+      {
+        day: '5° GIORNO - PHOENIX * GRAND CANYON * WILLIAMS',
+        desc: 'Prima colazione in hotel. Visita panoramica al Castello di Montezuma, con storiche abitazioni indiane scavate nella roccia. Si passa Sedona, rinomata località di villeggiatura, e Oak Creek Canyon, scenario di molti film western. Visita panoramica del Grand Canyon South Rim e proseguimento per Williams, sulla storica Route 66. Cena libera e pernottamento in hotel.'
+      },
+      {
+        day: '6° GIORNO - WILLIAMS * MONUMENT VALLEY * PAGE',
+        desc: 'Prima colazione in hotel. Visita panoramica della spettacolare Monument Valley, con escursione facoltativa in jeep. Si raggiunge il lago artificiale Powell, in uno spettacolare contrasto di acque blu e rocce rosse. Cena libera e pernottamento.'
+      },
+      {
+        day: '7° GIORNO - PAGE * BRYCE CANYON',
+        desc: 'Prima colazione in hotel. Si arriva allo spettacolare parco nazionale di Bryce Canyon. Gli strati sedimentari sollevati ed erosi da pioggia, gelo e vegetazione sono stati modellati in guglie, cupole, archi di mille forme e sfumature. Cena libera. Sistemazione e pernottamento in hotel.'
+      },
+      {
+        day: '8° GIORNO - BRYCE CANYON * LAS VEGAS',
+        desc: 'Prima colazione in hotel. Partenza per il parco di Zion, dove il fiume Virgin ha scavato il suo letto tra solide rocce a strapiombo, si arriva a Las Vegas, capitale mondiale del divertimento. In serata escursione facoltativa per ammirarne le mille luci. Cena libera e pernottamento.'
+      },
+      {
+        day: '9 °GIORNO - LAS VEGAS',
+        desc: 'Prima colazione in hotel. Giornata libera. Escursione facoltativa alla Death Valley (temperatura permettendo). Cena libera e pernottamento in hotel.'
+      },
+      {
+        day: '10° GIORNO - LAS VEGAS * FRESNO',
+        desc: 'Prima colazione in hotel. Percorrendo in parte la storica Route 66 attraverso il deserto Mojave e la fertile valle centrale della California si arriva in serata a Fresno. Cena libera e pernottamento.'
+      },
+      {
+        day: '11° GIORNO - FRESNO * YOSEMITE * SAN FRANCISCO',
+        desc: 'Prima colazione in hotel. Visita del parco nazionale Yosemite, il più famoso della California per i suoi paesaggi scolpiti da ghiacciai preistorici, le cascate scenografiche, le foreste; in serata arrivo a San Francisco. Cena libera e sistemazione in hotel.'
+      },
+      {
+        day: '12° GIORNO - SAN FRANCISCO',
+        desc: 'Prima colazione in hotel. Mattinata dedicata alla visita di San Francisco una metropoli cosmopolita al di là dell’Oceano. Caratterizzata da una romantica atmosfera con le sue colline, le case vittoriane, il tram a cremagliera, la nebbia che spesso avvolge la famosa baia creando un clima di mistero attorno al famoso e spettacolare Golden Gate. Pomeriggio dedicato all’escursione a Muirwoods e Sausalito per ammirare le spettacolari sequoie e la cittadina di artisti dall’atmosfera mediterranea. Serata a disposizione e pernottamento.'
+      },
+      {
+        day: '13° GIORNO - SAN FRANCISCO',
+        desc: 'Prima colazione in hotel. Intera giornata a disposizione per esplorare la città che offre innumerevoli possibilità di shopping e tante attrazioni. In serata crociera nella baia con cena dove si ammirerà il panorama della città illuminata. Pernottamento in hotel.'
+      },
+      {
+        day: '14° GIORNO - SAN FRANCISCO * HAWAII',
+        desc: 'Prima colazione in hotel. Trasferimento in aeroporto e volo per le Hawaii. Arrivo e trasferimento in hotel. Cena libera e pernottamento.'
+      },
+      {
+        day: 'DAL 15° GIORNO AL 20° GIORNO - HAWAII',
+        desc: 'Prima colazione in hotel. Tempo libero a disposizione per relax in spiaggia ed escursioni facoltative. Cena libera e pernottamento.'
+      },
+      {
+        day: '21° GIORNO – HAWAII * ITALIA',
+        desc: 'Trasferimento per il volo di rientro in Italia.'
+      },
+      {
+        day: '22° GIORNO - ITALIA',
+        desc: 'Arrivo in Italia.'
+      }
+    ]
   },
   {
     id: 'sud-est-asiatico',
