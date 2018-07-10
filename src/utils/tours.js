@@ -200,6 +200,72 @@ export default [
     name: 'Il Sogno Americano & Bahamas',
     days: '21 giorni',
     price: 'A partire da € 2990.00 a persona',
+    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    resources: [
+      {
+        day: '1° GIORNO – ITALIA * NEW YORK',
+        desc: 'Partenza con volo di linea per New York. Arrivo in aeroporto e trasferimento in hotel. Tempo a disposizione. Cena libera e pernottamento.'
+      },
+      {
+        day: '2° GIORNO - NEW YORK',
+        desc: 'Prima colazione in hotel. Mattinata dedicata alla visita guidata della città dove sarà possibile ammirare le più importanti attrazioni: Time Square, Central Park, St. Patrick’s Cathedral, il Metropolitan Museum of Art, il Rockfeller Center ed il famosissimo ponte di Brooklyn. Ma naturalmente nessun tour di New York sarebbe completo senza una visita alla Statua della Libertà e all’Empire State Building. Cena libera e pernottamento.'
+      },
+      {
+        day: '3° GIORNO - NEW YORK',
+        desc: 'Prima colazione in hotel. Giornata a disposizione per visite facoltative. Pasti liberi e pernottamento.'
+      },
+      {
+        day: '4° GIORNO - NEW YORK',
+        desc: 'Prima colazione in hotel. Giornata a disposizione per visite facoltative prenotabili. Pasti liberi e pernottamento.'
+      },
+      {
+        day: '5° GIORNO – NEW YORK * PHILADELPHIA',
+        desc: 'Prima colazione in hotel. Al mattino trasferimento libero alla stazione Penn Station e partenza in treno per Philadelphia. Arrivati alla 30° Street Station, trasferimento libero in hotel. Tempo libero a disposizione e pernottamento.'
+      },
+      {
+        day: '6° GIORNO – PHILADELPHIA',
+        desc: 'Prima colazione in hotel. Mattinata dedicata alla visita guidata della città. Tempo libero a disposizione e pernottamento in hotel.'
+      },
+      {
+        day: '7° GIORNO – PHILADELPHIA * WASHINGTON',
+        desc: 'Prima colazione in hotel. Trasferimento libero alla stazione 30° Street Station. All’arrivo trasferimento libero in hotel. Tempo a disposizione per visitare la capitale degli Stati Uniti e per fare shopping. Pasti liberi e pernottamento.'
+      },
+      {
+        day: '8° GIORNO – WASHINGTON',
+        desc: 'Prima colazione in hotel. Oggi dedicatevi alla visita di Washington salendo a bordo di un bus che effettuerà più di 25 fermate nei luoghi più interessanti della città dal quale potrete scendere e risalire ogni qualvolta avrete il desiderio di effettuare una visita, fare shopping o mangiare. In particolare vi consigliamo di visitare l’Arlington National Cemetery, la Casa Bianca, Il Lincoln Memorial, Capitol Hill, l’obelisco di Washington, i numerosi musei e di camminare lungo la National Mall. Pasti liberi e pernottamento.'
+      },
+      {
+        day: '9° GIORNO – WASHINGTON * MIAMI',
+        desc: 'Prima colazione in hotel. Trasferimento in aeroporto per volo Washington - Miami. Arrivo e trasferimento in hotel. Pasti liberi e pernottamento.'
+      },
+      {
+        day: '10° GIORNO – MIAMI',
+        desc: 'Prima colazione in hotel. Mattinata dedicata alla visita guidata della città. Tempo libero a disposizione e pernottamento.'
+      },
+      {
+        day: '11° GIORNO – MIAMI',
+        desc: 'Prima colazione in hotel. Tempo libero a disposizione per escursioni facoltative o relax in spiaggia. Pasti liberi e pernottamento.'
+      },
+      {
+        day: '12° GIORNO – MIAMI * BAHAMAS',
+        desc: 'Prima colazione in hotel. Trasferimento per volo Miami – Bahamas. Arrivo e trasferimento in hotel. Sistemazione e pernottamento.'
+      },
+      {
+        day: 'DAL 13° GIORNO AL 19° GIORNO – BAHAMAS',
+        desc: 'Prima colazione in hotel. Giornate a disposizione per sole e relax in spiaggia. Pernottamento.'
+      },
+      {
+        day: '20° GIORNO – BAHAMAS * ITALIA',
+        desc: 'Prima colazione in hotel. Trasferimento per volo di rientro in Italia. Pasti a bordo.'
+      },
+      {
+        day: '21° GIORNO – ITALIA',
+        desc: 'Arrivo in Italia.'
+      }
+    ]
   },
   {
     id: 'dubai-maldive',
