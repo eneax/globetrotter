@@ -675,6 +675,56 @@ export default [
     name: 'Yucatan & Riviera Maya',
     days: '16 giorni',
     price: 'A partire da € 2399.00 a persona',
+    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    resources: [
+      {
+        day: '1° GIORNO - ITALIA * CANCUN',
+        desc: 'Partenza dall’Italia con volo di linea. Pasti a bordo. Arrivo a Cancun, trasferimento in hotel, sistemazione nella camera prenotata e pernottamento.'
+      },
+      {
+        day: '2° GIORNO – CANCUN * MERIDA',
+        desc: 'Prima colazione in hotel. Trasferimento per la partenza del Tour. Visita di Chichen Itza, Capitale Maya dello Yucatan. Pranzo in ristorante. Arrivo a Merida, sistemazione in hotel e pernottamento.'
+      },
+      {
+        day: '3° GIORNO - MERIDA',
+        desc: 'Prima colazione in hotel. Visita della zona archeologica di Uxmal con La Piramide dell’Indovino ed il Palazzo del Governatore. Pranzo in ristorante. Rientro a Merida e visita panoramica della città. Pernottamento.'
+      },
+      {
+        day: '4° GIORNO - MERIDA * CAMPECHE',
+        desc: 'Prima colazione in hotel. Visita della Hacienda Sotuta del Peon. Pranzo e proseguimento per Campeche. Arrivo e visita della Città Antica. Al termine sistemazione in hotel. Pernottamento.'
+      },
+      {
+        day: '5° GIORNO - CAMPECHE * PALENQUE',
+        desc: 'Prima colazione in hotel. Partenza per Palenque, pranzo e visita della zona archeologica. Sistemazione in hotel. Pernottamento.'
+      },
+      {
+        day: '6° GIORNO - PALENQUE * CHICANNA’',
+        desc: 'Prima colazione in hotel. Partenza per Chicannà, situato nella sorprendente zona del “Rio Bec“. Pranzo in albergo. Nel pomeriggio visita della zona archeologica di Chicannà il cui nome in Maya significa “Casa della Bocca del Serpente”. Pernottamento.'
+      },
+      {
+        day: '7° GIORNO - CHICANNA’ * CALAKMUL * CHICANNA’',
+        desc: 'Prima colazione in hotel. Partenza per Calakmul. Successivamente attraversando la Biosfera si raggiunge il sito archeologico di Chicannà. Al termine della visita rientro in hotel e pranzo. Tempo libero a disposizione. Pernottamento.'
+      },
+      {
+        day: '8° GIORNO - CHICANNA’ * RIVIERA MAYA',
+        desc: 'Prima colazione in hotel. Partenza per la Riviera Maya. Durante il percorso si visiterà la Laguna di Bacalar, conosciuta anche con il nome “laguna dei sette Colori”, questo per i diversi toni turchesi. Pranzo e proseguimento per Riviera Maya. Arrivo e sistemazione in hotel, cena e pernottamento.'
+      },
+      {
+        day: 'DAL 9° GIORNO AL 14° GIORNO - RIVIERA MAYA',
+        desc: 'Prima colazione in hotel. Soggiorno mare nella Riviera Maya, tempo libero per il relax o per escursioni facoltative che si possono effettuare lungo la famosa costa dello Yucatan.Sistemazione in camera doppia e trattamento di Tutto Incluso.'
+      },
+      {
+        day: '15° GIORNO – RIVIERA MAYA * ITALIA',
+        desc: 'Prima colazione in hotel. Trasferimento in aeroporto a Cancun, in tempo utile per le formalità d’imbarco e il rientro in Italia.'
+      },
+      {
+        day: '16° GIORNO – ITALIA',
+        desc: 'Arrivo in Italia.'
+      },
+    ]
   },
   {
     id: 'canada',
