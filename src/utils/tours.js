@@ -399,6 +399,72 @@ export default [
     name: 'Sud Est Asiatico',
     days: '15 giorni',
     price: 'A partire da € 3299.00 a persona',
+    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    resources: [
+      {
+        day: '1° GIORNO - ITALIA * BANGKOK',
+        desc: 'Partenza del volo di linea dall’Italia.'
+      },
+      {
+        day: '2° GIORNO - BANGKOK',
+        desc: 'Arrivo e trasferimento in hotel. Visita guidata dei Templi e del Palazzo Reale. Tempo libero a disposizione. Pernottamento.'
+      },
+      {
+        day: '3° GIORNO - BANGKOK * CHIANG MAI',
+        desc: 'Prima colazione in hotel. Trasferimento in aeroporto per il volo interno su Chiang Mai. Trasferimento in hotel. Pranzo in ristorante tipico. Partenza per la visita al Wat Phra That Doi Suthep. Rientro a Chiang Mai e visita del Wat Suandok. Proseguimento per Bo Sang e San Kamphaeng. Rientro in hotel. Cena e pernottamento.'
+      },
+      {
+        day: '4° GIORNO - CHIANG MAI * CHIANG RAI',
+        desc: 'Prima colazione in hotel. Visita del Campo degli elefanti di Mae Sa. Pranzo in ristorante tipico. Successivamente visita del villaggio abitato dalla tribù a Taton. Proseguimento per il famoso “Triangolo d’Oro”. Trasferimento in hotel. Cena e pernottamento.'
+      },
+      {
+        day: '5° GIORNO - CHIANG RAI * PAKBENG',
+        desc: 'Prima colazione in hotel. Trasferimento in aeroporto per arrivare a Houei Say, cittadina sulla riva del Mekong, in mattinata partenza con una barca e discesa del fiume verso Pakbeng. Pranzo a bordo. Trasferimento in hotel a Pakbeng. Cena e pernottamento.'
+      },
+      {
+        day: '6° GIORNO - PAKBENG * LUANG PRABANG',
+        desc: 'Prima colazione in hotel. Visita del mercato di Pakbeng. Partenza per la seconda parte della crociera e breve sosta in un villaggio abitato dai H’Mong della montagna. Arrivo a Luang Prabang. Pranzo a bordo, al termine trasferimento in hotel. Cena e pernottamento.'
+      },
+      {
+        day: '7° GIORNO - LUANG PRABANG',
+        desc: 'Prima colazione in hotel. Visita di mezza giornata delle cascate di Kuong Si. Pranzo in ristorante tipico. Rientro a Luang Prabang e visita della città. Per ammirare il tramonto si sale al Vat Chom Si, posizionato al culmine del Phu Si, collina sacra che domina il Luang Prabang. Rientro in hotel cena e pernottamento.'
+      },
+      {
+        day: '8° GIORNO - LUANG PRABANG * SIEM REAP',
+        desc: 'Prima colazione in hotel. Trasferimento in aeroporto per il volo da Luang Prabang a Siem Reap. Pranzo in ristorante tipico. All’arrivo trasferimento in hotel. Cena e pernottamento.'
+      },
+      {
+        day: '9° GIORNO - SIEM REAP',
+        desc: 'Prima colazione in hotel. Intera giornata dedicata alla visita dei templi di Angkor. Visita della di Angkor Thom. Pranzo in ristorante tipico. Rientro in hotel. Cena e pernottamento.'
+      },
+      {
+        day: '10° GIORNO - SIEM REAP * SAIGON',
+        desc: 'Prima colazione in hotel. Proseguimento delle visite dei Templi di Angkor. Pranzo in ristorante. Trasferimento in aeroporto per il volo da Siem Reap a Saigon. Trasferimento e sistemazione in hotel. Cena e pernottamento.'
+      },
+      {
+        day: '11° GIORNO - SAIGON',
+        desc: 'Prima colazione in hotel. Visita dei due volti della città di Saigon, quello coloniale e quello cinese. Sosta nella cattedrale di Notre-Dame e visita del mercato coperto di Ben Thanh. Pranzo in ristorante tipico. Pomeriggio visita del quartiere di Cholon, la Saigon “cinese”. Shopping nella zona commerciale. Rientro in hotel. Cena e pernottamento.'
+      },
+      {
+        day: '12° GIORNO - SAIGON * PHU QUOC',
+        desc: 'Prima colazione in hotel. Trasferimento in aeroporto per il volo da Saigon all’isola di Phu Quoc. Trasferimento in hotel. Giornata a disposizione per rilassarsi in spiaggia. Trattamento di pernottamento e prima colazione.'
+      },
+      {
+        day: '13° GIORNO - PHU QUOC',
+        desc: 'Prima colazione in hotel. Giornata a disposizione per un po’ relax in spiaggia. Pernottamento in hotel.'
+      },
+      {
+        day: '14° GIORNO – PHU QUOC * ITALIA',
+        desc: 'Prima colazione in hotel. Tempo libero a disposizione fino al trasferimento in aeroporto per il volo da Phu Quoc all’Italia.'
+      },
+      {
+        day: '15° GIORNO - ITALIA',
+        desc: 'Arrivo in Italia. Ritiro del bagaglio. Fine dei nostri servizi.'
+      }
+    ]
   },
   {
     id: 'sud-africa-seychelles',
