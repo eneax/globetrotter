@@ -525,6 +525,68 @@ export default [
     name: 'Polinesia',
     days: '22 giorni',
     price: 'A partire da € 3990.00 a persona',
+    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    resources: [
+      {
+        day: '1° GIORNO – ITALIA * LOS ANGELES',
+        desc: 'Partenza per Papeete via Los Angeles pasti e pernottamento a bordo (E’ possibile che la città di scalo sia diversa da quella indicata).'
+      },
+      {
+        day: '2° GIORNO – LOS ANGELES * PAPEETE',
+        desc: 'Arrivo a Papeete. Incontro con l’assistente in loco e trasferimento in hotel. Cena e pernottamento.'
+      },
+      {
+        day: '3° GIORNO – PAPEETE * MOOREA',
+        desc: 'Prima colazione in hotel. Trasferimento per il volo interno PAPEETE - MOOREA. Arrivo a Moorea trasferimento in hotel. Cena e pernottamento in hotel.'
+      },
+      {
+        day: 'DAL 04° AL 05° GIORNO MOOREA',
+        desc: 'Prima colazione in hotel. Giornate a disposizione per rilassarsi nelle bellissime spiagge dell’’isola. Cena e pernottamento.'
+      },
+      {
+        day: '06° GIORNO – MOOREA * HUAHINE',
+        desc: 'Prima colazione in hotel. Trasferimento per il volo interno MOOREA - HUAHINE. Arrivo a Huahine trasferimento in hotel Cena e pernottamento in hotel.'
+      },
+      {
+        day: 'DAL 07° AL 09° GIORNO – HUAHINE',
+        desc: 'Prima colazione in hotel. Giornate a disposizione per rilassarsi nelle bellissime spiagge dell’’isola. Cena e pernottamento.'
+      },
+      {
+        day: '10° GIORNO – HUAHINE * RAIATEA',
+        desc: 'Prima colazione in hotel. Trasferimento per il volo interno HUAHINE – RAIATEA. Arrivo a Raiatea trasferimento in hotel. Cena e pernottamento in hotel.'
+      },
+      {
+        day: "DALL’ 11° AL 13° GIORNO – RAIATEA",
+        desc: 'Prima colazione in hotel. Giornate a disposizione per rilassarsi nelle bellissime spiagge dell’isola. Cena e pernottamento.'
+      },
+      {
+        day: "14° GIORNO – RAIATEA * BORA BORA",
+        desc: 'Prima colazione in hotel. Trasferimento per il volo interno RAIATEA – BORA BORA. Arrivo a Bora bora trasferimento in hotel. Cena e pernottamento in hotel.'
+      },
+      {
+        day: "DAL 15° AL 18° GIORNO – BORA BORA",
+        desc: 'Prima colazione in hotel. Giornate a disposizione per rilassarsi nelle bellissime spiagge dell’’isola. Cena e pernottamento.'
+      },
+      {
+        day: "19° GIORNO – BORA BORA * PAPEETE",
+        desc: 'Prima colazione in hotel. Trasferimento per il volo interno BORA BORA - PAPEETE. Arrivo a Papeete trasferimento in hotel. Cena e pernottamento in hotel.'
+      },
+      {
+        day: "20° GIORNO – PAPEETE * LOS ANGELES",
+        desc: 'Prima colazione. Trasferimento e partenza con volo di linea per l’Italia via Los Angeles. Cena e pernottamento a bordo.'
+      },
+      {
+        day: "21° GIORNO – LOS ANGELES * ITALIA",
+        desc: 'In volo verso l’Italia. Pasti a bordo.'
+      },
+      {
+        day: "22° GIORNO – ITALIA",
+        desc: 'Arrivo in Italia.'
+      }
+    ]
   },
   {
     id: 'giappone-fiji',
