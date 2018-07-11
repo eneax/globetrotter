@@ -9,7 +9,8 @@ import Navbar from './Navbar';
 import Home from './Home';
 import TopTours from './TopTours';
 import TopTourItem from './TopTourItem';
-import Group from './Group';
+import GroupTripList from './GroupTripList';
+import GroupTripListItem from './GroupTripListItem';
 import Promo from './Promo';
 import PromoItem from './PromoItem';
 import About from './About';
@@ -25,7 +26,8 @@ class App extends Component {
             <Route exact path='/' component={Home} />
             <Route exact path='/top' component={TopTours} />
             <Route path='/top/:topId' component={TopTourItem} />
-            <Route path='/group' component={Group} />
+            <Route path='/group' component={GroupTripList} />
+            <Route path='/group:groupId' component={GroupTripListItem} />
             <Route exact path='/promo' component={Promo} />
             <Route path='/promo/:promoId' component={PromoItem} />
             <Route path='/about' component={About} />
