@@ -11,6 +11,7 @@ import TopTours from './TopTours';
 import TopTourItem from './TopTourItem';
 import Group from './Group';
 import Promo from './Promo';
+import PromoItem from './PromoItem';
 import About from './About';
 import Contact from './Contact';
 
@@ -25,7 +26,8 @@ class App extends Component {
             <Route exact path='/top' component={TopTours} />
             <Route path='/top/:topId' component={TopTourItem} />
             <Route path='/group' component={Group} />
-            <Route path='/promo' component={Promo} />
+            <Route exact path='/promo' component={Promo} />
+            <Route path='/promo/:promoId' component={PromoItem} />
             <Route path='/about' component={About} />
             <Route path='/contact' component={Contact} />
           </Switch>

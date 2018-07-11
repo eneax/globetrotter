@@ -16,7 +16,7 @@ const About = () => {
 
       <article className="baskerville pb5">
         <div className="avenir tc-l ph3 ph4-ns pt4 pt5-ns">
-          <img className="w-100 dib measure f3" src="http://www.alcentrodelmondo.it/img/frase.png" alt="A photo of sutro baths by Adam Morse" />
+          <img className="w-100 dib measure f3" src="http://www.alcentrodelmondo.it/img/frase.png" alt="." />
         </div>
         <article className="ph3 ph4-m ph5-l">
           <p className="f4 mb4 center measure lh-copy">

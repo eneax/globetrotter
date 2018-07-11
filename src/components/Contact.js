@@ -25,8 +25,8 @@ const Contact = () => {
               <span className="fw7">"Al Centro del Mondo" Viaggi e Turismo</span>
               <span className="db black-60">Via Pasubio, 30/32</span>
               <span className="db black-60">53043 Chiusi Scalo (SI)</span>
-              <a href="tel:+39 0578 21971" class="db black-60 link lh-title underline-hover">Tel. +39 0578 21971</a>
-              <a href="tel:+39 0578 21975" class="db black-60 link lh-title underline-hover">Fax +39 0578 21975</a>
+              <a href="tel:+39 0578 21971" className="db black-60 link lh-title underline-hover">Tel. +39 0578 21971</a>
+              <a href="tel:+39 0578 21975" className="db black-60 link lh-title underline-hover">Fax +39 0578 21975</a>
             </li>
           </ul>
 
@@ -34,8 +34,8 @@ const Contact = () => {
             <li className="pv2">
               <span className="db black-60">Filiale: Viale Roma, 35</span>
               <span className="db black-60">53042 Chianciano Terme (SI)</span>
-              <a href="tel:+39 0578 62003" class="db black-60 link lh-title underline-hover">Tel. +39 0578 62003</a>
-              <a href="tel:+39 0578 62563" class="db black-60 link lh-title underline-hover">Fax +39 0578 62563</a>
+              <a href="tel:+39 0578 62003" className="db black-60 link lh-title underline-hover">Tel. +39 0578 62003</a>
+              <a href="tel:+39 0578 62563" className="db black-60 link lh-title underline-hover">Fax +39 0578 62563</a>
             </li>
           </ul>
 
