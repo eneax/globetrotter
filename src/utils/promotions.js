@@ -11,7 +11,7 @@ export default [
     imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
     resources: [
       {
-        day: 'Regala un momento da vivere!',
+        header: 'Regala un momento da vivere!',
         desc: "Ce n'è per tutti i gusti, per tutte le età, per tutte le personalità e per tutte le occasioni!!!"
       },
       {

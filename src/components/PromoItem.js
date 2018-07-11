@@ -41,7 +41,7 @@ const PromoItem = ({match}) => {
             {
               promo.resources.map((sub) => (
                 <div className="measure f3 center mv5 black-70" key={sub.id}>
-                  <h3 className="fw6 f3 avenir">{sub.day}</h3>
+                  <h3 className="fw6 f3 avenir">{sub.header}</h3>
                   <p className="lh-copy measure f4 f3-ns black-70 baskerville">
                     {sub.desc}
                   </p>
