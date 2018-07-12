@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../images/logo.jpg';
+import Header from './Header';
 
 import coverOne from '../images/cover1.jpg';
 import coverTwo from '../images/cover2.jpg';
@@ -35,14 +35,7 @@ const homeLinks = [
 const Home = () => {
   return (
     <div className='ph3-ns'>
-
-      <div className='ph0-ns'>
-        <header className="tc pv4 pv5-ns">
-          <img src={logo} className="br-100 pa1 h3 w3" alt="avatar" />
-          <h1 className="f5 f4-ns fw6 white">Al Centro del Mondo</h1>
-          <h2 className="f6 gray fw2 ttu white">Viaggi e Turismo</h2>
-        </header>
-      </div>      
+      <Header/>    
 
       <div className='mw9 center'>
         <div className='cf'>
@@ -61,7 +54,6 @@ const Home = () => {
       </div>
 
       <Footer />
-
     </div>
   )
 }

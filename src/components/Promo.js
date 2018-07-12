@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/logo.jpg';
+import Header from './Header';
 import promotions from '../utils/promotions';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
@@ -7,13 +7,7 @@ import Footer from './Footer';
 const Promo = () => {
   return (
     <div className='ph3-ns'>
-      <div className='ph0-ns'>
-        <header className="tc pv4 pv5-ns">
-          <img src={logo} className="br-100 pa1 h3 w3" alt="avatar" />
-          <h1 className="f5 f4-ns fw6 white">Al Centro del Mondo</h1>
-          <h2 className="f6 gray fw2 ttu white">Viaggi e Turismo</h2>
-        </header>
-      </div>
+      <Header/>
 
       <section className="mw7 center avenir">
         <h2 className="baskerville fw1 ph3 ph0-l">Promotions</h2>
