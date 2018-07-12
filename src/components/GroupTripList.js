@@ -22,7 +22,7 @@ const GroupTripList = () => {
             {
               groups.map(({ cover, id, name, days, desc, price }) => (
                 <article className="bt bb b--black-10" key={id}>
-                  <Link to={`/top/${id}`} className="db pv4 ph3 ph0-l no-underline black dim" >
+                  <Link to={`/group/${id}`} className="db pv4 ph3 ph0-l no-underline black dim" >
                     <div className="flex flex-column flex-row-ns">
                       <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
                         <img className="db" src={cover} alt="." />

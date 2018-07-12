@@ -24,12 +24,16 @@ class App extends Component {
           <Navbar />
           <Switch>
             <Route exact path='/' component={Home} />
+
             <Route exact path='/top' component={TopTours} />
             <Route path='/top/:topId' component={TopTourItem} />
-            <Route path='/group' component={GroupTripList} />
-            <Route path='/group:groupId' component={GroupTripListItem} />
+            
+            <Route exact path='/group' component={GroupTripList} />
+            <Route path='/group/:groupId' component={GroupTripListItem} />
+            
             <Route exact path='/promo' component={Promo} />
             <Route path='/promo/:promoId' component={PromoItem} />
+            
             <Route path='/about' component={About} />
             <Route path='/contact' component={Contact} />
           </Switch>
