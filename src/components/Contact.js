@@ -4,13 +4,12 @@ import Footer from './Footer';
 
 const Contact = () => {
   return (
-    <div>
-      
-      <div className='ph3-ns'>
-        <header className="tc pv4 pv5-ns bg-gold">
-          <img src={logo} className="br-100  pa1 ba b--black-10 h3 w3" alt="avatar" />
-          <h1 className="f5 f4-ns fw6 mid-gray">Al Centro del Mondo</h1>
-          <h2 className="f6 gray fw2 ttu tracked">Viaggi e Turismo</h2>
+    <div className='ph3-ns'>
+      <div className='ph0-ns'>
+        <header className="tc pv4 pv5-ns">
+          <img src={logo} className="br-100 pa1 h3 w3" alt="avatar" />
+          <h1 className="f5 f4-ns fw6 white">Al Centro del Mondo</h1>
+          <h2 className="f6 gray fw2 ttu white">Viaggi e Turismo</h2>
         </header>
       </div>
 
