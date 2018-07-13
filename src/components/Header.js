@@ -3,11 +3,11 @@ import logo from '../images/logo.jpg';
 
 const Header = () => {
   return (
-    <div className='ph0-ns'>
+    <div className='ph1-ns'>
       <header className="tc pv4 pv5-ns">
         <img src={logo} className="br-100 pa1 h3 w3" alt="avatar" />
-        <h1 className="f5 f4-ns fw6 white">Al Centro del Mondo</h1>
-        <h2 className="f6 gray fw2 ttu white">Viaggi e Turismo</h2>
+        <h1 className="f5 f4-ns fw6 white avenir">Al Centro del Mondo</h1>
+        <h2 className="f6 fw2 ttu white baskerville">Viaggi e Turismo</h2>
       </header>
     </div> 
   )

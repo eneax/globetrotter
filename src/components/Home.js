@@ -12,12 +12,12 @@ import Footer from './Footer';
 const homeLinks = [
   {
     id: 'about',
-    name: 'About',
+    name: 'Chi Siamo',
     cover: coverOne
   },
   {
     id: 'promo',
-    name: 'Promotions',
+    name: 'Offerte',
     cover: coverTwo
   },
   {
@@ -27,7 +27,7 @@ const homeLinks = [
   },
   {
     id: 'group',
-    name: 'Group Trip',
+    name: 'Viaggi di Gruppo',
     cover: coverFour
   },
 ];
@@ -35,16 +35,18 @@ const homeLinks = [
 const Home = () => {
   return (
     <div className='ph3-ns'>
-      <Header/>    
-
+      <Header/>
+      
       <div className='mw9 center'>
         <div className='cf'>
           {
-            homeLinks.map(({ cover, id }) => (
+            homeLinks.map(({ id, name, cover }) => (
               <Link to={`/${id}`} key={id} >
-                <div className='fl w-100 w-50-ns pv3'>
-                  <div className='bg-white'>
-                    <img className='projects-list' src={cover} alt={`Cover for the ${id} Page`} />
+                <div className='fl w-100 w-50-ns pv2 ph1'>
+                  <div className='ph0-ns' style={{ background: `url(${cover}) no-repeat center`, backgroundSize: "cover" }}>
+                    <div className="tc pv5 pv7-ns home-links">
+                      <h2 className="f1 fw2 ttu white avenir">{name}</h2>
+                    </div>
                   </div>
                 </div>
               </Link>
@@ -59,26 +61,3 @@ const Home = () => {
 }
 
 export default Home;
-
-
-
-
-/*
-<header className="bg-gold sans-serif tc">
-        <div className="mw9 center pa4 pt5-ns ph7-l">
-          <h1 className="f2 f1-m f-subheadline-l measure-narrow lh-title mv0">
-            <span className="bg-black-90 lh-copy white pa1 tracked-tight">
-              Al Centro del Mondo
-          </span>
-          </h1>
-          <p className="measure center f5 f4-m lh-copy">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-            vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-            no sea takimata sanctus est Lorem ipsum dolor sit amet.
-          </p>
-        </div>
-      </header>
-
-
-*/ 

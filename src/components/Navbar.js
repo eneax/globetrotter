@@ -12,8 +12,8 @@ const Navbar = () => {
       <div className="db dtc-l v-mid w-100 w-75-l tc tr-l">
         <Link to='/top' className="link dim dark-gray f6 f5-l dib mr3 mr4-l" title="Top Tours">Top Tours</Link>
         <Link to='/group' className="link dim dark-gray f6 f5-l dib mr3 mr4-l" title="Group Trip">Group Trip</Link>
-        <Link to='/promo' className="link dim dark-gray f6 f5-l dib mr3 mr4-l" title="Promotions">Promotions</Link>
-        <Link to='/about' className="link dim dark-gray f6 f5-l dib mr3 mr4-l" title="About">About</Link>
+        <Link to='/promo' className="link dim dark-gray f6 f5-l dib mr3 mr4-l" title="Offerte">Offerte</Link>
+        <Link to='/about' className="link dim dark-gray f6 f5-l dib mr3 mr4-l" title="Chi Siamo">Chi Siamo</Link>
         <Link to='/contact' className="link dim dark-gray f6 f5-l dib" title="Contact">Contact</Link>
       </div>
     </nav>

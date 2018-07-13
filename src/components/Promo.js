@@ -10,7 +10,7 @@ const Promo = () => {
       <Header/>
 
       <section className="mw7 center avenir">
-        <h2 className="baskerville fw1 ph3 ph0-l">Promotions</h2>
+        <h2 className="baskerville fw1 ph3 ph0-l">Offerte</h2>
 
         {
           promotions.map(({ cover, id, name, days, price }) => (
