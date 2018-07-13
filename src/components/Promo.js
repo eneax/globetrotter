@@ -9,8 +9,8 @@ const Promo = () => {
     <div className='ph3-ns'>
       <Header/>
 
-      <section className="mw7 center avenir">
-        <h2 className="baskerville fw1 ph3 ph0-l">Offerte</h2>
+      <section className="mw7 center baskerville">
+        <h2 className="f4 f2-ns fw6 ph3 ph0-l avenir">Offerte</h2>
 
         {
           promotions.map(({ cover, id, name, days, price }) => (
@@ -18,12 +18,12 @@ const Promo = () => {
               <Link to={`/promo/${id}`} className="db pv4 ph3 ph0-l no-underline black dim">
                 <div className="flex flex-column flex-row-ns">
                   <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-                    <img className="db" src={cover} alt="." />
+                    <img className="db" src={cover} alt={`${name} Pic`} />
                   </div>
                   <div className="w-100 w-60-ns pl3-ns tr-ns">
-                    <h3 className="f3  baskerville mt0 lh-title">{name}</h3>
+                    <h3 className="f5 f3-ns avenir mt0 lh-title">{name}</h3>
                     <p className="f6 lh-copy mb2">{days}</p>
-                    <p className="f6 f5-l lh-copy mv4">Nuova Collezione 2018</p>
+                    <p className="f6 f4-l lh-copy mv4">Nuova Collezione 2018</p>
                     <p className="f6 lh-copy mv0">{price}</p>
                   </div>
                 </div>
