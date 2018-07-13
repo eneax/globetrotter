@@ -9,8 +9,8 @@ const TopTours = () => {
     <div className='ph3-ns'>
       <Header />
 
-      <section className="mw7 center avenir">
-        <h2 className="baskerville fw1 ph3 ph0-l">Top Tours</h2>
+      <section className="mw7 center baskerville">
+        <h2 className="f4 f2-ns fw6 ph3 ph0-l avenir">Top Tours</h2>
 
         {
           tours.map(({ cover, id, name, days, price }) => (
@@ -21,9 +21,9 @@ const TopTours = () => {
                     <img className="db" src={cover} alt="." />
                   </div>
                   <div className="w-100 w-60-ns pl3-ns tr-ns">
-                    <h3 className="f3  baskerville mt0 lh-title">{name}</h3>
+                    <h3 className="f5 f3-ns avenir mt0 lh-title">{name}</h3>
                     <p className="f6 lh-copy mb2">{days}</p>
-                    <p className="f6 f5-l lh-copy mv4">Collezione "Mondi Diversi</p>
+                    <p className="f6 f4-l lh-copy mv4">Collezione "Mondi Diversi</p>
                     <p className="f6 lh-copy mv0">{price}</p>
                   </div>
                 </div>
