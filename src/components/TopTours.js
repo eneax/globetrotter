@@ -18,7 +18,7 @@ const TopTours = () => {
               <Link to={`/top/${id}`} className="db pv4 ph3 ph0-l no-underline black dim" >
                 <div className="flex flex-column flex-row-ns">
                   <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-                    <img className="db" src={cover} alt="." />
+                    <img className="db" src={cover} alt={`${name} Pic`} />
                   </div>
                   <div className="w-100 w-60-ns pl3-ns tr-ns">
                     <h3 className="f5 f3-ns avenir mt0 lh-title">{name}</h3>
