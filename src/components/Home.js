@@ -45,7 +45,7 @@ const Home = () => {
                 <div className='fl w-100 w-50-ns pv2 ph1'>
                   <div className='ph0-ns' style={{ background: `url(${cover}) no-repeat center`, backgroundSize: "cover" }}>
                     <div className="tc pv5 pv7-ns home-links">
-                      <h2 className="f1 fw2 ttu white avenir">{name}</h2>
+                      <h2 className="f5 f2-ns fw4 ttu white avenir">{name}</h2>
                     </div>
                   </div>
                 </div>
