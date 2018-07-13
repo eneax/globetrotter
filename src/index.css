@@ -32,3 +32,10 @@ Home
   transition: .5s ease;
 }
 .home-links:hover { opacity: .8; }
+
+/******
+Footer
+******/
+.mail { color: #DA4D45; }
+.facebook { color: #3D5A96; }
+.twitter { color: #2AA3EF; }
