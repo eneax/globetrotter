@@ -10,7 +10,7 @@ const GroupTripList = () => {
       <Header/>
 
       <section className="mw7 center avenir">
-        <h2 className="baskerville fw1 ph3 ph0-l">Group Trip</h2>
+        <h2 className="baskerville fw1 ph3 ph0-l">Viaggi di Gruppo</h2>
 
         {
           groups.map(({ cover, id, name, days, desc, price }) => (

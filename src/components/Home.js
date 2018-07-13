@@ -11,25 +11,25 @@ import Footer from './Footer';
 
 const homeLinks = [
   {
-    id: 'about',
-    name: 'Chi Siamo',
-    cover: coverOne
-  },
-  {
-    id: 'promo',
-    name: 'Offerte',
-    cover: coverTwo
-  },
-  {
     id: 'top',
     name: 'Top Tours',
-    cover: coverThree
+    cover: coverOne
   },
   {
     id: 'group',
     name: 'Viaggi di Gruppo',
-    cover: coverFour
+    cover: coverTwo
   },
+  {
+    id: 'promo',
+    name: 'Offerte',
+    cover: coverThree
+  },
+  {
+    id: 'about',
+    name: 'Chi Siamo',
+    cover: coverFour
+  }
 ];
 
 const Home = () => {
