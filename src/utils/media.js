@@ -83,6 +83,12 @@ import napoliOne from '../images/group-trip/napoli/napoli1.jpg';
 import napoliTwo from '../images/group-trip/napoli/napoli2.jpg';
 import napoliThree from '../images/group-trip/napoli/napoli3.jpg';
 import napoliFour from '../images/group-trip/napoli/napoli4.jpg';
+// Group Trip - Assisi
+import assisi from '../images/group-trip/assisi/assisi.jpg';
+import assisiOne from '../images/group-trip/assisi/assisi1.jpg';
+import assisiTwo from '../images/group-trip/assisi/assisi2.jpg';
+import assisiThree from '../images/group-trip/assisi/assisi3.jpg';
+import assisiFour from '../images/group-trip/assisi/assisi4.jpg';
 
 // Group Trip - Montenegro (settembre)
 import montenegroSett from '../images/group-trip/montenegroSett/montenegroSett.jpg';
@@ -107,5 +113,6 @@ export {
   canada, canadaOne, canadaTwo, canadaThree, canadaFour,
   montenegro, montenegroOne, montenegroTwo, montenegroThree, montenegroFour,
   napoli, napoliOne, napoliTwo, napoliThree, napoliFour,
+  assisi, assisiOne, assisiTwo, assisiThree, assisiFour,
   montenegroSett, montenegroSettOne, montenegroSettTwo, montenegroSettThree, montenegroSettFour,
 }

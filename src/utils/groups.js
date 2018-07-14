@@ -1,6 +1,7 @@
 import { 
   montenegro, montenegroOne, montenegroTwo, montenegroThree, montenegroFour,
   napoli, napoliOne, napoliTwo, napoliThree, napoliFour,
+  assisi, assisiOne, assisiTwo, assisiThree, assisiFour,
   montenegroSett, montenegroSettOne, montenegroSettTwo, montenegroSettThree, montenegroSettFour,
 } from "./media";
 
@@ -143,15 +144,15 @@ export default [
   },
   {
     id: 'assisi-cannara',
-    cover: 'https://images.unsplash.com/photo-1531086718882-1838625f329e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=53c3c8c858ed4acd3aec159b1be9273d&auto=format&fit=crop&w=1728&q=80',
+    cover: assisi,
     name: 'Assisi e Cannara',
     days: '15 agosto 2018',
     desc: 'Ferragosto sotto le stelle',
     price: 'A partire da € 40.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: assisiOne,
+    imgTwo: assisiTwo,
+    imgThree: assisiThree,
+    imgFour: assisiFour,
     resources: [
       {
         day: '15 agosto 2018 - Assisi e Cannara',
