@@ -4,6 +4,7 @@ import {
   assisi, assisiOne, assisiTwo, assisiThree, assisiFour,
   foce, foceOne, foceTwo, foceThree, foceFour,
   uzbe, uzbeOne, uzbeTwo, uzbeThree, uzbeFour,
+  eolie, eolieOne, eolieTwo, eolieThree, eolieFour,
   montenegroSett, montenegroSettOne, montenegroSettTwo, montenegroSettThree, montenegroSettFour,
 } from "./media";
 
@@ -342,15 +343,15 @@ export default [
   },
   {
     id: 'isole-eolie',
-    cover: 'https://www.navisal.com/wp-content/uploads/2017/12/Cave-di-pomice-a-Lipari.jpg',
+    cover: eolie,
     name: 'Isole Eolie',
     days: '11 - 16 settembre 2018',
     desc: "L'altra meraviglia del mare",
     price: 'A partire da € 615.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: eolieOne,
+    imgTwo: eolieTwo,
+    imgThree: eolieThree,
+    imgFour: eolieFour,
     resources: [
       {
         day: '11 settembre 2018 - Porto di Napoli',

@@ -101,6 +101,12 @@ import uzbeOne from '../images/group-trip/uzbe/uzbe1.jpg';
 import uzbeTwo from '../images/group-trip/uzbe/uzbe2.jpg';
 import uzbeThree from '../images/group-trip/uzbe/uzbe3.jpeg';
 import uzbeFour from '../images/group-trip/uzbe/uzbe4.jpg';
+// Group Trip - Isole Eolie
+import eolie from '../images/group-trip/eolie/eolie.jpg';
+import eolieOne from '../images/group-trip/eolie/eolie1.jpg';
+import eolieTwo from '../images/group-trip/eolie/eolie2.jpg';
+import eolieThree from '../images/group-trip/eolie/eolie3.jpg';
+import eolieFour from '../images/group-trip/eolie/eolie4.jpg';
 
 // Group Trip - Montenegro (settembre)
 import montenegroSett from '../images/group-trip/montenegroSett/montenegroSett.jpg';
@@ -128,5 +134,6 @@ export {
   assisi, assisiOne, assisiTwo, assisiThree, assisiFour,
   foce, foceOne, foceTwo, foceThree, foceFour,
   uzbe, uzbeOne, uzbeTwo, uzbeThree, uzbeFour,
+  eolie, eolieOne, eolieTwo, eolieThree, eolieFour,
   montenegroSett, montenegroSettOne, montenegroSettTwo, montenegroSettThree, montenegroSettFour,
 }
