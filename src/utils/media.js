@@ -46,6 +46,12 @@ import africaOne from '../images/top-tours/africa/africa1.jpg';
 import africaTwo from '../images/top-tours/africa/africa2.jpg';
 import africaThree from '../images/top-tours/africa/africa3.jpg';
 import africaFour from '../images/top-tours/africa/africa4.jpg';
+// Top Tours - Polinesia
+import polinesia from '../images/top-tours/polinesia/polinesia.jpg';
+import polinesiaOne from '../images/top-tours/polinesia/polinesia1.jpg';
+import polinesiaTwo from '../images/top-tours/polinesia/polinesia2.jpeg';
+import polinesiaThree from '../images/top-tours/polinesia/polinesia3.jpg';
+import polinesiaFour from '../images/top-tours/polinesia/polinesia4.jpg';
 
 
 export {
@@ -57,4 +63,5 @@ export {
   west, westOne, westTwo, westThree, westFour,
   east, eastOne, eastTwo, eastThree, eastFour,
   africa, africaOne, africaTwo, africaThree, africaFour,
+  polinesia, polinesiaOne, polinesiaTwo, polinesiaThree, polinesiaFour,
 }

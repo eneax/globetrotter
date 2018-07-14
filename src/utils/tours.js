@@ -7,6 +7,7 @@ import {
   west, westOne, westTwo, westThree, westFour,
   east, eastOne, eastTwo, eastThree, eastFour,
   africa, africaOne, africaTwo, africaThree, africaFour,
+  polinesia, polinesiaOne, polinesiaTwo, polinesiaThree, polinesiaFour,
 } from '../utils/media';
 
 export default [
@@ -532,14 +533,14 @@ export default [
   },
   {
     id: 'polinesia',
-    cover: 'https://images.unsplash.com/photo-1518232197542-9325c59ecac9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=db5075917ffb19db3152601548fe92ad&auto=format&fit=crop&w=1650&q=80',
+    cover: polinesia,
     name: 'Polinesia',
     days: '22 giorni',
     price: 'A partire da € 3990.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: polinesiaOne,
+    imgTwo: polinesiaTwo,
+    imgThree: polinesiaThree,
+    imgFour: polinesiaFour,
     resources: [
       {
         day: '1° Giorno: Italia - Los Angeles',
