@@ -3,6 +3,7 @@ import {
   napoli, napoliOne, napoliTwo, napoliThree, napoliFour,
   assisi, assisiOne, assisiTwo, assisiThree, assisiFour,
   foce, foceOne, foceTwo, foceThree, foceFour,
+  uzbe, uzbeOne, uzbeTwo, uzbeThree, uzbeFour,
   montenegroSett, montenegroSettOne, montenegroSettTwo, montenegroSettThree, montenegroSettFour,
 } from "./media";
 
@@ -251,15 +252,15 @@ export default [
   },
   {
     id: 'uzbekistan',
-    cover: 'https://images.unsplash.com/photo-1503806837798-ea0ce2e6402e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=20727d01f04af769c1f51e46c93fb9f2&auto=format&fit=crop&w=1567&q=80',
+    cover: uzbe,
     name: 'Uzbekistan',
     days: '21 - 28 agosto 2018',
     desc: 'La Via della Seta',
     price: 'A partire da € 1495.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: uzbeOne,
+    imgTwo: uzbeTwo,
+    imgThree: uzbeThree,
+    imgFour: uzbeFour,
     resources: [
       {
         day: '21 agosto 2018 - Roma Fiumicino',

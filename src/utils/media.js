@@ -95,6 +95,12 @@ import foceOne from '../images/group-trip/foce/foce1.jpg';
 import foceTwo from '../images/group-trip/foce/foce2.jpg';
 import foceThree from '../images/group-trip/foce/foce3.jpg';
 import foceFour from '../images/group-trip/foce/foce4.jpg';
+// Group Trip - Uzbekistan
+import uzbe from '../images/group-trip/uzbe/uzbe.jpg';
+import uzbeOne from '../images/group-trip/uzbe/uzbe1.jpg';
+import uzbeTwo from '../images/group-trip/uzbe/uzbe2.jpg';
+import uzbeThree from '../images/group-trip/uzbe/uzbe3.jpeg';
+import uzbeFour from '../images/group-trip/uzbe/uzbe4.jpg';
 
 // Group Trip - Montenegro (settembre)
 import montenegroSett from '../images/group-trip/montenegroSett/montenegroSett.jpg';
@@ -121,5 +127,6 @@ export {
   napoli, napoliOne, napoliTwo, napoliThree, napoliFour,
   assisi, assisiOne, assisiTwo, assisiThree, assisiFour,
   foce, foceOne, foceTwo, foceThree, foceFour,
+  uzbe, uzbeOne, uzbeTwo, uzbeThree, uzbeFour,
   montenegroSett, montenegroSettOne, montenegroSettTwo, montenegroSettThree, montenegroSettFour,
 }
