@@ -1,14 +1,20 @@
+import {
+  zelanda, zelandaOne, zelandaTwo, zelandaThree, zelandaFour,
+  australia, australiaOne, australiaTwo, australiaThree, australiaFour,
+  peru, peruOne, peruTwo, peruThree, peruFour,
+} from '../utils/media';
+
 export default [
   {
     id: 'nuova-zelanda',
-    cover: 'https://images.unsplash.com/photo-1517446915321-65e972f1b494?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=61e5b1f01f2e4f12672a29816163f379&auto=format&fit=crop&w=1650&q=80',
+    cover: zelanda,
     name: 'Nuova Zelanda',
     days: '11 giorni',
     price: 'A partire da € 2590.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: zelandaOne,
+    imgTwo: zelandaTwo,
+    imgThree: zelandaThree,
+    imgFour: zelandaFour,
     resources: [
       {
         day: '1° Giorno: Italia - Hong Kong',
@@ -58,14 +64,14 @@ export default [
   },
   {
     id: 'australia',
-    cover: 'https://images.unsplash.com/photo-1524820197278-540916411e20?ixlib=rb-0.3.5&s=b2e495057e54e3a65380a1899bb7566c&auto=format&fit=crop&w=1544&q=80',
+    cover: australia,
     name: 'Australia',
     days: '16 giorni',
     price: 'A partire da € 2890.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: australiaOne,
+    imgTwo: australiaTwo,
+    imgThree: australiaThree,
+    imgFour: australiaFour,
     resources: [
       {
         day: '1° Giorno: Italia - Sydney',
@@ -127,14 +133,14 @@ export default [
   },
   {
     id: 'peru',
-    cover: 'https://images.unsplash.com/photo-1525915818695-5b1a033247f1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=015e1cd26f83bcfa93df7ffd4a738576&auto=format&fit=crop&w=1650&q=80',
+    cover: peru,
     name: 'Perù',
     days: '14 giorni',
     price: 'A partire da € 2895.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: peruOne,
+    imgTwo: peruTwo,
+    imgThree: peruThree,
+    imgFour: peruFour,
     resources: [
       {
         day: '1° Giorno: Italia - Lima',
