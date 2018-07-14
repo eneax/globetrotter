@@ -2,6 +2,7 @@ import {
   montenegro, montenegroOne, montenegroTwo, montenegroThree, montenegroFour,
   napoli, napoliOne, napoliTwo, napoliThree, napoliFour,
   assisi, assisiOne, assisiTwo, assisiThree, assisiFour,
+  foce, foceOne, foceTwo, foceThree, foceFour,
   montenegroSett, montenegroSettOne, montenegroSettTwo, montenegroSettThree, montenegroSettFour,
 } from "./media";
 
@@ -206,15 +207,15 @@ export default [
   },
   {
     id: 'foce',
-    cover: 'https://www.lafoce.com/templates/yootheme/cache/villa-origo-6f8d1c50.jpeg',
+    cover: foce,
     name: 'La Foce',
     days: '16 agosto 2018',
     desc: 'Villa Origo',
     price: 'A partire da € 45.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: foceOne,
+    imgTwo: foceTwo,
+    imgThree: foceThree,
+    imgFour: foceFour,
     resources: [
       {
         day: '16 agosto 2018 - La Foce',
