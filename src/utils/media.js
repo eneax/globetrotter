@@ -1,33 +1,44 @@
-import zelanda from '../images/nuova-zelanda/zelanda.jpg';
-import zelandaOne from '../images/nuova-zelanda/zelanda1.jpg';
-import zelandaTwo from '../images/nuova-zelanda/zelanda2.jpg';
-import zelandaThree from '../images/nuova-zelanda/zelanda3.jpg';
-import zelandaFour from '../images/nuova-zelanda/zelanda4.jpg';
+import zelanda from '../images/top-tours/nuova-zelanda/zelanda.jpg';
+import zelandaOne from '../images/top-tours/nuova-zelanda/zelanda1.jpg';
+import zelandaTwo from '../images/top-tours/nuova-zelanda/zelanda2.jpg';
+import zelandaThree from '../images/top-tours/nuova-zelanda/zelanda3.jpg';
+import zelandaFour from '../images/top-tours/nuova-zelanda/zelanda4.jpg';
 
-import australia from '../images/australia/australia.jpg';
-import australiaOne from '../images/australia/australia1.jpg';
-import australiaTwo from '../images/australia/australia2.jpeg';
-import australiaThree from '../images/australia/australia3.jpg';
-import australiaFour from '../images/australia/australia4.jpg';
+import australia from '../images/top-tours/australia/australia.jpg';
+import australiaOne from '../images/top-tours/australia/australia1.jpg';
+import australiaTwo from '../images/top-tours/australia/australia2.jpeg';
+import australiaThree from '../images/top-tours/australia/australia3.jpg';
+import australiaFour from '../images/top-tours/australia/australia4.jpg';
 
-import peru from '../images/peru/peru.jpg';
-import peruOne from '../images/peru/peru1.jpg';
-import peruTwo from '../images/peru/peru2.jpeg';
-import peruThree from '../images/peru/peru3.jpg';
-import peruFour from '../images/peru/peru4.jpeg';
+import peru from '../images/top-tours/peru/peru.jpg';
+import peruOne from '../images/top-tours/peru/peru1.jpg';
+import peruTwo from '../images/top-tours/peru/peru2.jpeg';
+import peruThree from '../images/top-tours/peru/peru3.jpg';
+import peruFour from '../images/top-tours/peru/peru4.jpeg';
 
-import america from '../images/america/america.jpeg';
-import americaOne from '../images/america/america1.jpg';
-import americaTwo from '../images/america/america2.jpg';
-import americaThree from '../images/america/america3.jpg';
-import americaFour from '../images/america/america4.jpg';
+import america from '../images/top-tours/america/america.jpeg';
+import americaOne from '../images/top-tours/america/america1.jpg';
+import americaTwo from '../images/top-tours/america/america2.jpg';
+import americaThree from '../images/top-tours/america/america3.jpg';
+import americaFour from '../images/top-tours/america/america4.jpg';
 
-import dubai from '../images/dubai/dubai.jpg';
-import dubaiOne from '../images/dubai/dubai1.jpg';
-import dubaiTwo from '../images/dubai/dubai2.jpg';
-import dubaiThree from '../images/dubai/dubai3.jpg';
-import dubaiFour from '../images/dubai/dubai4.jpg';
+import dubai from '../images/top-tours/dubai/dubai.jpg';
+import dubaiOne from '../images/top-tours/dubai/dubai1.jpg';
+import dubaiTwo from '../images/top-tours/dubai/dubai2.jpg';
+import dubaiThree from '../images/top-tours/dubai/dubai3.jpg';
+import dubaiFour from '../images/top-tours/dubai/dubai4.jpg';
 
+import west from '../images/top-tours/west/west.jpg';
+import westOne from '../images/top-tours/west/west1.jpg';
+import westTwo from '../images/top-tours/west/west2.jpg';
+import westThree from '../images/top-tours/west/west3.jpg';
+import westFour from '../images/top-tours/west/west4.jpg';
+
+import east from '../images/top-tours/east/east.jpg';
+import eastOne from '../images/top-tours/east/east1.jpg';
+import eastTwo from '../images/top-tours/east/east2.jpg';
+import eastThree from '../images/top-tours/east/east3.jpg';
+import eastFour from '../images/top-tours/east/east4.jpg';
 
 
 export {
@@ -36,4 +47,6 @@ export {
   peru, peruOne, peruTwo, peruThree, peruFour,
   america, americaOne, americaTwo, americaThree, americaFour,
   dubai, dubaiOne, dubaiTwo, dubaiThree, dubaiFour,
+  west, westOne, westTwo, westThree, westFour,
+  east, eastOne, eastTwo, eastThree, eastFour,
 }

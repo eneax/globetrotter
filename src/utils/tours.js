@@ -4,6 +4,8 @@ import {
   peru, peruOne, peruTwo, peruThree, peruFour,
   america, americaOne, americaTwo, americaThree, americaFour,
   dubai, dubaiOne, dubaiTwo, dubaiThree, dubaiFour,
+  west, westOne, westTwo, westThree, westFour,
+  east, eastOne, eastTwo, eastThree, eastFour,
 } from '../utils/media';
 
 export default [
@@ -322,14 +324,14 @@ export default [
   },
   {
     id: 'old-west-Hawaii',
-    cover: 'https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=240ed3f5043a3e85bc57b7b99da14edf&auto=format&fit=crop&w=1650&q=80',
+    cover: west,
     name: 'Old West & Hawaii',
     days: '22 giorni',
     price: 'A partire da € 2995.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: westOne,
+    imgTwo: westTwo,
+    imgThree: westThree,
+    imgFour: westFour,
     resources: [
       {
         day: '1° Giorno: Italia - Los Angeles',
@@ -403,14 +405,14 @@ export default [
   },
   {
     id: 'sud-est-asiatico',
-    cover: 'https://images.unsplash.com/photo-1504214208698-ea1916a2195a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c9fc7ec2cbf1e7f00746ea9f4810613a&auto=format&fit=crop&w=1650&q=80',
+    cover: east,
     name: 'Sud Est Asiatico',
     days: '15 giorni',
     price: 'A partire da € 3299.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: eastOne,
+    imgTwo: eastTwo,
+    imgThree: eastThree,
+    imgFour: eastFour,
     resources: [
       {
         day: '1° Giorno: Italia - Bangkok',
