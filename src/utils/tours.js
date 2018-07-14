@@ -2,6 +2,7 @@ import {
   zelanda, zelandaOne, zelandaTwo, zelandaThree, zelandaFour,
   australia, australiaOne, australiaTwo, australiaThree, australiaFour,
   peru, peruOne, peruTwo, peruThree, peruFour,
+  america, americaOne, americaTwo, americaThree, americaFour,
 } from '../utils/media';
 
 export default [
@@ -202,14 +203,14 @@ export default [
   },
   {
     id: 'america-bahamas',
-    cover: 'https://images.unsplash.com/photo-1436124026657-36828b43c7ce?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=53137bfaac4ca8d14f0ea3f20f8815d3&auto=format&fit=crop&w=1650&q=80',
+    cover: america,
     name: 'Il Sogno Americano & Bahamas',
     days: '21 giorni',
     price: 'A partire da € 2990.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: americaOne,
+    imgTwo: americaTwo,
+    imgThree: americaThree,
+    imgFour: americaFour,
     resources: [
       {
         day: '1° Giorno: Italia - New York',

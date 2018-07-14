@@ -16,10 +16,17 @@ import peruTwo from '../images/peru/peru2.jpeg';
 import peruThree from '../images/peru/peru3.jpg';
 import peruFour from '../images/peru/peru4.jpeg';
 
+import america from '../images/america/america.jpeg';
+import americaOne from '../images/america/america1.jpg';
+import americaTwo from '../images/america/america2.jpg';
+import americaThree from '../images/america/america3.jpg';
+import americaFour from '../images/america/america4.jpg';
+
 
 
 export {
   zelanda, zelandaOne, zelandaTwo, zelandaThree, zelandaFour,
   australia, australiaOne, australiaTwo, australiaThree, australiaFour,
   peru, peruOne, peruTwo, peruThree, peruFour,
+  america, americaOne, americaTwo, americaThree, americaFour,
 }
