@@ -64,6 +64,12 @@ import yucatanOne from '../images/top-tours/yucatan/yucatan1.jpg';
 import yucatanTwo from '../images/top-tours/yucatan/yucatan2.jpg';
 import yucatanThree from '../images/top-tours/yucatan/yucatan3.jpg';
 import yucatanFour from '../images/top-tours/yucatan/yucatan4.jpg';
+// Top Tours - Il Meglio del Canada
+import canada from '../images/top-tours/canada/canada.jpg';
+import canadaOne from '../images/top-tours/canada/canada1.jpg';
+import canadaTwo from '../images/top-tours/canada/canada2.jpg';
+import canadaThree from '../images/top-tours/canada/canada3.jpg';
+import canadaFour from '../images/top-tours/canada/canada4.jpg';
 
 
 export {
@@ -78,4 +84,5 @@ export {
   polinesia, polinesiaOne, polinesiaTwo, polinesiaThree, polinesiaFour,
   japan, japanOne, japanTwo, japanThree, japanFour,
   yucatan, yucatanOne, yucatanTwo, yucatanThree, yucatanFour,
+  canada, canadaOne, canadaTwo, canadaThree, canadaFour,
 }

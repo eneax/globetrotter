@@ -10,6 +10,7 @@ import {
   polinesia, polinesiaOne, polinesiaTwo, polinesiaThree, polinesiaFour,
   japan, japanOne, japanTwo, japanThree, japanFour,
   yucatan, yucatanOne, yucatanTwo, yucatanThree, yucatanFour,
+  canada, canadaOne, canadaTwo, canadaThree, canadaFour,
 } from '../utils/media';
 
 export default [
@@ -742,14 +743,14 @@ export default [
   },
   {
     id: 'canada',
-    cover: 'https://images.unsplash.com/photo-1508693926297-1d61ee3df82a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7bb93ea6780c3e286815b252524a02c2&auto=format&fit=crop&w=800&q=60',
+    cover: canada,
     name: 'Il Meglio del Canada',
     days: '16 giorni',
     price: 'A partire da € 2495.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: canadaOne,
+    imgTwo: canadaTwo,
+    imgThree: canadaThree,
+    imgFour: canadaFour,
     resources: [
       {
         day: '1° Giorno: Montreal',
