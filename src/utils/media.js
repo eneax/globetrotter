@@ -58,6 +58,12 @@ import japanOne from '../images/top-tours/japan/japan1.jpg';
 import japanTwo from '../images/top-tours/japan/japan2.jpg';
 import japanThree from '../images/top-tours/japan/japan3.png';
 import japanFour from '../images/top-tours/japan/japan4.jpg';
+// Top Tours - Yucatan & Riviera Maya
+import yucatan from '../images/top-tours/yucatan/yucatan.jpg';
+import yucatanOne from '../images/top-tours/yucatan/yucatan1.jpg';
+import yucatanTwo from '../images/top-tours/yucatan/yucatan2.jpg';
+import yucatanThree from '../images/top-tours/yucatan/yucatan3.jpg';
+import yucatanFour from '../images/top-tours/yucatan/yucatan4.jpg';
 
 
 export {
@@ -71,4 +77,5 @@ export {
   africa, africaOne, africaTwo, africaThree, africaFour,
   polinesia, polinesiaOne, polinesiaTwo, polinesiaThree, polinesiaFour,
   japan, japanOne, japanTwo, japanThree, japanFour,
+  yucatan, yucatanOne, yucatanTwo, yucatanThree, yucatanFour,
 }

@@ -9,6 +9,7 @@ import {
   africa, africaOne, africaTwo, africaThree, africaFour,
   polinesia, polinesiaOne, polinesiaTwo, polinesiaThree, polinesiaFour,
   japan, japanOne, japanTwo, japanThree, japanFour,
+  yucatan, yucatanOne, yucatanTwo, yucatanThree, yucatanFour,
 } from '../utils/media';
 
 export default [
@@ -684,14 +685,14 @@ export default [
   },
   {
     id: 'yucatan-maya',
-    cover: 'https://images.unsplash.com/photo-1518638150340-f706e86654de?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bf5dde8c430da1da77cca84287ea85fd&auto=format&fit=crop&w=1648&q=80',
+    cover: yucatan,
     name: 'Yucatan & Riviera Maya',
     days: '16 giorni',
     price: 'A partire da € 2399.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: yucatanOne,
+    imgTwo: yucatanTwo,
+    imgThree: yucatanThree,
+    imgFour: yucatanFour,
     resources: [
       {
         day: '1° Giorno: Italia - Cancun',
