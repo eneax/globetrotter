@@ -3,6 +3,7 @@ import {
   australia, australiaOne, australiaTwo, australiaThree, australiaFour,
   peru, peruOne, peruTwo, peruThree, peruFour,
   america, americaOne, americaTwo, americaThree, americaFour,
+  dubai, dubaiOne, dubaiTwo, dubaiThree, dubaiFour,
 } from '../utils/media';
 
 export default [
@@ -276,14 +277,14 @@ export default [
   },
   {
     id: 'dubai-Maldive',
-    cover: 'https://images.unsplash.com/photo-1515862313161-889d84b4b1fc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d5737656e6491e5698ccc19e9af6cf8c&auto=format&fit=crop&w=1568&q=80',
+    cover: dubai,
     name: 'Dubai & Maldive',
     days: '18 giorni',
     price: 'A partire da € 2995.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: dubaiOne,
+    imgTwo: dubaiTwo,
+    imgThree: dubaiThree,
+    imgFour: dubaiFour,
     resources: [
       {
         day: '1° Giorno: Italia - Dubai',

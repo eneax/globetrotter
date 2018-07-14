@@ -22,6 +22,12 @@ import americaTwo from '../images/america/america2.jpg';
 import americaThree from '../images/america/america3.jpg';
 import americaFour from '../images/america/america4.jpg';
 
+import dubai from '../images/dubai/dubai.jpg';
+import dubaiOne from '../images/dubai/dubai1.jpg';
+import dubaiTwo from '../images/dubai/dubai2.jpg';
+import dubaiThree from '../images/dubai/dubai3.jpg';
+import dubaiFour from '../images/dubai/dubai4.jpg';
+
 
 
 export {
@@ -29,4 +35,5 @@ export {
   australia, australiaOne, australiaTwo, australiaThree, australiaFour,
   peru, peruOne, peruTwo, peruThree, peruFour,
   america, americaOne, americaTwo, americaThree, americaFour,
+  dubai, dubaiOne, dubaiTwo, dubaiThree, dubaiFour,
 }
