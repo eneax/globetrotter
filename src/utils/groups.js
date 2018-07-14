@@ -6,6 +6,7 @@ import {
   uzbe, uzbeOne, uzbeTwo, uzbeThree, uzbeFour,
   eolie, eolieOne, eolieTwo, eolieThree, eolieFour,
   montenegroSett, montenegroSettOne, montenegroSettTwo, montenegroSettThree, montenegroSettFour,
+  matera, materaOne, materaTwo, materaThree, materaFour,
 } from "./media";
 
 export default [
@@ -483,15 +484,15 @@ export default [
   },
   {
     id: 'matera',
-    cover: 'https://images.unsplash.com/photo-1499174549139-68d3f37243b4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=85a676fedf458295b36f4984181bf9ed&auto=format&fit=crop&w=1651&q=80',
+    cover: matera,
     name: 'Matera',
     days: '29 - 30 settembre 2018',
     desc: '- Novità',
     price: 'A partire da € 190.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: materaOne,
+    imgTwo: materaTwo,
+    imgThree: materaThree,
+    imgFour: materaFour,
     resources: [
       {
         day: '29 settembre 2018 -  Matera',

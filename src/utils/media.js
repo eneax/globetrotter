@@ -107,13 +107,18 @@ import eolieOne from '../images/group-trip/eolie/eolie1.jpg';
 import eolieTwo from '../images/group-trip/eolie/eolie2.jpg';
 import eolieThree from '../images/group-trip/eolie/eolie3.jpg';
 import eolieFour from '../images/group-trip/eolie/eolie4.jpg';
-
 // Group Trip - Montenegro (settembre)
 import montenegroSett from '../images/group-trip/montenegroSett/montenegroSett.jpg';
 import montenegroSettOne from '../images/group-trip/montenegroSett/montenegroSett1.jpg';
 import montenegroSettTwo from '../images/group-trip/montenegroSett/montenegroSett2.jpg';
 import montenegroSettThree from '../images/group-trip/montenegroSett/montenegroSett3.jpg';
 import montenegroSettFour from '../images/group-trip/montenegroSett/montenegroSett4.jpg';
+// Group Trip - Matera
+import matera from '../images/group-trip/matera/matera.jpg';
+import materaOne from '../images/group-trip/matera/matera1.jpg';
+import materaTwo from '../images/group-trip/matera/matera2.jpg';
+import materaThree from '../images/group-trip/matera/matera3.jpg';
+import materaFour from '../images/group-trip/matera/matera4.jpg';
 
 
 export {
@@ -136,4 +141,5 @@ export {
   uzbe, uzbeOne, uzbeTwo, uzbeThree, uzbeFour,
   eolie, eolieOne, eolieTwo, eolieThree, eolieFour,
   montenegroSett, montenegroSettOne, montenegroSettTwo, montenegroSettThree, montenegroSettFour,
+  matera, materaOne, materaTwo, materaThree, materaFour,
 }
