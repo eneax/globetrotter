@@ -52,6 +52,12 @@ import polinesiaOne from '../images/top-tours/polinesia/polinesia1.jpg';
 import polinesiaTwo from '../images/top-tours/polinesia/polinesia2.jpeg';
 import polinesiaThree from '../images/top-tours/polinesia/polinesia3.jpg';
 import polinesiaFour from '../images/top-tours/polinesia/polinesia4.jpg';
+// Top Tours - Giappone & Fiji
+import japan from '../images/top-tours/japan/japan.jpg';
+import japanOne from '../images/top-tours/japan/japan1.jpg';
+import japanTwo from '../images/top-tours/japan/japan2.jpg';
+import japanThree from '../images/top-tours/japan/japan3.png';
+import japanFour from '../images/top-tours/japan/japan4.jpg';
 
 
 export {
@@ -64,4 +70,5 @@ export {
   east, eastOne, eastTwo, eastThree, eastFour,
   africa, africaOne, africaTwo, africaThree, africaFour,
   polinesia, polinesiaOne, polinesiaTwo, polinesiaThree, polinesiaFour,
+  japan, japanOne, japanTwo, japanThree, japanFour,
 }

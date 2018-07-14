@@ -8,6 +8,7 @@ import {
   east, eastOne, eastTwo, eastThree, eastFour,
   africa, africaOne, africaTwo, africaThree, africaFour,
   polinesia, polinesiaOne, polinesiaTwo, polinesiaThree, polinesiaFour,
+  japan, japanOne, japanTwo, japanThree, japanFour,
 } from '../utils/media';
 
 export default [
@@ -602,14 +603,14 @@ export default [
   },
   {
     id: 'giappone-fiji',
-    cover: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ebd34ddde3f2b4ea6dcdc9b7d329b774&auto=format&fit=crop&w=1650&q=80',
+    cover: japan,
     name: 'Giappone & Fiji',
     days: '20 giorni',
     price: 'A partire da € 4995.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: japanOne,
+    imgTwo: japanTwo,
+    imgThree: japanThree,
+    imgFour: japanFour,
     resources: [
       {
         day: '1° Giorno: ROMA - Tokyo',
