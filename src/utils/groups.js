@@ -7,6 +7,7 @@ import {
   eolie, eolieOne, eolieTwo, eolieThree, eolieFour,
   montenegroSett, montenegroSettOne, montenegroSettTwo, montenegroSettThree, montenegroSettFour,
   matera, materaOne, materaTwo, materaThree, materaFour,
+  corsica, corsicaOne, corsicaTwo, corsicaThree, corsicaFour,
 } from "./media";
 
 export default [
@@ -538,15 +539,15 @@ export default [
   },
   {
     id: 'corsica',
-    cover: 'https://lonelyplanetwp.imgix.net/2016/12/Corsica-37165ce02653.jpg?crop=entropy&fit=crop&h=421&sharp=10&vib=20&w=748',
+    cover: corsica,
     name: 'Corsica',
     days: '01 - 04 ottobre 2018',
     desc: "L' isola di Napoleone",
     price: 'A partire da € 395.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: corsicaOne,
+    imgTwo: corsicaTwo,
+    imgThree: corsicaThree,
+    imgFour: corsicaFour,
     resources: [
       {
         day: '01 ottobre 2018 - Porto di Livorno - Bastia',

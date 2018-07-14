@@ -119,6 +119,12 @@ import materaOne from '../images/group-trip/matera/matera1.jpg';
 import materaTwo from '../images/group-trip/matera/matera2.jpg';
 import materaThree from '../images/group-trip/matera/matera3.jpg';
 import materaFour from '../images/group-trip/matera/matera4.jpg';
+// Group Trip - Corsica
+import corsica from '../images/group-trip/corsica/corsica.jpg';
+import corsicaOne from '../images/group-trip/corsica/corsica1.jpg';
+import corsicaTwo from '../images/group-trip/corsica/corsica2.jpg';
+import corsicaThree from '../images/group-trip/corsica/corsica3.jpg';
+import corsicaFour from '../images/group-trip/corsica/corsica4.jpg';
 
 
 export {
@@ -142,4 +148,5 @@ export {
   eolie, eolieOne, eolieTwo, eolieThree, eolieFour,
   montenegroSett, montenegroSettOne, montenegroSettTwo, montenegroSettThree, montenegroSettFour,
   matera, materaOne, materaTwo, materaThree, materaFour,
+  corsica, corsicaOne, corsicaTwo, corsicaThree, corsicaFour,
 }
