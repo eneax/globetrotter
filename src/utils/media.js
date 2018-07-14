@@ -71,6 +71,20 @@ import canadaTwo from '../images/top-tours/canada/canada2.jpg';
 import canadaThree from '../images/top-tours/canada/canada3.jpg';
 import canadaFour from '../images/top-tours/canada/canada4.jpg';
 
+// Group Trip - Montenegro
+import montenegro from '../images/group-trip/montenegro/montenegro.jpg';
+import montenegroOne from '../images/group-trip/montenegro/montenegro1.jpg';
+import montenegroTwo from '../images/group-trip/montenegro/montenegro2.jpg';
+import montenegroThree from '../images/group-trip/montenegro/montenegro3.jpg';
+import montenegroFour from '../images/group-trip/montenegro/montenegro4.jpg';
+
+// Group Trip - Montenegro (settembre)
+import montenegroSett from '../images/group-trip/montenegroSett/montenegroSett.jpg';
+import montenegroSettOne from '../images/group-trip/montenegroSett/montenegroSett1.jpg';
+import montenegroSettTwo from '../images/group-trip/montenegroSett/montenegroSett2.jpg';
+import montenegroSettThree from '../images/group-trip/montenegroSett/montenegroSett3.jpg';
+import montenegroSettFour from '../images/group-trip/montenegroSett/montenegroSett4.jpg';
+
 
 export {
   zelanda, zelandaOne, zelandaTwo, zelandaThree, zelandaFour,
@@ -85,4 +99,6 @@ export {
   japan, japanOne, japanTwo, japanThree, japanFour,
   yucatan, yucatanOne, yucatanTwo, yucatanThree, yucatanFour,
   canada, canadaOne, canadaTwo, canadaThree, canadaFour,
+  montenegro, montenegroOne, montenegroTwo, montenegroThree, montenegroFour,
+  montenegroSett, montenegroSettOne, montenegroSettTwo, montenegroSettThree, montenegroSettFour,
 }

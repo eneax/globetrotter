@@ -1,15 +1,20 @@
+import { 
+  montenegro, montenegroOne, montenegroTwo, montenegroThree, montenegroFour, 
+  montenegroSett, montenegroSettOne, montenegroSettTwo, montenegroSettThree, montenegroSettFour,
+} from "./media";
+
 export default [
   {
     id: 'montenegro',
-    cover: 'https://images.unsplash.com/photo-1529592936026-7846d2a89e8b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4f8d6b049b18e9320894b62e6569acbe&auto=format&fit=crop&w=1500&q=80',
+    cover: montenegro,
     name: 'Montenegro',
     days: '16 - 22 luglio 2018',
     desc: '... da scoprire',
     price: 'A partire da € 675.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: montenegroOne,
+    imgTwo: montenegroTwo,
+    imgThree: montenegroThree,
+    imgFour: montenegroFour,
     resources: [
       {
         day: '16 luglio 2018 - Ancona',
@@ -403,15 +408,15 @@ export default [
   },
   {
     id: 'montenegro-settembre',
-    cover: 'https://images.unsplash.com/photo-1513860339139-bb20db471393?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9a4e20751f005780fec774950a373f50&auto=format&fit=crop&w=1650&q=80',
+    cover: montenegroSett,
     name: 'Montenegro',
     days: '19 - 24 settembre 2018',
     desc: 'Il nuovo Mediterraneo',
     price: 'A partire da € 495.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: montenegroSettOne,
+    imgTwo: montenegroSettTwo,
+    imgThree: montenegroSettThree,
+    imgFour: montenegroSettFour,
     resources: [
       {
         day: '19 settembre 2018 - Porto di Ancona',
