@@ -7,96 +7,85 @@ const Contact = () => {
     <div className='ph3-ns'>
       <Header/>
 
-      <section className="bg-washed-blue pa2 pa4-ns tc">
-        <article className="ba b--black-10 br2 bg-white pa4 mw6 center">
-          <div>
-            <h4 className="f5 fw4 black-60 dib v-mid mv0 mr3">Contatti</h4>
+      <section className="mw7 center baskerville">
+        <h2 className="f4 f2-ns fw6 ph3 ph0-l avenir">Contatti</h2>
+        <article className="bt bb b--black-10">
+          <div className="db pv4 ph3 ph0-l no-underline black">
+            <div className="flex flex-column flex-row-ns">
+              <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+                <h3 className="f5 f3-ns avenir mt0 lh-title">Via Pasubio, 30/32</h3>
+                <p className="f6 f4-l lh-copy mb2">53043 Chiusi Scalo (SI)</p>
+                <a href="tel:+39 0578 21971" className="f6 f4-l lh-copy mv2 db dark-blue link lh-title underline-hover">Tel. +39 0578 21971</a>
+                <a href="tel:+39 0578 21975" className="f6 f4-l lh-copy mv0 db dark-blue link lh-title underline-hover">Fax +39 0578 21975</a>
+              </div>
+              <div className="w-100 w-60-ns pl3-ns tr-ns">
+                <h3 className="f5 f3-ns avenir mt0 lh-title">Filiale: Viale Roma, 35</h3>
+                <p className="f6 f4-l lh-copy mb2">53042 Chianciano Terme (SI)</p>
+                <a href="tel:+39 0578 62003" className="f6 f4-l lh-copy mv2 db dark-blue link lh-title underline-hover">Tel. +39 0578 62003</a>
+                <a href="tel:+39 0578 62563" className="f6 f4-l lh-copy mv0 db dark-blue link lh-title underline-hover">Fax +39 0578 62563</a>
+              </div>
+            </div>
           </div>
-
-          <ul className="list f6 pl0 mt3 mb0">
-            <li className="pv2">
-              <span className="fw7">"Al Centro del Mondo" Viaggi e Turismo</span>
-              <span className="db black-60">Via Pasubio, 30/32</span>
-              <span className="db black-60">53043 Chiusi Scalo (SI)</span>
-              <a href="tel:+39 0578 21971" className="db black-60 link lh-title underline-hover">Tel. +39 0578 21971</a>
-              <a href="tel:+39 0578 21975" className="db black-60 link lh-title underline-hover">Fax +39 0578 21975</a>
-            </li>
-          </ul>
-
-          <ul className="list f6 pl0 mt3 mb0">
-            <li className="pv2">
-              <span className="db black-60">Filiale: Viale Roma, 35</span>
-              <span className="db black-60">53042 Chianciano Terme (SI)</span>
-              <a href="tel:+39 0578 62003" className="db black-60 link lh-title underline-hover">Tel. +39 0578 62003</a>
-              <a href="tel:+39 0578 62563" className="db black-60 link lh-title underline-hover">Fax +39 0578 62563</a>
-            </li>
-          </ul>
-
-          <ul className="list f6 pl0 mt3 mb0">
-            <li className="pv2">
-              <span className="fw7">Orari di apertura</span>
-              <span className="db black-60">Dal Lunedì al Sabato</span>
-              <span className="db black-60">Dalle 9:00 alle 13:00</span>
-              <span className="db black-60">Dalle 16:00 alle 19:00</span>
-              <a href="mailto:info@alcentrodelmondo.it" className="link blue lh-title underline-hover" target="_blank" rel="noopener noreferrer">
-                <span className="db black-60">info@alcentrodelmondo.it</span>
-              </a>
-            </li>
-          </ul>
-
-          <ul className="list f6 pl0 mt3 mb0">
-            <li className="pv2">
-              <span className="fw7">Direzione tecnica</span>
-              <a href="mailto:direzione@alcentrodelmondo.it" className="link blue lh-title underline-hover" target="_blank" rel="noopener noreferrer">
-                <span className="db black-60">direzione@alcentrodelmondo.it</span>
-              </a>
-            </li>
-            
-            <li className="pv2">
-              <span className="fw7">Ufficio amministrazione</span>
-              <a href="mailto:samanta@alcentrodelmondo.it" className="link blue lh-title underline-hover" target="_blank" rel="noopener noreferrer">
-                <span className="db black-60">samanta@alcentrodelmondo.it</span>
-              </a>
-              <a href="mailto:federico@alcentrodelmondo.it" className="link blue lh-title underline-hover" target="_blank" rel="noopener noreferrer">
-                <span className="db black-60">federico@alcentrodelmondo.it</span>
-              </a>
-            </li>
-
-            <li className="pv2">
-              <span className="fw7">Viaggi individuali - Viaggi di nozze - Crociere</span>
-              <a href="mailto:manolina@alcentrodelmondo.it" className="link blue lh-title underline-hover" target="_blank" rel="noopener noreferrer">
-                <span className="db black-60">manolina@alcentrodelmondo.it</span>
-              </a>
-              <a href="mailto:alessandra@alcentrodelmondo.it" className="link blue lh-title underline-hover" target="_blank" rel="noopener noreferrer">
-                <span className="db black-60">alessandra@alcentrodelmondo.it</span>
-              </a>
-              <a href="mailto:manuela@alcentrodelmondo.it" className="link blue lh-title underline-hover" target="_blank" rel="noopener noreferrer">
-                <span className="db black-60">manuela@alcentrodelmondo.it</span>
-              </a>
-              <a href="mailto:federico@alcentrodelmondo.it" className="link blue lh-title underline-hover" target="_blank" rel="noopener noreferrer">
-                <span className="db black-60">federico@alcentrodelmondo.it</span>
-              </a>
-            </li>
-
-            <li className="pv2">
-              <span className="fw7">Ufficio Gruppi</span>
-              <a href="mailto:direzione@alcentrodelmondo.it" className="link blue lh-title underline-hover" target="_blank" rel="noopener noreferrer">
-                <span className="db black-60">direzione@alcentrodelmondo.it</span>
-              </a>
-              <a href="mailto:sabrina@alcentrodelmondo.it" className="link blue lh-title underline-hover" target="_blank" rel="noopener noreferrer">
-                <span className="db black-60">sabrina@alcentrodelmondo.it</span>
-              </a>
-              <a href="mailto:federico@alcentrodelmondo.it" className="link blue lh-title underline-hover" target="_blank" rel="noopener noreferrer">
-                <span className="db black-60">federico@alcentrodelmondo.it</span>
-              </a>
-              <a href="mailto:mondidiversi@alcentrodelmondo.it" className="link blue lh-title underline-hover" target="_blank" rel="noopener noreferrer">
-                <span className="db black-60">mondidiversi@alcentrodelmondo.it</span>
-              </a>
-            </li>
-          </ul>
         </article>
       </section>
 
+      <section className="mw7 center baskerville">
+        <article className="bt bb b--black-10">
+          <div className="db pv4 ph3 ph0-l no-underline black">
+            <div className="flex flex-column flex-row-ns">
+              <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+                <h3 className="f5 f3-ns avenir mt0 lh-title">Orari di apertura</h3>
+                <p className="f6 f4-l lh-copy mb2">Dal Lunedì al Sabato</p>
+                <p className="f6 f4-l lh-copy mb2">Dalle 9:00 alle 13:00</p>
+                <p className="f6 f4-l lh-copy mb2">Dalle 16:00 alle 19:00</p>
+                <a href="mailto:info@alcentrodelmondo.it" className="f6 f4-l lh-copy mv2 db dark-blue link lh-title underline-hover">info@alcentrodelmondo.it</a>
+              </div>
+              <div className="w-100 w-60-ns pl3-ns tr-ns">
+                <h3 className="f5 f3-ns avenir mt0 lh-title">Direzione tecnica</h3>
+                <a href="mailto:direzione@alcentrodelmondo.it" className="f6 f4-l lh-copy mv2 db dark-blue link lh-title underline-hover">direzione@alcentrodelmondo.it</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section className="mw7 center baskerville">
+        <article className="bt bb b--black-10">
+          <div className="db pv4 ph3 ph0-l no-underline black">
+            <div className="flex flex-column flex-row-ns">
+              <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+                <h3 className="f5 f3-ns avenir mt0 lh-title">Ufficio Gruppi</h3>
+                <a href="mailto:direzione@alcentrodelmondo.it" className="f6 f4-l lh-copy mv2 db dark-blue link lh-title underline-hover">direzione@alcentrodelmondo.it</a>
+                <a href="mailto:sabrina@alcentrodelmondo.it" className="f6 f4-l lh-copy mv2 db dark-blue link lh-title underline-hover">sabrina@alcentrodelmondo.it</a>
+                <a href="mailto:federico@alcentrodelmondo.it" className="f6 f4-l lh-copy mv2 db dark-blue link lh-title underline-hover">federico@alcentrodelmondo.it</a>
+                <a href="mailto:mondidiversi@alcentrodelmondo.it" className="f6 f4-l lh-copy mv2 db dark-blue link lh-title underline-hover">mondidiversi@alcentrodelmondo.it</a>
+              </div>
+              <div className="w-100 w-60-ns pl3-ns tr-ns">
+                <h3 className="f5 f3-ns avenir mt0 lh-title">Ufficio amministrazione</h3>
+                <a href="mailto:samanta@alcentrodelmondo.it" className="f6 f4-l lh-copy mv2 db dark-blue link lh-title underline-hover">samanta@alcentrodelmondo.it</a>
+                <a href="mailto:federico@alcentrodelmondo.it" className="f6 f4-l lh-copy mv2 db dark-blue link lh-title underline-hover">federico@alcentrodelmondo.it</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section className="mw7 center baskerville">
+        <article className="bt bb b--black-10">
+          <div className="db pv4 ph3 ph0-l no-underline black">
+            <div className="flex flex-column flex-row-ns">
+              <div className="pr3-ns mb4 mb0-ns w-100 tc-ns">
+                <h3 className="f5 f3-ns avenir mt0 lh-title">Viaggi individuali - Viaggi di nozze - Crociere</h3>
+                <a href="mailto:manolina@alcentrodelmondo.it" className="f6 f4-l lh-copy mv2 db dark-blue link lh-title underline-hover">manolina@alcentrodelmondo.it</a>
+                <a href="mailto:alessandra@alcentrodelmondo.it" className="f6 f4-l lh-copy mv2 db dark-blue link lh-title underline-hover">alessandra@alcentrodelmondo.it</a>
+                <a href="mailto:manuela@alcentrodelmondo.it" className="f6 f4-l lh-copy mv2 db dark-blue link lh-title underline-hover">manuela@alcentrodelmondo.it</a>
+                <a href="mailto:federico@alcentrodelmondo.it" className="f6 f4-l lh-copy mv2 db dark-blue link lh-title underline-hover">federico@alcentrodelmondo.it</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+             
       <Footer />
     </div>
   )
