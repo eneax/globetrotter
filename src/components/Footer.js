@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="pv4 ph3 ph5-m ph6-l mid-gray">
-      <small className="f7 db tc">© 2018 AL CENTRO DEL MONDO s.r.l. Unipersonale</small>
+      <small className="f7 db tc">© 2018 AL CENTRO DEL MONDO s.r.l.</small>
       <div className="tc mt3">
         <a className="f7 dib ph2 link dim mail" href="mailto:info@alcentrodelmondo.it" target="_blank" rel="noopener noreferrer" title="Al Centro del Mondo Email">
           <i className="fas fa-envelope fa-2x"></i>
