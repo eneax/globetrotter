@@ -125,6 +125,12 @@ import corsicaOne from '../images/group-trip/corsica/corsica1.jpg';
 import corsicaTwo from '../images/group-trip/corsica/corsica2.jpg';
 import corsicaThree from '../images/group-trip/corsica/corsica3.jpg';
 import corsicaFour from '../images/group-trip/corsica/corsica4.jpg';
+// Group Trip - Roma
+import roma from '../images/group-trip/roma/roma.jpg';
+import romaOne from '../images/group-trip/roma/roma1.jpg';
+import romaTwo from '../images/group-trip/roma/roma2.jpg';
+import romaThree from '../images/group-trip/roma/roma3.jpg';
+import romaFour from '../images/group-trip/roma/roma4.jpg';
 
 
 export {
@@ -149,4 +155,5 @@ export {
   montenegroSett, montenegroSettOne, montenegroSettTwo, montenegroSettThree, montenegroSettFour,
   matera, materaOne, materaTwo, materaThree, materaFour,
   corsica, corsicaOne, corsicaTwo, corsicaThree, corsicaFour,
+  roma, romaOne, romaTwo, romaThree, romaFour,
 }

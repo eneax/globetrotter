@@ -8,6 +8,7 @@ import {
   montenegroSett, montenegroSettOne, montenegroSettTwo, montenegroSettThree, montenegroSettFour,
   matera, materaOne, materaTwo, materaThree, materaFour,
   corsica, corsicaOne, corsicaTwo, corsicaThree, corsicaFour,
+  roma, romaOne, romaTwo, romaThree, romaFour,
 } from "./media";
 
 export default [
@@ -601,15 +602,15 @@ export default [
   },
   {
     id: 'roma',
-    cover: 'https://images.unsplash.com/photo-1509024644558-2f56ce76c490?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dc2d65e06878d1320a8f986b29bfc6ae&auto=format&fit=crop&w=1650&q=80',
+    cover: roma,
     name: 'Roma',
     days: '14 ottobre 2018',
     desc: 'Mamma mia!',
     price: 'A partire da € 95.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: romaOne,
+    imgTwo: romaTwo,
+    imgThree: romaThree,
+    imgFour: romaFour,
     resources: [
       {
         day: '14 ottobre 2018 - Roma',
