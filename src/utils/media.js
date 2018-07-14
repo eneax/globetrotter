@@ -77,6 +77,12 @@ import montenegroOne from '../images/group-trip/montenegro/montenegro1.jpg';
 import montenegroTwo from '../images/group-trip/montenegro/montenegro2.jpg';
 import montenegroThree from '../images/group-trip/montenegro/montenegro3.jpg';
 import montenegroFour from '../images/group-trip/montenegro/montenegro4.jpg';
+// Group Trip - Napoli
+import napoli from '../images/group-trip/napoli/napoli.jpg';
+import napoliOne from '../images/group-trip/napoli/napoli1.jpg';
+import napoliTwo from '../images/group-trip/napoli/napoli2.jpg';
+import napoliThree from '../images/group-trip/napoli/napoli3.jpg';
+import napoliFour from '../images/group-trip/napoli/napoli4.jpg';
 
 // Group Trip - Montenegro (settembre)
 import montenegroSett from '../images/group-trip/montenegroSett/montenegroSett.jpg';
@@ -100,5 +106,6 @@ export {
   yucatan, yucatanOne, yucatanTwo, yucatanThree, yucatanFour,
   canada, canadaOne, canadaTwo, canadaThree, canadaFour,
   montenegro, montenegroOne, montenegroTwo, montenegroThree, montenegroFour,
+  napoli, napoliOne, napoliTwo, napoliThree, napoliFour,
   montenegroSett, montenegroSettOne, montenegroSettTwo, montenegroSettThree, montenegroSettFour,
 }

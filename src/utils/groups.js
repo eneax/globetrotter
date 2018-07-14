@@ -1,5 +1,6 @@
 import { 
-  montenegro, montenegroOne, montenegroTwo, montenegroThree, montenegroFour, 
+  montenegro, montenegroOne, montenegroTwo, montenegroThree, montenegroFour,
+  napoli, napoliOne, napoliTwo, napoliThree, napoliFour,
   montenegroSett, montenegroSettOne, montenegroSettTwo, montenegroSettThree, montenegroSettFour,
 } from "./media";
 
@@ -80,15 +81,15 @@ export default [
   },
   {
     id: 'napoli',
-    cover: 'https://images.unsplash.com/photo-1521590306772-9d1f93797aab?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=416526ec26aa7dec3f0ddcefb526e7c3&auto=format&fit=crop&w=1650&q=80',
+    cover: napoli,
     name: 'Napoli',
     days: '12 - 15 agosto 2018',
     desc: 'Misteriosa, divina, coinvolgente',
     price: 'A partire da € 420.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: napoliOne,
+    imgTwo: napoliTwo,
+    imgThree: napoliThree,
+    imgFour: napoliFour,
     resources: [
       {
         day: '12 agosto 2018 - Cuma e il mito della Sibilla',
