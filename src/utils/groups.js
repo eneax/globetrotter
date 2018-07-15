@@ -10,6 +10,7 @@ import {
   corsica, corsicaOne, corsicaTwo, corsicaThree, corsicaFour,
   roma, romaOne, romaTwo, romaThree, romaFour,
   calabria, calabriaOne, calabriaTwo, calabriaThree, calabriaFour,
+  canepina, canepinaOne, canepinaTwo, canepinaThree, canepinaFour,
 } from "./media";
 
 export default [
@@ -707,15 +708,15 @@ export default [
   },
   {
     id: 'canepina',
-    cover: 'http://www.newtuscia.it/wp-content/uploads/2017/01/canepina.jpg',
+    cover: canepina,
     name: 'Canepina',
     days: '20 ottobre 2018',
     desc: "Castagnata d'autunno",
     price: 'A partire da € 60.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: canepinaOne,
+    imgTwo: canepinaTwo,
+    imgThree: canepinaThree,
+    imgFour: canepinaFour,
     resources: [
       {
         day: '20 ottobre 2018 - Canepina (VT)',

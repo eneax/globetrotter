@@ -137,6 +137,12 @@ import calabriaOne from '../images/group-trip/calabria/calabria1.jpg';
 import calabriaTwo from '../images/group-trip/calabria/calabria2.jpg';
 import calabriaThree from '../images/group-trip/calabria/calabria3.jpg';
 import calabriaFour from '../images/group-trip/calabria/calabria4.jpg';
+// Group Trip - Canepina
+import canepina from '../images/group-trip/canepina/canepina.jpg';
+import canepinaOne from '../images/group-trip/canepina/canepina1.jpg';
+import canepinaTwo from '../images/group-trip/canepina/canepina2.jpg';
+import canepinaThree from '../images/group-trip/canepina/canepina3.jpg';
+import canepinaFour from '../images/group-trip/canepina/canepina4.jpg';
 
 
 export {
@@ -163,4 +169,5 @@ export {
   corsica, corsicaOne, corsicaTwo, corsicaThree, corsicaFour,
   roma, romaOne, romaTwo, romaThree, romaFour,
   calabria, calabriaOne, calabriaTwo, calabriaThree, calabriaFour,
+  canepina, canepinaOne, canepinaTwo, canepinaThree, canepinaFour,
 }
