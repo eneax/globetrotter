@@ -9,6 +9,7 @@ import {
   matera, materaOne, materaTwo, materaThree, materaFour,
   corsica, corsicaOne, corsicaTwo, corsicaThree, corsicaFour,
   roma, romaOne, romaTwo, romaThree, romaFour,
+  calabria, calabriaOne, calabriaTwo, calabriaThree, calabriaFour,
 } from "./media";
 
 export default [
@@ -640,15 +641,15 @@ export default [
   },
   {
     id: 'calabria',
-    cover: 'https://images.unsplash.com/photo-1516919016564-0b896e042d6d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0bcf55b464e6320666cfa1fa8d198261&auto=format&fit=crop&w=1653&q=80',
+    cover: calabria,
     name: 'Calabria',
     days: '17 - 21 ottobre 2018',
     desc: 'Una terra tutta da assaporare',
     price: 'A partire da € 480.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: calabriaOne,
+    imgTwo: calabriaTwo,
+    imgThree: calabriaThree,
+    imgFour: calabriaFour,
     resources: [
       {
         day: '17 ottobre 2018 - Civita - Cosenza',

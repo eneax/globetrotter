@@ -131,6 +131,12 @@ import romaOne from '../images/group-trip/roma/roma1.jpg';
 import romaTwo from '../images/group-trip/roma/roma2.jpg';
 import romaThree from '../images/group-trip/roma/roma3.jpg';
 import romaFour from '../images/group-trip/roma/roma4.jpg';
+// Group Trip - Calabria
+import calabria from '../images/group-trip/calabria/calabria.jpg';
+import calabriaOne from '../images/group-trip/calabria/calabria1.jpg';
+import calabriaTwo from '../images/group-trip/calabria/calabria2.jpg';
+import calabriaThree from '../images/group-trip/calabria/calabria3.jpg';
+import calabriaFour from '../images/group-trip/calabria/calabria4.jpg';
 
 
 export {
@@ -156,4 +162,5 @@ export {
   matera, materaOne, materaTwo, materaThree, materaFour,
   corsica, corsicaOne, corsicaTwo, corsicaThree, corsicaFour,
   roma, romaOne, romaTwo, romaThree, romaFour,
+  calabria, calabriaOne, calabriaTwo, calabriaThree, calabriaFour,
 }
