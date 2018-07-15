@@ -15,6 +15,7 @@ import Promo from './Promo';
 import PromoItem from './PromoItem';
 import About from './About';
 import Contact from './Contact';
+import NoMatch from './NoMatch';
 
 class App extends Component {
   render() {
@@ -36,6 +37,8 @@ class App extends Component {
             
             <Route path='/about' component={About} />
             <Route path='/contact' component={Contact} />
+
+            <Route component={NoMatch} />
           </Switch>
         </div>
       </Router>
