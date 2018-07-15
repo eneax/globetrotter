@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import frase from '../images/frase.png';
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
 
       <article className="baskerville pb5">
         <div className="tc-l ph3 ph4-ns pt4 pt5-ns">
-          <img className="w-100 dib measure f3" src="http://www.alcentrodelmondo.it/img/frase.png" alt="Marcel Proust Quote" />
+          <img className="w-100 dib measure f3" src={frase} alt="Marcel Proust Quote" />
         </div>
         <article className="ph4 ph5-m ph6-l">
           <p className="measure mb4 center f4 f3-ns black-70 baskerville lh-copy">
