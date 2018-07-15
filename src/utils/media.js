@@ -186,6 +186,13 @@ import rosenTwo from '../images/group-trip/rosen/rosen2.jpg';
 import rosenThree from '../images/group-trip/rosen/rosen3.jpg';
 import rosenFour from '../images/group-trip/rosen/rosen4.jpg';
 
+// Offerte - Smartbox
+import smartbox from '../images/promo/smartbox/smartbox.jpg';
+import smartboxOne from '../images/promo/smartbox/smartbox1.jpg';
+import smartboxTwo from '../images/promo/smartbox/smartbox2.jpg';
+import smartboxThree from '../images/promo/smartbox/smartbox3.jpg';
+import smartboxFour from '../images/promo/smartbox/smartbox4.jpg';
+
 
 export {
   zelanda, zelandaOne, zelandaTwo, zelandaThree, zelandaFour,
@@ -219,4 +226,5 @@ export {
   valtellina, valtellinaOne, valtellinaTwo, valtellinaThree, valtellinaFour,
   ny, nyOne, nyTwo, nyThree, nyFour,
   rosen, rosenOne, rosenTwo, rosenThree, rosenFour,
+  smartbox, smartboxOne, smartboxTwo, smartboxThree, smartboxFour,
 }

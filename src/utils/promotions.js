@@ -1,14 +1,18 @@
+import { 
+  smartbox, smartboxOne, smartboxTwo, smartboxThree, smartboxFour 
+} from '../utils/media';
+
 export default [
   {
     id: 'smartbox',
-    cover: 'https://images.unsplash.com/photo-1517446915321-65e972f1b494?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=61e5b1f01f2e4f12672a29816163f379&auto=format&fit=crop&w=1650&q=80',
+    cover: smartbox,
     name: 'Smartbox',
     days: '2 anni rinnovabile e cambio gratuito',
     price: 'A partire da € 24.90',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: smartboxOne,
+    imgTwo: smartboxTwo,
+    imgThree: smartboxThree,
+    imgFour: smartboxFour,
     resources: [
       {
         header: 'Regala un momento da vivere!',
