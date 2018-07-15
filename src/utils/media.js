@@ -179,6 +179,12 @@ import nyOne from '../images/group-trip/ny/ny1.jpg';
 import nyTwo from '../images/group-trip/ny/ny2.jpg';
 import nyThree from '../images/group-trip/ny/ny3.jpeg';
 import nyFour from '../images/group-trip/ny/ny4.jpg';
+// Group Trip - Germania/Austria
+import rosen from '../images/group-trip/rosen/rosen.jpg';
+import rosenOne from '../images/group-trip/rosen/rosen1.jpg';
+import rosenTwo from '../images/group-trip/rosen/rosen2.jpg';
+import rosenThree from '../images/group-trip/rosen/rosen3.jpg';
+import rosenFour from '../images/group-trip/rosen/rosen4.jpg';
 
 
 export {
@@ -212,4 +218,5 @@ export {
   miami, miamiOne, miamiTwo, miamiThree, miamiFour,
   valtellina, valtellinaOne, valtellinaTwo, valtellinaThree, valtellinaFour,
   ny, nyOne, nyTwo, nyThree, nyFour,
+  rosen, rosenOne, rosenTwo, rosenThree, rosenFour,
 }

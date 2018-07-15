@@ -17,6 +17,7 @@ import {
   miami, miamiOne, miamiTwo, miamiThree, miamiFour,
   valtellina, valtellinaOne, valtellinaTwo, valtellinaThree, valtellinaFour,
   ny, nyOne, nyTwo, nyThree, nyFour,
+  rosen, rosenOne, rosenTwo, rosenThree, rosenFour,
 } from "./media";
 
 export default [
@@ -1142,15 +1143,15 @@ export default [
   },
   {
     id: 'germania-austria',
-    cover: 'http://campeggiodellerose.com/wp-content/uploads/2016/10/MERCATINI-DI-NATALE-2014-IN-ITALIA.png',
+    cover: rosen,
     name: 'Germania/Austria',
     days: '14 - 16 dicembre 2018',
     desc: "Mercatini di Natale",
     price: 'A partire da € 325.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: rosenOne,
+    imgTwo: rosenTwo,
+    imgThree: rosenThree,
+    imgFour: rosenFour,
     resources: [
       {
         day: '14 dicembre 2018 - Rosenheim',
