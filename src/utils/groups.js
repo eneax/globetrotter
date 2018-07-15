@@ -16,6 +16,7 @@ import {
   fosseArdeatine, fosseArdeatineOne, fosseArdeatineTwo, fosseArdeatineThree, fosseArdeatineFour,
   miami, miamiOne, miamiTwo, miamiThree, miamiFour,
   valtellina, valtellinaOne, valtellinaTwo, valtellinaThree, valtellinaFour,
+  ny, nyOne, nyTwo, nyThree, nyFour,
 } from "./media";
 
 export default [
@@ -1066,15 +1067,15 @@ export default [
   },
   {
     id: 'new-york',
-    cover: 'https://images.unsplash.com/photo-1472669750356-ec9d2cadedd3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=20dce4751bb4b460a33b7e42428f854e&auto=format&fit=crop&w=1650&q=80',
+    cover: ny,
     name: 'New York',
     days: '11 - 15 dicembre 2018',
     desc: "Shopping a New York!!!",
     price: 'A partire da € 1195.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: nyOne,
+    imgTwo: nyTwo,
+    imgThree: nyThree,
+    imgFour: nyFour,
     resources: [
       {
         desc: "L'Ombelico del mondo o Grande Mela (the Big Apple), come è stata via via soprannominata, New York è certamente una fra le città più importanti oltre che uno dei maggiori centri finanziari mondiali. Una metropoli di 8 milioni di abitanti che, anche grazie al cinema che l’ha scelta innumerevoli volte come set, è nell’immaginario di tutti. Situata alla foce del fiume Hudson (che costituisce il suo confine occidentale, separandola da una serie di sobborghi nel New Jersey), la città è divisa in 5 quartieri, ma solo uno (il Bronx) si trova sul continente: Brooklyn e Queens, infatti, occupano l’estremità orientale di Long Island, mentre Manhattan e Staten Island sono due isole di dimensioni intermedie. Di simboli New York ne ha molti, ma il più famoso è la Statua della Libertà che svetta sulla Liberty Island. La si raggiunge dal porto cittadino con un breve tragitto in ferry, magari facendo tappa al vicino Museo di Ellis Island, che ricorda gli immigrati venuti a cercare fortuna in America."
