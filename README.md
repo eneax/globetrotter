@@ -1,3 +1,3 @@
-# Globetrotter - Travel Agency
+# Globetrotter | Travel Agency
 
-Work in Progress `¯\_(ツ)_/¯`
+Responsive travel agency website built with React.
