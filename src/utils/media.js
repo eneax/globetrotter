@@ -161,6 +161,12 @@ import fosseArdeatineOne from '../images/group-trip/fosseArdeatine/fosseArdeatin
 import fosseArdeatineTwo from '../images/group-trip/fosseArdeatine/fosseArdeatine2.jpg';
 import fosseArdeatineThree from '../images/group-trip/fosseArdeatine/fosseArdeatine3.jpg';
 import fosseArdeatineFour from '../images/group-trip/fosseArdeatine/fosseArdeatine4.jpg';
+// Group Trip - Miami
+import miami from '../images/group-trip/miami/miami.jpg';
+import miamiOne from '../images/group-trip/miami/miami1.jpg';
+import miamiTwo from '../images/group-trip/miami/miami2.jpg';
+import miamiThree from '../images/group-trip/miami/miami3.jpg';
+import miamiFour from '../images/group-trip/miami/miami4.jpg';
 
 
 export {
@@ -191,4 +197,5 @@ export {
   praga, pragaOne, pragaTwo, pragaThree, pragaFour,
   abruzzo, abruzzoOne, abruzzoTwo, abruzzoThree, abruzzoFour,
   fosseArdeatine, fosseArdeatineOne, fosseArdeatineTwo, fosseArdeatineThree, fosseArdeatineFour,
+  miami, miamiOne, miamiTwo, miamiThree, miamiFour,
 }

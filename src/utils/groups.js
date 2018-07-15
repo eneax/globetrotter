@@ -14,6 +14,7 @@ import {
   praga, pragaOne, pragaTwo, pragaThree, pragaFour,
   abruzzo, abruzzoOne, abruzzoTwo, abruzzoThree, abruzzoFour,
   fosseArdeatine, fosseArdeatineOne, fosseArdeatineTwo, fosseArdeatineThree, fosseArdeatineFour,
+  miami, miamiOne, miamiTwo, miamiThree, miamiFour,
 } from "./media";
 
 export default [
@@ -919,15 +920,15 @@ export default [
   },
   {
     id: 'miami',
-    cover: 'https://images.unsplash.com/photo-1514214246283-d427a95c5d2f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=39c8b5ff2899ae63edd9a3a0eea0d918&auto=format&fit=crop&w=1573&q=80',
+    cover: miami,
     name: 'Miami',
     days: '18 - 24 novembre 2018',
     desc: "...metti un coccodrillo a Manhattan",
     price: 'A partire da € 1195.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: miamiOne,
+    imgTwo: miamiTwo,
+    imgThree: miamiThree,
+    imgFour: miamiFour,
     resources: [
       {
         desc: "I grattacieli sembrano quelli di New York, ma a pochi passi c’è la palude delle Everglades a prendere il sopravvento, quasi a stabilire, con il suo contrasto, la doppia anima di questa città, solare, sorniona ma attenta a cogliere nel bene e nel male tutte le sue opportunità. Proprio come uno dei coccodrilli delle vicine paludi, acquattati tra le mangrovie, ma pronti allo scatto."
