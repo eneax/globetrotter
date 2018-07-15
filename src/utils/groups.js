@@ -15,6 +15,7 @@ import {
   abruzzo, abruzzoOne, abruzzoTwo, abruzzoThree, abruzzoFour,
   fosseArdeatine, fosseArdeatineOne, fosseArdeatineTwo, fosseArdeatineThree, fosseArdeatineFour,
   miami, miamiOne, miamiTwo, miamiThree, miamiFour,
+  valtellina, valtellinaOne, valtellinaTwo, valtellinaThree, valtellinaFour,
 } from "./media";
 
 export default [
@@ -1003,15 +1004,15 @@ export default [
   },
   {
     id: 'valtellina',
-    cover: 'http://www.valtellina.it/flex/images/0/c/7/D.76993c7190bae9baf8df/750_370_valdidentro.jpg',
+    cover: valtellina,
     name: 'Valtellina',
     days: '06 - 09 dicembre 2018',
     desc: "La magia del Natale",
     price: 'A partire da € 395.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: valtellinaOne,
+    imgTwo: valtellinaTwo,
+    imgThree: valtellinaThree,
+    imgFour: valtellinaFour,
     resources: [
       {
         day: '06 dicembre 2018 - Grosio - Bormio',

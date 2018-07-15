@@ -167,6 +167,12 @@ import miamiOne from '../images/group-trip/miami/miami1.jpg';
 import miamiTwo from '../images/group-trip/miami/miami2.jpg';
 import miamiThree from '../images/group-trip/miami/miami3.jpg';
 import miamiFour from '../images/group-trip/miami/miami4.jpg';
+// Group Trip - Valtellina
+import valtellina from '../images/group-trip/valtellina/valtellina.jpg';
+import valtellinaOne from '../images/group-trip/valtellina/valtellina1.jpg';
+import valtellinaTwo from '../images/group-trip/valtellina/valtellina2.jpg';
+import valtellinaThree from '../images/group-trip/valtellina/valtellina3.jpg';
+import valtellinaFour from '../images/group-trip/valtellina/valtellina4.jpg';
 
 
 export {
@@ -198,4 +204,5 @@ export {
   abruzzo, abruzzoOne, abruzzoTwo, abruzzoThree, abruzzoFour,
   fosseArdeatine, fosseArdeatineOne, fosseArdeatineTwo, fosseArdeatineThree, fosseArdeatineFour,
   miami, miamiOne, miamiTwo, miamiThree, miamiFour,
+  valtellina, valtellinaOne, valtellinaTwo, valtellinaThree, valtellinaFour,
 }
