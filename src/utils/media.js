@@ -155,6 +155,12 @@ import abruzzoOne from '../images/group-trip/abruzzo/abruzzo1.jpg';
 import abruzzoTwo from '../images/group-trip/abruzzo/abruzzo2.jpg';
 import abruzzoThree from '../images/group-trip/abruzzo/abruzzo3.jpg';
 import abruzzoFour from '../images/group-trip/abruzzo/abruzzo4.jpg';
+// Group Trip - Fosse Ardeatine
+import fosseArdeatine from '../images/group-trip/fosseArdeatine/fosseArdeatine.jpg';
+import fosseArdeatineOne from '../images/group-trip/fosseArdeatine/fosseArdeatine1.jpg';
+import fosseArdeatineTwo from '../images/group-trip/fosseArdeatine/fosseArdeatine2.jpg';
+import fosseArdeatineThree from '../images/group-trip/fosseArdeatine/fosseArdeatine3.jpg';
+import fosseArdeatineFour from '../images/group-trip/fosseArdeatine/fosseArdeatine4.jpg';
 
 
 export {
@@ -184,4 +190,5 @@ export {
   canepina, canepinaOne, canepinaTwo, canepinaThree, canepinaFour,
   praga, pragaOne, pragaTwo, pragaThree, pragaFour,
   abruzzo, abruzzoOne, abruzzoTwo, abruzzoThree, abruzzoFour,
+  fosseArdeatine, fosseArdeatineOne, fosseArdeatineTwo, fosseArdeatineThree, fosseArdeatineFour,
 }

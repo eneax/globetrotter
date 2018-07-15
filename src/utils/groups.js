@@ -13,6 +13,7 @@ import {
   canepina, canepinaOne, canepinaTwo, canepinaThree, canepinaFour,
   praga, pragaOne, pragaTwo, pragaThree, pragaFour,
   abruzzo, abruzzoOne, abruzzoTwo, abruzzoThree, abruzzoFour,
+  fosseArdeatine, fosseArdeatineOne, fosseArdeatineTwo, fosseArdeatineThree, fosseArdeatineFour,
 } from "./media";
 
 export default [
@@ -880,15 +881,15 @@ export default [
   },
   {
     id: 'fosse-ardeatine',
-    cover: 'http://static.leonardo.it/wp-content/uploads/sites/12/2015/03/Fosse-Ardeatine-650x350.jpg',
+    cover: fosseArdeatine,
     name: 'Fosse Ardeatine',
     days: '11 novembre 2018',
     desc: "e Catacombe di San Callisto",
     price: 'A partire da € 65.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: fosseArdeatineOne,
+    imgTwo: fosseArdeatineTwo,
+    imgThree: fosseArdeatineThree,
+    imgFour: fosseArdeatineFour,
     resources: [
       {
         day: '11 novembre 2018 - Roma Appia Antica',
