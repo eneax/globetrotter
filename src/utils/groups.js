@@ -11,6 +11,7 @@ import {
   roma, romaOne, romaTwo, romaThree, romaFour,
   calabria, calabriaOne, calabriaTwo, calabriaThree, calabriaFour,
   canepina, canepinaOne, canepinaTwo, canepinaThree, canepinaFour,
+  praga, pragaOne, pragaTwo, pragaThree, pragaFour,
 } from "./media";
 
 export default [
@@ -758,15 +759,15 @@ export default [
   },
   {
     id: 'praga',
-    cover: 'https://images.unsplash.com/photo-1482057638314-8bc5dc8c3c53?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d107a111f3d02cfa00a27c4f94306df7&auto=format&fit=crop&w=2389&q=80',
+    cover: praga,
     name: 'Praga',
     days: '01 - 04 novembre 2018',
     desc: "La città d'oro",
     price: 'A partire da € 470.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: pragaOne,
+    imgTwo: pragaTwo,
+    imgThree: pragaThree,
+    imgFour: pragaFour,
     resources: [
       {
         day: '01 novembre 2018 - aeroporto di partenza - Praga',
@@ -810,7 +811,7 @@ export default [
     footer: [
       {
         title: 'La quota comprende:',
-        desc: 'trasferimento a/r per l’aeroporto di partenza, volo di linea in classe economica, tasse aeroportuali (importo al 30.11.17 € 60.00), bagaglio da stiva e bagaglio a mano, trasferimento a/r a Praga, sistemazione in hotel 4----, trattamento di mezza pensione dalla cena del primo giorno alla prima colazione dell’ultimo giorno, tassa di soggiorno ove prevista, visite con guida privata come da programma, assicurazione RC Generali, assistenza di un nostro collaboratore.'
+        desc: 'trasferimento a/r per l’aeroporto di partenza, volo di linea in classe economica, tasse aeroportuali (importo al 30.11.17 € 60.00), bagaglio da stiva e bagaglio a mano, trasferimento a/r a Praga, sistemazione in hotel 4****, trattamento di mezza pensione dalla cena del primo giorno alla prima colazione dell’ultimo giorno, tassa di soggiorno ove prevista, visite con guida privata come da programma, assicurazione RC Generali, assistenza di un nostro collaboratore.'
       },
       {
         title: 'La quota non comprende:',

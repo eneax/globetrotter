@@ -143,6 +143,12 @@ import canepinaOne from '../images/group-trip/canepina/canepina1.jpg';
 import canepinaTwo from '../images/group-trip/canepina/canepina2.jpg';
 import canepinaThree from '../images/group-trip/canepina/canepina3.jpg';
 import canepinaFour from '../images/group-trip/canepina/canepina4.jpg';
+// Group Trip - Praga
+import praga from '../images/group-trip/praga/praga.jpg';
+import pragaOne from '../images/group-trip/praga/praga1.png';
+import pragaTwo from '../images/group-trip/praga/praga2.jpg';
+import pragaThree from '../images/group-trip/praga/praga3.jpg';
+import pragaFour from '../images/group-trip/praga/praga4.jpg';
 
 
 export {
@@ -170,4 +176,5 @@ export {
   roma, romaOne, romaTwo, romaThree, romaFour,
   calabria, calabriaOne, calabriaTwo, calabriaThree, calabriaFour,
   canepina, canepinaOne, canepinaTwo, canepinaThree, canepinaFour,
+  praga, pragaOne, pragaTwo, pragaThree, pragaFour,
 }
