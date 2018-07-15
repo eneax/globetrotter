@@ -149,6 +149,12 @@ import pragaOne from '../images/group-trip/praga/praga1.png';
 import pragaTwo from '../images/group-trip/praga/praga2.jpg';
 import pragaThree from '../images/group-trip/praga/praga3.jpg';
 import pragaFour from '../images/group-trip/praga/praga4.jpg';
+// Group Trip - Abruzzo
+import abruzzo from '../images/group-trip/abruzzo/abruzzo.jpg';
+import abruzzoOne from '../images/group-trip/abruzzo/abruzzo1.jpg';
+import abruzzoTwo from '../images/group-trip/abruzzo/abruzzo2.jpg';
+import abruzzoThree from '../images/group-trip/abruzzo/abruzzo3.jpg';
+import abruzzoFour from '../images/group-trip/abruzzo/abruzzo4.jpg';
 
 
 export {
@@ -177,4 +183,5 @@ export {
   calabria, calabriaOne, calabriaTwo, calabriaThree, calabriaFour,
   canepina, canepinaOne, canepinaTwo, canepinaThree, canepinaFour,
   praga, pragaOne, pragaTwo, pragaThree, pragaFour,
+  abruzzo, abruzzoOne, abruzzoTwo, abruzzoThree, abruzzoFour,
 }

@@ -12,6 +12,7 @@ import {
   calabria, calabriaOne, calabriaTwo, calabriaThree, calabriaFour,
   canepina, canepinaOne, canepinaTwo, canepinaThree, canepinaFour,
   praga, pragaOne, pragaTwo, pragaThree, pragaFour,
+  abruzzo, abruzzoOne, abruzzoTwo, abruzzoThree, abruzzoFour,
 } from "./media";
 
 export default [
@@ -821,15 +822,15 @@ export default [
   },
   {
     id: 'abruzzo',
-    cover: 'https://siviaggia.files.wordpress.com/2018/01/pacentro-abruzzo-t.jpg',
+    cover: abruzzo,
     name: 'Abruzzo',
     days: '09 - 11 novembre 2018',
     desc: "Tra pastori e pescatori",
     price: 'A partire da € 310.00 a persona',
-    imgOne: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgTwo: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgThree: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
-    imgFour: 'https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg',
+    imgOne: abruzzoOne,
+    imgTwo: abruzzoTwo,
+    imgThree: abruzzoThree,
+    imgFour: abruzzoFour,
     resources: [
       {
         day: '09 novembre 2018 - Fossacesia - Vasto',
