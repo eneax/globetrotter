@@ -37,7 +37,7 @@ const Home = () => {
     <div className='ph3-ns'>
       <Header/>
       
-      <div className='mw9 center'>
+      <div className='center'>
         <div className='cf'>
           {
             homeLinks.map(({ id, name, cover }) => (
