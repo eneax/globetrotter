@@ -1,3 +1,3 @@
-# Globetrotter | Travel Agency
+## Work-in-Progress --> Globetrotter | Travel Agency
 
-Responsive travel agency website built with React.
+Responsive travel agency website built with Gatsby.
