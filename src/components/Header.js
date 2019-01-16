@@ -53,6 +53,7 @@ const NavLinkWrapper = styled.div`
   display: block;
   width: 100%;
   text-align: center;
+  vertical-align: middle;
 
   ${above.laptop`
     display: table-cell;
