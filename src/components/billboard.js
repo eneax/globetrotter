@@ -1,15 +1,15 @@
 import React from 'react'
+import { StaticQuery, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import styled from 'styled-components'
 
 import { avenir, above, baskerville } from '../utils'
-import bgPic from '../images/bgPic.jpg'
 
 
-const HeaderWrapper = styled.header`
-  background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), 
-              url(${bgPic}) no-repeat center;
-  background-size: cover;
-  max-width: 100%;
+const HeaderWrapper = styled.div`
+  overflow: hidden;
+  position: relative;
+
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -18,9 +18,13 @@ const HeaderWrapper = styled.header`
     padding-top: 4rem;
     padding-bottom: 4rem;
   `}
+`
 
 
-  /* title */
+const Headings = styled.div`
+  position: relative;
+  z-index: 2;
+
   h1 {
     color: #fff;
     ${avenir};
@@ -32,7 +36,6 @@ const HeaderWrapper = styled.header`
     `}
   }
 
-  /* subtitle */
   h2 {
     color: #fff;
     ${baskerville};
@@ -47,11 +50,44 @@ const HeaderWrapper = styled.header`
 `
 
 
-const BillBoard = () => (
-  <HeaderWrapper>
-    <h1>Al Centro del Mondo</h1>
-    <h2>Viaggi e Turismo</h2>
-  </HeaderWrapper>
-)
+export default ({ siteTitle }) => (
+  <StaticQuery
+    query={graphql`
+      query bgPic {
+        bgPic: file(relativePath: { regex: "/bgPic.jpg/" }) {
+          childImageSharp {
+            fluid(
+              maxWidth: 1240, 
+              duotone: { 
+                highlight: "#000000", 
+                shadow: "#000000", 
+                opacity: 45 }
+              ) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    `}
+    render={data => (
+      <HeaderWrapper>
+        <Headings>
+          <h1>Al Centro del Mondo</h1>
+          <h2>Viaggi e Turismo</h2>
+        </Headings>
 
-export default BillBoard
+        <Img
+          fluid={data.bgPic.childImageSharp.fluid} 
+          alt="Globetrotter Billboard" 
+          style={{
+            position: 'absolute',
+            left: 0,
+            top: 0,
+            width: '100%',
+            height: '100%'
+          }}
+        />
+    </HeaderWrapper>
+    )}
+  />
+)
