@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
 
 import Layout from '../components/layout'
@@ -31,7 +31,10 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-      <Billboard />
+
+      <Link to="/" title="Home" style={{textDecoration: 'none'}}>
+        <Billboard />
+      </Link>
       <HomeWrapper>
         <Gallery homeImgs={homeImgData} />
       </HomeWrapper>
