@@ -8,7 +8,7 @@ import { above, avenir } from '../utils'
 
 
 const HomeImageWrapper = styled.div`
-  border: 1px solid rebeccapurple;
+  border: 5px solid #fff;
 
   float: left;  
   _display: inline;
@@ -16,7 +16,6 @@ const HomeImageWrapper = styled.div`
   ${above.mobileL`
     width: 50%;
   `}
-  padding: .5rem .25rem;
 
   overflow: hidden;
   position: relative;
@@ -41,7 +40,7 @@ const Headings = styled.div`
   `}
 
   h3 {
-    color: #000;
+    color: #fff;
     ${avenir};
     font-size: 1rem;
     font-weight: 400;
@@ -77,6 +76,13 @@ class Gallery extends React.Component {
                     title={project.name}
                     alt="Screenshot of Project"
                     fluid={imageSizes}
+                    style={{
+                      position: 'absolute',
+                      left: 0,
+                      top: 0,
+                      width: '100%',
+                      height: '100%'
+                    }}
                   />
                 </HomeImageWrapper>
               </Link>
@@ -89,62 +95,3 @@ class Gallery extends React.Component {
 }
 
 export default Gallery
-
-
-
-
-// {
-//   homeLinks.map(({ id, name, i }) => (
-//     <Link to={`/${id}`} key={id} >
-
-//       <HomeImageWrapper>
-//         <Headings>
-//           <h3>{name}</h3>
-//         </Headings>
-
-//         <Img
-//           key={project.id}
-//           title={project.name}
-//           alt="Screenshot of Project"
-//           fluid={imageSizes}
-//         />
-
-//       </HomeImageWrapper>
-
-//     </Link>
-//   ))
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React from 'react'
-// import Img from 'gatsby-image'
-
-// class Gallery extends React.Component {    
-//   render() {
-//     const { images } = this.props
-//     return (
-//       <>
-//         {images.map((img, i) => (
-//           <Img 
-//             key={i}
-//             fluid={img.node.childImageSharp.fluid}   
-//           />
-//         ))}
-//       </>
-//     );
-//   }
-// }
-
-// export default Gallery
