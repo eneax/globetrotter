@@ -7,6 +7,7 @@ import { avenir, above, baskerville } from '../utils'
 
 
 const HeaderWrapper = styled.div`
+  border: 5px solid #fff;
   overflow: hidden;
   position: relative;
 
