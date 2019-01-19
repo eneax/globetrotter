@@ -5,7 +5,7 @@ export default [
     name: 'Top Tours'
   },
   {
-    id: 'group',
+    id: 'groups',
     img: 'cover2.jpg',
     name: 'Viaggi di Gruppo'
   },

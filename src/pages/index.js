@@ -10,10 +10,8 @@ import Gallery from '../components/gallery'
 
 const HomeWrapper = styled.div`
   padding-top: .5rem;
-
   margin-right: auto;
   margin-left: auto;
-
   &:before, &:after {
     content: " ";
     display: table;
@@ -28,14 +26,14 @@ const HomeWrapper = styled.div`
 
 
 const IndexPage = ({ data }) => {
-  const { edges: projectImgData } = data.ProjectImgs;
+  const { edges: homeImgData } = data.HomeImgs;
 
   return (
     <Layout>
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
       <Billboard />
       <HomeWrapper>
-        <Gallery projectImgs={projectImgData} />
+        <Gallery homeImgs={homeImgData} />
       </HomeWrapper>
     </Layout>
   )
@@ -45,8 +43,8 @@ export default IndexPage
 
 
 export const query = graphql`
-  query allImgsQuery {
-    ProjectImgs: allFile(
+  query allHomeImgsQuery {
+    HomeImgs: allFile(
       sort: { order: ASC, fields: [absolutePath] }
       filter: { relativePath: { regex: "/covers/.*.jpg/" } }
     ) {
