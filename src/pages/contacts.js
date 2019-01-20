@@ -5,9 +5,8 @@ import styled from 'styled-components'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Billboard from '../components/billboard'
-import { Container, Title } from '../elements'
-import { above, avenir } from '../utils'
-
+import { Container, Title, ExternalLink, HeadingThree } from '../elements'
+import { above } from '../utils'
 
 
 export const ContactsWrapper = styled.div`
@@ -37,138 +36,43 @@ export const Row = styled.div`
   `}
 `
 
-export const ColOne = styled.div`
+export const Col = styled.div`
   width: 100%;
+  ${HeadingThree};
+
+  p {
+    font-size: .875rem;
+    ${above.laptop`
+      font-size: 1.25rem;
+    `}
+    line-height: 1.5;
+    margin-bottom: .5rem;
+  }
+
+  ${ExternalLink};
+`
+
+export const ColOne = styled(Col)`
   margin-bottom: 2rem;
   ${above.tablet`
     width: 40%;
     margin-bottom: 0;
     padding-right: 1rem;
   `}
-
-  h3 {
-    ${avenir};
-    font-size: 1rem;
-    ${above.tablet`
-      font-size: 1.5rem;
-    `}
-    margin-top: 0;
-    line-height: 1.25;
-  }
-
-  p {
-    font-size: .875rem;
-    ${above.laptop`
-      font-size: 1.25rem;
-    `}
-    line-height: 1.5;
-    margin-bottom: .5rem;
-  }
-
-  a {
-    display: block;
-    font-size: .875rem;
-    ${above.laptop`
-      font-size: 1.25rem;
-    `}
-    line-height: 1.25;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-    color: #00449E;
-
-    /* link */
-    text-decoration: none;
-    transition: color .15s ease-in;
-    &:link, 
-    &:visited {
-      transition: color .15s ease-in;
-    }
-    &:hover {
-      transition: color .15s ease-in;
-    }
-    &:active {
-      transition: color .15s ease-in;
-    }
-    &:focus {
-      transition: color .15s ease-in;
-      outline: 1px dotted currentColor;
-    }
-    &:hover,
-    &:focus {
-      text-decoration: underline;
-    }
-    &:nth-child(2) {
-      margin-top: 0;
-      margin-bottom: 0;
-    }
-  }
 `
 
-
-export const ColTwo = styled.div`
-  width: 100%;
+export const ColTwo = styled(Col)`
   ${above.tablet`
     width: 60%;
     padding-left: 1rem;
     text-align: right;
   `}
+`
 
-  h3 {
-    ${avenir};
-    font-size: 1rem;
-    ${above.tablet`
-      font-size: 1.5rem;
-    `}
-    margin-top: 0;
-    line-height: 1.25;
-  }
-
-  p {
-    font-size: .875rem;
-    ${above.laptop`
-      font-size: 1.25rem;
-    `}
-    line-height: 1.5;
-    margin-bottom: .5rem;
-  }
-
-  a {
-    display: block;
-    font-size: .875rem;
-    ${above.laptop`
-      font-size: 1.25rem;
-    `}
-    line-height: 1.25;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-    color: #00449E;
-
-    /* link */
-    text-decoration: none;
-    transition: color .15s ease-in;
-    &:link, 
-    &:visited {
-      transition: color .15s ease-in;
-    }
-    &:hover {
-      transition: color .15s ease-in;
-    }
-    &:active {
-      transition: color .15s ease-in;
-    }
-    &:focus {
-      transition: color .15s ease-in;
-      outline: 1px dotted currentColor;
-    }
-    &:hover,
-    &:focus {
-      text-decoration: underline;
-    }
-    &:nth-child(2) {
-      margin-top: 0;
-      margin-bottom: 0;
-    }
-  }
+export const LastCol = styled(Col)`
+  ${above.tablet`
+    text-align: center;    
+  `}
 `
 
 
@@ -187,16 +91,16 @@ const Contact = () => (
         <ContactsContentWrapper>
           <Row>
             <ColOne>
-              <h3>Via Pasubio, 30/32</h3>
+              <HeadingThree>Via Pasubio, 30/32</HeadingThree>
               <p>53043 Chiusi Scalo (SI)</p>
-              <a href="tel:+39 0578 21971">Tel. +39 0578 21971</a>
-              <a href="tel:+39 0578 21975">Fax +39 0578 21975</a>
+              <ExternalLink href="tel:+39 0578 21971">Tel. +39 0578 21971</ExternalLink>
+              <ExternalLink href="tel:+39 0578 21975">Fax +39 0578 21975</ExternalLink>
             </ColOne>
             <ColTwo>
-              <h3>Filiale: Viale Roma, 35</h3>
+              <HeadingThree>Filiale: Viale Roma, 35</HeadingThree>
               <p>53042 Chianciano Terme (SI)</p>
-              <a href="tel:+39 0578 62003" >Tel. +39 0578 62003</a>
-              <a href="tel:+39 0578 62563" >Fax +39 0578 62563</a>
+              <ExternalLink href="tel:+39 0578 62003" >Tel. +39 0578 62003</ExternalLink>
+              <ExternalLink href="tel:+39 0578 62563" >Fax +39 0578 62563</ExternalLink>
             </ColTwo>
           </Row>
         </ContactsContentWrapper>
@@ -207,15 +111,15 @@ const Contact = () => (
         <ContactsContentWrapper>
           <Row>
             <ColOne>
-              <h3 >Orari di apertura</h3>
+              <HeadingThree>Orari di apertura</HeadingThree>
               <p>Dal Lunedì al Sabato</p>
               <p>Dalle 9:00 alle 13:00</p>
               <p>Dalle 16:00 alle 19:00</p>
-              <a href="mailto:info@alcentrodelmondo.it">info@alcentrodelmondo.it</a>
+              <ExternalLink href="mailto:info@alcentrodelmondo.it">info@alcentrodelmondo.it</ExternalLink>
             </ColOne>
             <ColTwo>
-              <h3>Direzione tecnica</h3>
-              <a href="mailto:direzione@alcentrodelmondo.it">direzione@alcentrodelmondo.it</a>
+              <HeadingThree>Direzione tecnica</HeadingThree>
+              <ExternalLink href="mailto:direzione@alcentrodelmondo.it">direzione@alcentrodelmondo.it</ExternalLink>
             </ColTwo>
           </Row>
         </ContactsContentWrapper>
@@ -226,16 +130,16 @@ const Contact = () => (
         <ContactsContentWrapper>
           <Row>
             <ColOne>
-              <h3>Ufficio Gruppi</h3>
-              <a href="mailto:direzione@alcentrodelmondo.it">direzione@alcentrodelmondo.it</a>
-              <a href="mailto:sabrina@alcentrodelmondo.it">sabrina@alcentrodelmondo.it</a>
-              <a href="mailto:federico@alcentrodelmondo.it">federico@alcentrodelmondo.it</a>
-              <a href="mailto:mondidiversi@alcentrodelmondo.it">mondidiversi@alcentrodelmondo.it</a>
+              <HeadingThree>Ufficio Gruppi</HeadingThree>
+              <ExternalLink href="mailto:direzione@alcentrodelmondo.it">direzione@alcentrodelmondo.it</ExternalLink>
+              <ExternalLink href="mailto:sabrina@alcentrodelmondo.it">sabrina@alcentrodelmondo.it</ExternalLink>
+              <ExternalLink href="mailto:federico@alcentrodelmondo.it">federico@alcentrodelmondo.it</ExternalLink>
+              <ExternalLink href="mailto:mondidiversi@alcentrodelmondo.it">mondidiversi@alcentrodelmondo.it</ExternalLink>
             </ColOne>
             <ColTwo>
-              <h3>Ufficio amministrazione</h3>
-              <a href="mailto:samanta@alcentrodelmondo.it">samanta@alcentrodelmondo.it</a>
-              <a href="mailto:federico@alcentrodelmondo.it">federico@alcentrodelmondo.it</a>
+              <HeadingThree>Ufficio amministrazione</HeadingThree>
+              <ExternalLink href="mailto:samanta@alcentrodelmondo.it">samanta@alcentrodelmondo.it</ExternalLink>
+              <ExternalLink href="mailto:federico@alcentrodelmondo.it">federico@alcentrodelmondo.it</ExternalLink>
             </ColTwo>
           </Row>
         </ContactsContentWrapper>
@@ -245,13 +149,13 @@ const Contact = () => (
       <ContactsWrapper>
         <ContactsContentWrapper>
           <Row>
-            <ColOne>
-              <h3>Viaggi individuali - Viaggi di nozze - Crociere</h3>
-              <a href="mailto:manolina@alcentrodelmondo.it">manolina@alcentrodelmondo.it</a>
-              <a href="mailto:alessandra@alcentrodelmondo.it">alessandra@alcentrodelmondo.it</a>
-              <a href="mailto:manuela@alcentrodelmondo.it">manuela@alcentrodelmondo.it</a>
-              <a href="mailto:federico@alcentrodelmondo.it">federico@alcentrodelmondo.it</a>
-            </ColOne>
+            <LastCol>
+              <HeadingThree>Viaggi individuali - Viaggi di nozze - Crociere</HeadingThree>
+              <ExternalLink href="mailto:manolina@alcentrodelmondo.it">manolina@alcentrodelmondo.it</ExternalLink>
+              <ExternalLink href="mailto:alessandra@alcentrodelmondo.it">alessandra@alcentrodelmondo.it</ExternalLink>
+              <ExternalLink href="mailto:manuela@alcentrodelmondo.it">manuela@alcentrodelmondo.it</ExternalLink>
+              <ExternalLink href="mailto:federico@alcentrodelmondo.it">federico@alcentrodelmondo.it</ExternalLink>
+            </LastCol>
           </Row>
         </ContactsContentWrapper>
       </ContactsWrapper>

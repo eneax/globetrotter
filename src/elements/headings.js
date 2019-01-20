@@ -18,3 +18,13 @@ export const Title = styled.h1`
   margin-top: 1rem;
   margin-bottom: 1rem;
 `
+
+export const HeadingThree = styled.h3`
+  ${avenir};
+  font-size: 1rem;
+  ${above.tablet`
+    font-size: 1.5rem;
+  `}
+  margin-top: 0;
+  line-height: 1.25;
+`
