@@ -12,10 +12,9 @@ export const Title = styled.h1`
   padding-right: 1rem;
   padding-left: 1rem;
   ${above.laptop`
-		padding-right: 1rem;
-    padding-left: 1rem;
+		padding-right: 0;
+    padding-left: 0;
 	`}
   margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 `
-  
