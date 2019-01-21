@@ -1,5 +1,6 @@
+import { Link } from 'gatsby'
 import styled from 'styled-components'
-import { above, facebook, twitter, mail, darkGrey } from '../utils'
+import { above, facebook, twitter, mail, darkGrey, pueblo } from '../utils'
 
 
 export const ExternalLink = styled.a.attrs({
@@ -14,7 +15,7 @@ export const ExternalLink = styled.a.attrs({
   line-height: 1.25;
   margin-top: .5rem;
   margin-bottom: .5rem;
-  color: #00449E;
+  color: ${pueblo};
   
   text-decoration: none;
   transition: color .15s ease-in;
@@ -103,4 +104,42 @@ export const dimOnHover = `
     opacity: .5;
     transition: opacity .15s ease-in;
   }
+`
+
+export const underlineEffect = `
+	position: relative;
+	text-decoration: none;
+	line-height: 24px;
+	&:before, 
+	&:after {
+		content: '';
+		position: absolute;
+		transition: transform .3s ease;
+	}
+		
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	overflow: hidden;
+	&:before {
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 2px;
+		background: ${pueblo};
+		transform:  translateX(-100%);
+	}
+	&:hover:before {
+		transform:  translateX(0);
+	}
+`
+
+export const InternalLink = styled(Link)`
+	color: ${pueblo};
+  text-decoration: none;
+	&:hover, &:focus {
+		color: ${pueblo};
+	}
+	
+	${underlineEffect};
 `
