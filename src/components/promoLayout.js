@@ -195,7 +195,7 @@ const InfoLinks = styled.div`
 `;
 
 
-export default class projectLayout extends Component {
+export default class promoLayout extends Component {
   render() {
     const { markdownRemark } = this.props.data;
     return (

@@ -24,7 +24,7 @@ module.exports = {
       // makes promo's files available
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `portfolio`,
+        name: `promo`,
         path: `${__dirname}/src/data/promo`,
       },
     },
