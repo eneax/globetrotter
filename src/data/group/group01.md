@@ -1,6 +1,6 @@
 ---
 slug: "/montenegro"
-date: "2019-03-20"
+date: "2018-07-16"
 title: "Montenegro"
 cover: "../../images/group-trip/montenegro/montenegro.jpg"
 day: "16 - 22 luglio 2018"

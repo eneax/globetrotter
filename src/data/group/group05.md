@@ -1,6 +1,6 @@
 ---
 slug: "/uzbe"
-date: "2019-03-20"
+date: "2018-08-21"
 title: "Uzbekistan"
 cover: "../../images/group-trip/uzbe/uzbe.jpg"
 day: "21 - 28 agosto 2018"

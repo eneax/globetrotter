@@ -1,6 +1,6 @@
 ---
 slug: "/assisi"
-date: "2019-03-20"
+date: "2018-08-15"
 title: "Assisi e Cannara"
 cover: "../../images/group-trip/assisi/assisi.jpg"
 day: "15 agosto 2018"

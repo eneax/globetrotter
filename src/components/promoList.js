@@ -10,7 +10,7 @@ const PROMO_LIST_QUERY = graphql`
   query PromoList {
     allMarkdownRemark(
       filter: { fileAbsolutePath: { glob: "**/src/data/promo/*.md" } }
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { order: ASC, fields: [frontmatter___date] }
     ) {
       edges {
         node {

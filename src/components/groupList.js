@@ -10,7 +10,7 @@ const GROUP_LIST_QUERY = graphql`
   query GroupList {
     allMarkdownRemark(
       filter: { fileAbsolutePath: { glob: "**/src/data/group/*.md" } }
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { order: ASC, fields: [frontmatter___date] }
     ) {
       edges {
         node {

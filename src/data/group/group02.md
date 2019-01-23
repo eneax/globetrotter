@@ -1,6 +1,6 @@
 ---
 slug: "/napoli"
-date: "2019-03-20"
+date: "2018-08-12"
 title: "Napoli"
 cover: "../../images/group-trip/napoli/napoli.jpg"
 day: "12 - 15 agosto 2018"

@@ -1,6 +1,6 @@
 ---
 slug: "/foce"
-date: "2019-03-20"
+date: "2018-08-16"
 title: "La Foce"
 cover: "../../images/group-trip/foce/foce.jpeg"
 day: "16 agosto 2018"
