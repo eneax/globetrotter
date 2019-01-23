@@ -8,10 +8,10 @@ import { HeadingThree } from '../elements'
 
 const PROMO_LIST_QUERY = graphql`
   query PromoList {
-    allMarkdownRemark(sort: {
-      order: DESC,
-      fields: [frontmatter___date]
-    }) {
+    allMarkdownRemark(
+      filter: { fileAbsolutePath: { glob: "**/src/data/promo/*.md" } }
+      sort: { order: DESC, fields: [frontmatter___date] }
+    ) {
       edges {
         node {
           frontmatter {
@@ -21,8 +21,8 @@ const PROMO_LIST_QUERY = graphql`
               childImageSharp {
                 fluid(maxWidth: 1240) {
                   src
-              		srcSet
-              		sizes
+                  srcSet
+                  sizes
                   aspectRatio
                 }
               }
