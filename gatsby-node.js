@@ -1,12 +1,11 @@
 const path = require('path');
 
-
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
   return new Promise((resolve, reject) => {
     graphql(`
       {
-        allMarkdownRemark {
+        group: allMarkdownRemark(filter: { fileAbsolutePath: { glob: "**/src/data/group/*.md" } }) {
           edges {
             node {
               frontmatter {
@@ -15,18 +14,43 @@ exports.createPages = ({ graphql, actions }) => {
             }
           }
         }
-      }    
+
+        promo: allMarkdownRemark(filter: { fileAbsolutePath: { glob: "**/src/data/promo/*.md" } }) {
+          edges {
+            node {
+              frontmatter {
+                slug
+              }
+            }
+          }
+        }
+      }
     `).then(results => {
-      results.data.allMarkdownRemark.edges.forEach(({node}) => {
+      if (results.errors) {
+        Promise.reject(results.errors)
+      }
+
+      results.data.group.edges.forEach(({ node }) => {
+        createPage({
+          path: `/groups${node.frontmatter.slug}`,
+          component: path.resolve('./src/components/groupLayout.js'),
+          context: {
+            slug: node.frontmatter.slug,
+          },
+        })
+      });
+
+      results.data.promo.edges.forEach(({ node }) => {
         createPage({
           path: `/promo${node.frontmatter.slug}`,
           component: path.resolve('./src/components/promoLayout.js'),
           context: {
             slug: node.frontmatter.slug,
-          }
-        });
-      })
-      resolve();
+          },
+        })
+      });
+
+      resolve()
     })
   });
 }

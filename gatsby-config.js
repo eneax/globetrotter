@@ -28,6 +28,14 @@ module.exports = {
         path: `${__dirname}/src/data/promo`,
       },
     },
+    {
+      // makes group's files available
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `group`,
+        path: `${__dirname}/src/data/group`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     // parses Markdown files using Remark
