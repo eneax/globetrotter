@@ -1,6 +1,6 @@
 ---
 slug: "/calabria"
-date: "2018-11-17"
+date: "2018-10-17"
 title: "Calabria"
 cover: "../../images/group-trip/calabria/calabria.jpg"
 day: "17 - 21 ottobre 2018"
