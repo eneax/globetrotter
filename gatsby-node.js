@@ -5,6 +5,16 @@ exports.createPages = ({ graphql, actions }) => {
   return new Promise((resolve, reject) => {
     graphql(`
       {
+        top: allMarkdownRemark(filter: { fileAbsolutePath: { glob: "**/src/data/top/*.md" } }) {
+          edges {
+            node {
+              frontmatter {
+                slug
+              }
+            }
+          }
+        }
+
         group: allMarkdownRemark(filter: { fileAbsolutePath: { glob: "**/src/data/group/*.md" } }) {
           edges {
             node {
@@ -29,6 +39,16 @@ exports.createPages = ({ graphql, actions }) => {
       if (results.errors) {
         Promise.reject(results.errors)
       }
+
+      results.data.top.edges.forEach(({ node }) => {
+        createPage({
+          path: `/top${node.frontmatter.slug}`,
+          component: path.resolve('./src/components/topLayout.js'),
+          context: {
+            slug: node.frontmatter.slug,
+          },
+        })
+      });
 
       results.data.group.edges.forEach(({ node }) => {
         createPage({

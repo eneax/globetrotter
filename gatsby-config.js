@@ -21,11 +21,11 @@ module.exports = {
       },
     },
     {
-      // makes promo's files available
+      // makes top's files available
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `promo`,
-        path: `${__dirname}/src/data/promo`,
+        name: `top`,
+        path: `${__dirname}/src/data/top`,
       },
     },
     {
@@ -34,6 +34,14 @@ module.exports = {
       options: {
         name: `group`,
         path: `${__dirname}/src/data/group`,
+      },
+    },
+    {
+      // makes promo's files available
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `promo`,
+        path: `${__dirname}/src/data/promo`,
       },
     },
     `gatsby-transformer-sharp`,
