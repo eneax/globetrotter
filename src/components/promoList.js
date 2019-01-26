@@ -2,7 +2,7 @@ import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-import { Wrapper, LinkWrapper, Row, ColOne, ColTwo, HeadingThree } from '../elements'
+import { ListWrapper, LinkWrapper, Row, ColOne, ColTwo, HeadingThree } from '../elements'
 
 
 const PROMO_LIST_QUERY = graphql`
@@ -43,7 +43,7 @@ const PromoList = () => (
     render={(data) => (
       <>
         {data.allMarkdownRemark.edges.map(edge => (
-          <Wrapper key={edge.node.frontmatter.slug}>
+          <ListWrapper key={edge.node.frontmatter.slug}>
             <LinkWrapper
               to={`/promo${edge.node.frontmatter.slug}`}
             >
@@ -59,7 +59,7 @@ const PromoList = () => (
                 </ColTwo>
               </Row>
             </LinkWrapper>
-          </Wrapper>
+          </ListWrapper>
         ))}
       </>
     )}

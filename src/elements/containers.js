@@ -31,7 +31,9 @@ export const ImageWrapper = styled.div`
 	border-left: 5px solid #fff;
 `
 
-export const Wrapper = styled.div`
+
+// ! Listing Styles
+export const ListWrapper = styled.div`
 	border-top-style: solid; 
   border-top-width: 1px;
   border-bottom-style: solid; 
@@ -107,3 +109,6 @@ export const LastCol = styled(Col)`
     text-align: center;    
   `}
 `
+
+
+// ! Layout Styles
