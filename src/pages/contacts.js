@@ -1,11 +1,11 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Billboard from '../components/billboard'
-import { Container, Title, ExternalLink, HeadingThree } from '../elements'
+
+import { Container, Title, Row, ColOne, ColTwo, LastCol, ExternalLink, HeadingThree } from '../elements'
 import { above } from '../utils'
 
 
@@ -28,61 +28,12 @@ export const ContactsContentWrapper = styled.div`
   text-decoration: none;
 `
 
-export const Row = styled.div`
-	display: flex;
-  flex-direction: column;
-  ${above.tablet`
-    flex-direction: row;
-  `}
-`
-
-export const Col = styled.div`
-  width: 100%;
-  ${HeadingThree};
-
-  p {
-    font-size: .875rem;
-    ${above.laptop`
-      font-size: 1.25rem;
-    `}
-    line-height: 1.5;
-    margin-bottom: .5rem;
-  }
-
-  ${ExternalLink};
-`
-
-export const ColOne = styled(Col)`
-  margin-bottom: 2rem;
-  ${above.tablet`
-    width: 40%;
-    margin-bottom: 0;
-    padding-right: 1rem;
-  `}
-`
-
-export const ColTwo = styled(Col)`
-  ${above.tablet`
-    width: 60%;
-    padding-left: 1rem;
-    text-align: right;
-  `}
-`
-
-export const LastCol = styled(Col)`
-  ${above.tablet`
-    text-align: center;    
-  `}
-`
-
 
 const Contact = () => (
   <Layout>
     <SEO title="Contatti" />
 
-    <Link to="/" title="Home" style={{ textDecoration: 'none' }}>
-      <Billboard />
-    </Link>
+    <Billboard />
     
     <Container>
       <Title>Contatti</Title>
