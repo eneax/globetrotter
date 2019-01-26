@@ -110,7 +110,7 @@ export const dimOnHover = `
   }
 `
 
-export const underlineEffect = `
+export const internal_link_underline = `
 	position: relative;
 	text-decoration: none;
 	line-height: 24px;
@@ -145,5 +145,5 @@ export const InternalLink = styled(Link)`
 		color: ${pueblo};
 	}
 	
-	${underlineEffect};
+	${internal_link_underline};
 `
