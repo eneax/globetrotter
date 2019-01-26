@@ -3,20 +3,8 @@ import styled from 'styled-components'
 import { above, facebook, twitter, mail, darkGrey, pueblo } from '../utils'
 
 
-export const ExternalLink = styled.a.attrs({
-  target: '_blank',
-  rel:'noopener'
-})`
-	display: block;
-  font-size: .875rem;
-  ${above.laptop`
-    font-size: 1.25rem;
-  `}
-  line-height: 1.25;
-  margin-top: .5rem;
-  margin-bottom: .5rem;
+export const external_link_underline = `
   color: ${pueblo};
-  
   text-decoration: none;
   transition: color .15s ease-in;
   &:link, 
@@ -37,6 +25,22 @@ export const ExternalLink = styled.a.attrs({
   &:focus {
     text-decoration: underline;
   }
+`
+
+export const ExternalLink = styled.a.attrs({
+  target: '_blank',
+  rel:'noopener'
+})`
+	display: block;
+  font-size: .875rem;
+  ${above.laptop`
+    font-size: 1.25rem;
+  `}
+  line-height: 1.25;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  
+  ${external_link_underline};
   &:nth-child(2) {
     margin-top: 0;
     margin-bottom: 0;
