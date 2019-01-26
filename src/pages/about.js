@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
@@ -12,10 +12,8 @@ const About = ({ data }) => (
   <Layout>
     <SEO title="Chi Siamo" />
 
-    <Link to="/" title="Home" style={{ textDecoration: 'none' }}>
-      <Billboard />
-    </Link>
-
+    <Billboard />
+    
     <Container>
       <ImageWrapper>
         <Img
