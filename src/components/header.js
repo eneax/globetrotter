@@ -11,13 +11,12 @@ const NavBar = styled.div`
   ${avenir};
   font-weight: 600;
   display: block;
-  ${above.laptop`
-    display: table;
-  `}
   width: 100%;
   box-sizing: border-box;
   padding: 1rem;
+
   ${above.laptop`
+    display: table;
     padding-left: 4rem;
     padding-right: 4rem;
   `}
@@ -68,7 +67,10 @@ const NavLinkWrapper = styled.div`
     display: inline-block;
     margin-right: 1rem;
 
-    ${above.laptop`
+    ${above.mobileM`
+      font-size: .975rem;
+    `}
+    ${above.mobileL`
       font-size: 1rem;
       margin-right: 2rem;
     `}
@@ -80,7 +82,7 @@ const NavLinkWrapper = styled.div`
 `
 
 
-export default ({ siteTitle }) => (
+export default () => (
   <StaticQuery
     query={graphql`
       query logoPic {
