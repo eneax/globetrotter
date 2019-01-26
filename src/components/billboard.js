@@ -1,16 +1,15 @@
 import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
+import { Link, StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
 
-import { avenir, above, baskerville } from '../utils'
+import { above, avenir, baskerville } from '../utils'
 
 
 const HeaderWrapper = styled.div`
   border: 5px solid #fff;
   overflow: hidden;
   position: relative;
-
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -51,7 +50,7 @@ const Headings = styled.div`
 `
 
 
-export default ({ siteTitle }) => (
+export default () => (
   <StaticQuery
     query={graphql`
       query bgPic {
@@ -71,24 +70,26 @@ export default ({ siteTitle }) => (
       }
     `}
     render={data => (
-      <HeaderWrapper>
-        <Headings>
-          <h1>Al Centro del Mondo</h1>
-          <h2>Viaggi e Turismo</h2>
-        </Headings>
+      <Link to="/" style={{ textDecoration: 'none' }}>
+        <HeaderWrapper>
+          <Headings>
+            <h1>Al Centro del Mondo</h1>
+            <h2>Viaggi e Turismo</h2>
+          </Headings>
 
-        <Img
-          fluid={data.bgPic.childImageSharp.fluid} 
-          alt="Globetrotter Billboard" 
-          style={{
-            position: 'absolute',
-            left: 0,
-            top: 0,
-            width: '100%',
-            height: '100%'
-          }}
-        />
-    </HeaderWrapper>
+          <Img
+            fluid={data.bgPic.childImageSharp.fluid} 
+            alt="Globetrotter Billboard" 
+            style={{
+              position: 'absolute',
+              left: 0,
+              top: 0,
+              width: '100%',
+              height: '100%'
+            }}
+          />
+        </HeaderWrapper>
+      </Link>
     )}
   />
 )
