@@ -7,7 +7,6 @@ import GroupList from '../components/groupList'
 
 import { Title, Container } from '../elements'
 
-
 const Group = () => (
   <Layout>
     <SEO title="Viaggi di Gruppo" />
@@ -20,6 +19,5 @@ const Group = () => (
     </Container>
   </Layout>
 )
-
 
 export default Group

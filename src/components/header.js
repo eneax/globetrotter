@@ -6,7 +6,6 @@ import styled from 'styled-components'
 import { avenir, grey, darkGrey, above, below } from '../utils'
 import { dimOnHover } from '../elements'
 
-
 const NavBar = styled.div`
   ${avenir};
   font-weight: 600;
@@ -63,7 +62,7 @@ const NavLinkWrapper = styled.div`
   a {
     ${dimOnHover};
     color: ${darkGrey};
-    font-size: .875rem;
+    font-size: 0.875rem;
     display: inline-block;
     margin-right: 1rem;
 
@@ -81,7 +80,6 @@ const NavLinkWrapper = styled.div`
   }
 `
 
-
 export default () => (
   <StaticQuery
     query={graphql`
@@ -98,14 +96,27 @@ export default () => (
     render={data => (
       <NavBar>
         <Link className="logo" to="/" title="Home">
-          <Img fluid={data.logoPic.childImageSharp.fluid} alt="Globetrotter Logo" />
+          <Img
+            fluid={data.logoPic.childImageSharp.fluid}
+            alt="Globetrotter Logo"
+          />
         </Link>
         <NavLinkWrapper>
-          <Link to="/top" title="Top Tours">Top Tours</Link>
-          <Link to="/groups" title="Viaggi di Gruppo">Viaggi di Gruppo</Link>
-          <Link to="/promo" title="Offerte">Offerte</Link>
-          <Link to="/about" title="Chi Siamo">Chi Siamo</Link>
-          <Link to="/contacts" title="Contatti">Contatti</Link>
+          <Link to="/top" title="Top Tours">
+            Top Tours
+          </Link>
+          <Link to="/groups" title="Viaggi di Gruppo">
+            Viaggi di Gruppo
+          </Link>
+          <Link to="/promo" title="Offerte">
+            Offerte
+          </Link>
+          <Link to="/about" title="Chi Siamo">
+            Chi Siamo
+          </Link>
+          <Link to="/contacts" title="Contatti">
+            Contatti
+          </Link>
         </NavLinkWrapper>
       </NavBar>
     )}

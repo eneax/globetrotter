@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import { above, avenir } from '../utils'
 
-
 export const Title = styled.h1`
   ${avenir};
   font-size: 1.25rem;

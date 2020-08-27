@@ -2,7 +2,6 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 import { above, facebook, twitter, mail, darkGrey, pueblo } from '../utils'
 
-
 export const external_link_underline = `
   color: ${pueblo};
   text-decoration: none;
@@ -29,17 +28,17 @@ export const external_link_underline = `
 
 export const ExternalLink = styled.a.attrs({
   target: '_blank',
-  rel:'noopener'
+  rel: 'noopener',
 })`
-	display: block;
-  font-size: .875rem;
+  display: block;
+  font-size: 0.875rem;
   ${above.laptop`
     font-size: 1.25rem;
   `}
   line-height: 1.25;
-  margin-top: .5rem;
-  margin-bottom: .5rem;
-  
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
   ${external_link_underline};
   &:nth-child(2) {
     margin-top: 0;
@@ -49,39 +48,38 @@ export const ExternalLink = styled.a.attrs({
 
 export const SocialLink = styled.a.attrs({
   target: '_blank',
-  rel:'noopener'
+  rel: 'noopener',
 })`
-	font-size: .875rem;
-	-moz-osx-font-smoothing: grayscale;
-	backface-visibility: hidden;
-	transform: translateZ(0);
-	transition: transform .25s ease-out;
-	&:hover,
-	&:focus {
-		transform: scale(1.05);
-		svg[data-icon="facebook-f"] {
-			color: ${facebook};
-		}
-		svg[data-icon="twitter"] {
-			color: ${twitter};
-		}
-		svg[data-icon="envelope"] {
-			color: ${mail};
-		}
-	}
-	&:active {
-		transform: scale(.9);
-	}
-	display: inline-block;
+  font-size: 0.875rem;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  &:hover,
+  &:focus {
+    transform: scale(1.05);
+    svg[data-icon='facebook-f'] {
+      color: ${facebook};
+    }
+    svg[data-icon='twitter'] {
+      color: ${twitter};
+    }
+    svg[data-icon='envelope'] {
+      color: ${mail};
+    }
+  }
+  &:active {
+    transform: scale(0.9);
+  }
+  display: inline-block;
   vertical-align: middle;
-  padding: .5rem .5rem;
-	margin-bottom: 1rem;
+  padding: 0.5rem 0.5rem;
+  margin-bottom: 1rem;
   color: ${darkGrey};
-	svg {
-		font-size: 1.25rem;
-	}
+  svg {
+    font-size: 1.25rem;
+  }
 `
-
 
 export const dimOnHover = `
   text-decoration: none;
@@ -139,11 +137,12 @@ export const internal_link_underline = `
 `
 
 export const InternalLink = styled(Link)`
-	color: ${pueblo};
+  color: ${pueblo};
   text-decoration: none;
-	&:hover, &:focus {
-		color: ${pueblo};
-	}
-	
-	${internal_link_underline};
+  &:hover,
+  &:focus {
+    color: ${pueblo};
+  }
+
+  ${internal_link_underline};
 `

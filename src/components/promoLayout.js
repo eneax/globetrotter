@@ -1,15 +1,22 @@
-import React, { Component } from 'react';
-import { graphql } from 'gatsby';
+import React, { Component } from 'react'
+import { graphql } from 'gatsby'
 
-import Layout from './layout';
-import SEO from './seo';
+import Layout from './layout'
+import SEO from './seo'
 
-import { HeaderWrapper, LayoutWrapper, Content, InfoWrapper, InfoLinks, ExternalLink, InternalLink } from '../elements';
-
+import {
+  HeaderWrapper,
+  LayoutWrapper,
+  Content,
+  InfoWrapper,
+  InfoLinks,
+  ExternalLink,
+  InternalLink,
+} from '../elements'
 
 export default class promoLayout extends Component {
   render() {
-    const { markdownRemark } = this.props.data;
+    const { markdownRemark } = this.props.data
     return (
       <Layout>
         <SEO title={`${markdownRemark.frontmatter.title}`} />
@@ -38,14 +45,9 @@ export default class promoLayout extends Component {
   }
 }
 
-
 export const query = graphql`
   query PromoQuery($slug: String!) {
-    markdownRemark(frontmatter: {
-      slug: {
-        eq: $slug
-      }
-    }) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       frontmatter {
         title

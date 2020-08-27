@@ -7,7 +7,6 @@ import PromoList from '../components/promoList'
 
 import { Title, Container } from '../elements'
 
-
 const Promo = () => (
   <Layout>
     <SEO title="Offerte" />
@@ -20,6 +19,5 @@ const Promo = () => (
     </Container>
   </Layout>
 )
-
 
 export default Promo

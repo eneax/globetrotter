@@ -7,13 +7,13 @@ import SEO from '../components/seo'
 import Billboard from '../components/billboard'
 import Gallery from '../components/gallery'
 
-
 const HomeWrapper = styled.div`
-  padding-top: .5rem;
+  padding-top: 0.5rem;
   margin-right: auto;
   margin-left: auto;
-  &:before, &:after {
-    content: " ";
+  &:before,
+  &:after {
+    content: ' ';
     display: table;
   }
   &:after {
@@ -24,9 +24,8 @@ const HomeWrapper = styled.div`
   }
 `
 
-
 const IndexPage = ({ data }) => {
-  const { edges: homeImgData } = data.HomeImgs;
+  const { edges: homeImgData } = data.HomeImgs
 
   return (
     <Layout>
@@ -42,7 +41,6 @@ const IndexPage = ({ data }) => {
 }
 
 export default IndexPage
-
 
 export const query = graphql`
   query allHomeImgsQuery {

@@ -7,13 +7,12 @@ import SEO from '../components/seo'
 import Billboard from '../components/billboard'
 import { Container, ImageWrapper } from '../elements'
 
-
 const About = ({ data }) => (
   <Layout>
     <SEO title="Chi Siamo" />
 
     <Billboard />
-    
+
     <Container>
       <ImageWrapper>
         <Img
@@ -65,7 +64,6 @@ const About = ({ data }) => (
 )
 
 export default About
-
 
 export const query = graphql`
   query profilePic {

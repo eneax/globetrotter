@@ -7,7 +7,6 @@ import TopList from '../components/topList'
 
 import { Title, Container } from '../elements'
 
-
 const Top = () => (
   <Layout>
     <SEO title="Top Tours" />

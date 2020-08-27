@@ -14,7 +14,6 @@ import { faFacebookF, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 library.add(faFacebookF, faTwitter, faEnvelope)
 
-
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -38,7 +37,7 @@ const Layout = ({ children }) => (
           }}
         >
           {children}
-          <Footer/>
+          <Footer />
         </div>
       </>
     )}

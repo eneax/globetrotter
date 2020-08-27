@@ -5,7 +5,6 @@ import styled from 'styled-components'
 
 import { above, avenir, baskerville } from '../utils'
 
-
 const HeaderWrapper = styled.div`
   border: 5px solid #fff;
   overflow: hidden;
@@ -19,7 +18,6 @@ const HeaderWrapper = styled.div`
     padding-bottom: 4rem;
   `}
 `
-
 
 const Headings = styled.div`
   position: relative;
@@ -39,7 +37,7 @@ const Headings = styled.div`
   h2 {
     color: #fff;
     ${baskerville};
-    font-size: .875rem;
+    font-size: 0.875rem;
     font-weight: 200;
     text-transform: uppercase;
 
@@ -49,7 +47,6 @@ const Headings = styled.div`
   }
 `
 
-
 export default () => (
   <StaticQuery
     query={graphql`
@@ -57,12 +54,9 @@ export default () => (
         bgPic: file(relativePath: { regex: "/bgPic.jpg/" }) {
           childImageSharp {
             fluid(
-              maxWidth: 1240, 
-              duotone: { 
-                highlight: "#000000", 
-                shadow: "#000000", 
-                opacity: 45 }
-              ) {
+              maxWidth: 1240
+              duotone: { highlight: "#000000", shadow: "#000000", opacity: 45 }
+            ) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -78,14 +72,14 @@ export default () => (
           </Headings>
 
           <Img
-            fluid={data.bgPic.childImageSharp.fluid} 
-            alt="Globetrotter Billboard" 
+            fluid={data.bgPic.childImageSharp.fluid}
+            alt="Globetrotter Billboard"
             style={{
               position: 'absolute',
               left: 0,
               top: 0,
               width: '100%',
-              height: '100%'
+              height: '100%',
             }}
           />
         </HeaderWrapper>

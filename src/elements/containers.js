@@ -2,8 +2,7 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 import { above, avenir, baskerville, grey } from '../utils'
-import { HeadingThree, external_link_underline } from '../elements'
-
+import { HeadingThree, external_link_underline } from '.'
 
 export const Container = styled.div`
   ${baskerville};
@@ -18,27 +17,26 @@ export const Container = styled.div`
   margin-left: auto;
   border: 5px solid #fff;
 
-  p {   
-    color: rgba(0,0,0,.7);
+  p {
+    color: rgba(0, 0, 0, 0.7);
     margin-bottom: 2rem;
   }
 `
 
 export const ImageWrapper = styled.div`
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-	border-right: 5px solid #fff;
-	border-left: 5px solid #fff;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-right: 5px solid #fff;
+  border-left: 5px solid #fff;
 `
-
 
 // ! Listing Styles
 export const ListWrapper = styled.div`
-	border-top-style: solid; 
+  border-top-style: solid;
   border-top-width: 1px;
-  border-bottom-style: solid; 
+  border-bottom-style: solid;
   border-bottom-width: 1px;
-  border-color: rgba(0,0,0,.1);
+  border-color: rgba(0, 0, 0, 0.1);
 `
 
 export const LinkWrapper = styled(Link)`
@@ -53,19 +51,20 @@ export const LinkWrapper = styled(Link)`
 
   /* dim */
   opacity: 1;
-  transition: opacity .15s ease-in;
+  transition: opacity 0.15s ease-in;
   &:hover,
   &:focus {
-    opacity: .5;
-    transition: opacity .15s ease-in;
+    opacity: 0.5;
+    transition: opacity 0.15s ease-in;
   }
   &:active {
-    opacity: .8; transition: opacity .15s ease-out;
+    opacity: 0.8;
+    transition: opacity 0.15s ease-out;
   }
 `
 
 export const Row = styled.div`
-	display: flex;
+  display: flex;
   flex-direction: column;
   ${above.tablet`
     flex-direction: row;
@@ -75,15 +74,15 @@ export const Row = styled.div`
 export const Col = styled.div`
   width: 100%;
   ${HeadingThree};
-  
+
   p {
     color: currentColor;
-    font-size: .875rem;
+    font-size: 0.875rem;
     ${above.laptop`
       font-size: 1.25rem;
     `}
     line-height: 1.5;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
 `
 
@@ -109,7 +108,6 @@ export const LastCol = styled(Col)`
     text-align: center;    
   `}
 `
-
 
 // ! Layout Styles
 export const HeaderWrapper = styled.header`
@@ -142,7 +140,7 @@ export const LayoutWrapper = styled.div`
     float: left;
     _display: inline;
     width: 100%;
-    color: rgba(0, 0, 0, .7);
+    color: rgba(0, 0, 0, 0.7);
     margin-top: 0;
     margin-bottom: 1rem;
   }
@@ -151,7 +149,7 @@ export const LayoutWrapper = styled.div`
     text-align: center;
     font-size: 1rem;
     font-weight: 500;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
   }
 `
 
@@ -166,7 +164,7 @@ export const Content = styled.div`
     &:after {
       clear: both;
     }
-    border-color: rgba(0, 0, 0, .5);
+    border-color: rgba(0, 0, 0, 0.5);
     ${above.laptop`
       padding-right: 8rem;
       padding-left: 8rem;
@@ -177,7 +175,7 @@ export const Content = styled.div`
       overflow: hidden;
       border-style: solid;
       border-width: 1px;
-      border-width: .25rem;
+      border-width: 0.25rem;
       color: white;
 
       float: left;
@@ -198,7 +196,7 @@ export const Content = styled.div`
         backface-visibility: hidden;
         transform: translateZ(0);
         transition: transform 0.25s ease-out;
-        
+
         &:hover,
         &:focus {
           transform: scale(1.05);
@@ -213,7 +211,7 @@ export const Content = styled.div`
   .copy {
     max-width: 48rem;
     margin: 2rem auto 4rem auto;
-    color: rgba(0, 0, 0, .7);
+    color: rgba(0, 0, 0, 0.7);
 
     h2 {
       ${avenir};
@@ -239,7 +237,7 @@ export const Content = styled.div`
 
     p {
       line-height: 1.5;
-      color: rgba(0, 0, 0, .7);
+      color: rgba(0, 0, 0, 0.7);
       ${baskerville};
       font-size: 1.25rem;
       ${above.tablet`
@@ -249,7 +247,7 @@ export const Content = styled.div`
 
       .external-link {
         ${external_link_underline};
-      } 
+      }
     }
 
     .quota {
@@ -268,14 +266,14 @@ export const Content = styled.div`
           display: flex;
           align-items: center;
           line-height: 1.5;
-          padding: .25rem;
+          padding: 0.25rem;
           ${above.laptop`
             padding-right: 0;
             padding-left: 0;
           `}
-          border-bottom-style: solid; 
+          border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-color: rgba(0, 0, 0, .1);
+          border-color: rgba(0, 0, 0, 0.1);
 
           .left {
             flex: 1 1 auto;
@@ -283,18 +281,18 @@ export const Content = styled.div`
             min-height: 0;
 
             span {
-              font-size: .75rem;
+              font-size: 0.75rem;
               ${above.tablet`
                 font-size: .875rem;
               `}
               display: block;
-              color: rgba(0, 0, 0, .7);
+              color: rgba(0, 0, 0, 0.7);
             }
           }
 
           .right {
             span {
-              font-size: .75rem;
+              font-size: 0.75rem;
               ${above.tablet`
                 font-size: .875rem;
               `}
@@ -325,7 +323,7 @@ export const InfoWrapper = styled.div`
 export const InfoLinks = styled.div`
   text-align: center;
   margin-top: 1rem;
-  
+
   a {
     font-size: 1.25rem;
     ${above.tablet`
