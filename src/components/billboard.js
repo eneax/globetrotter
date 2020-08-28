@@ -47,7 +47,7 @@ const Headings = styled.div`
   }
 `
 
-export default () => (
+const Billboard = () => (
   <StaticQuery
     query={graphql`
       query bgPic {
@@ -87,3 +87,5 @@ export default () => (
     )}
   />
 )
+
+export default Billboard

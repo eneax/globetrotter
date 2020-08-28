@@ -80,7 +80,7 @@ const NavLinkWrapper = styled.div`
   }
 `
 
-export default () => (
+const Header = () => (
   <StaticQuery
     query={graphql`
       query logoPic {
@@ -122,3 +122,5 @@ export default () => (
     )}
   />
 )
+
+export default Header
