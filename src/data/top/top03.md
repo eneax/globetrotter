@@ -9,7 +9,7 @@ price: 'A partire da € 2895.00 a persona'
 imgOne: '../../images/top-tours/peru/peru1.jpg'
 imgTwo: '../../images/top-tours/peru/peru2.jpeg'
 imgThree: '../../images/top-tours/peru/peru3.jpg'
-imgFour: '../../images/top-tours/peru/peru4.JPG'
+imgFour: '../../images/top-tours/peru/peru4.jpg'
 ---
 
 <div class="copy">

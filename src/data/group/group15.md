@@ -8,7 +8,7 @@ desc: 'Catacombe di San Callisto'
 price: 'A partire da € 65.00 a persona'
 imgOne: '../../images/group-trip/fosseArdeatine/fosseArdeatine1.jpg'
 imgTwo: '../../images/group-trip/fosseArdeatine/fosseArdeatine2.jpg'
-imgThree: '../../images/group-trip/fosseArdeatine/fosseArdeatine3.JPG'
+imgThree: '../../images/group-trip/fosseArdeatine/fosseArdeatine3.jpg'
 imgFour: '../../images/group-trip/fosseArdeatine/fosseArdeatine4.jpg'
 ---
 
