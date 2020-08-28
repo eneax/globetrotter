@@ -154,60 +154,6 @@ export const LayoutWrapper = styled.div`
 `
 
 export const Content = styled.div`
-  .pictures {
-    *zoom: 1;
-    &:before,
-    &:after {
-      content: ' ';
-      display: table;
-    }
-    &:after {
-      clear: both;
-    }
-    border-color: rgba(0, 0, 0, 0.5);
-    ${above.laptop`
-      padding-right: 8rem;
-      padding-left: 8rem;
-    `}
-
-    a {
-      box-sizing: border-box;
-      overflow: hidden;
-      border-style: solid;
-      border-width: 1px;
-      border-width: 0.25rem;
-      color: white;
-
-      float: left;
-      _display: inline;
-      width: calc(100% / 3);
-      ${above.tablet`
-        width: 25%;
-      `}
-      &:last-child {
-        width: 100%;
-        ${above.tablet`
-          width: 25%;
-        `}
-      }
-
-      img {
-        -moz-osx-font-smoothing: grayscale;
-        backface-visibility: hidden;
-        transform: translateZ(0);
-        transition: transform 0.25s ease-out;
-
-        &:hover,
-        &:focus {
-          transform: scale(1.05);
-        }
-        &:active {
-          transform: scale(0.9);
-        }
-      }
-    }
-  }
-
   .copy {
     max-width: 48rem;
     margin: 2rem auto 4rem auto;
