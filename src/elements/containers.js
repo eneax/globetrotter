@@ -305,6 +305,25 @@ export const Content = styled.div`
   }
 `
 
+export const PicturesWrapper = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+
+  ${above.laptop`
+    grid-template-columns: repeat(4, 1fr);
+    padding-right: 8rem;
+    padding-left: 8rem;
+  `}
+
+  .gatsby-image-wrapper {
+    width: 100%;
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+  }
+`
+
 export const InfoWrapper = styled.div`
   color: ${grey};
   padding-bottom: 2rem;
