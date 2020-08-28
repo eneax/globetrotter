@@ -1,22 +1,16 @@
 ---
-slug: "/smartbox"
-date: "2019-01-01"
-title: "Smartbox"
-cover: "../../images/promo/smartbox/smartbox.jpg"
-day: "2 anni rinnovabile e cambio gratuito"
-desc: "Nuova Collezione 2018"
-price: "A partire da € 24.90"
+slug: '/smartbox'
+date: '2019-01-01'
+title: 'Smartbox'
+cover: '../../images/promo/smartbox/smartbox.jpg'
+day: '2 anni rinnovabile e cambio gratuito'
+desc: 'Nuova Collezione 2018'
+price: 'A partire da € 24.90'
+imgOne: '../../images/promo/smartbox/smartbox01.jpg'
+imgTwo: '../../images/promo/smartbox/smartbox02.jpg'
+imgThree: '../../images/promo/smartbox/smartbox03.jpg'
+imgFour: '../../images/promo/smartbox/smartbox04.jpg'
 ---
-
-<div class="pictures">
-
-![picture 1](../../images/promo/smartbox/smartbox01.jpg)
-![picture 2](../../images/promo/smartbox/smartbox02.jpg)
-![picture 3](../../images/promo/smartbox/smartbox03.jpg)
-![picture 4](../../images/promo/smartbox/smartbox04.jpg)
-
-</div>
-
 
 <div class="copy">
 
