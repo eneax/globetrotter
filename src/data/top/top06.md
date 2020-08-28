@@ -1,87 +1,79 @@
 ---
-slug: '/west'
-date: '2019-01-06'
-title: 'Old West & Hawaii'
-cover: '../../images/top-tours/west/west.jpg'
-day: '22 giorni'
+slug: '/east'
+date: '2019-01-07'
+title: 'Sud Est Asiatico'
+cover: '../../images/top-tours/east/east.jpg'
+day: '15 giorni'
 desc: "Collezione 'Mondi Diversi'"
-price: 'A partire da € 2995.00 a persona'
-imgOne: '../../images/top-tours/west/west1.jpg'
-imgTwo: '../../images/top-tours/west/west2.jpg'
-imgThree: '../../images/top-tours/west/west3.jpg'
-imgFour: '../../images/top-tours/west/west4.jpg'
+price: 'A partire da € 3299.00 a persona'
+imgOne: '../../images/top-tours/east/east1.jpg'
+imgTwo: '../../images/top-tours/east/east2.jpg'
+imgThree: '../../images/top-tours/east/east3.jpg'
+imgFour: '../../images/top-tours/east/east4.jpg'
 ---
 
 <div class="copy">
 
 ## Descrizione
 
-### 1° Giorno: Italia - Los Angeles
+### 1° Giorno: Italia - Bangkok
 
-Partenza dall’ Italia con volo di linea. Arrivo a Los Angeles e sistemazione in hotel. Pernottamento.
+Partenza del volo di linea dall’Italia.
 
-### 2° Giorno: Los Angeles
+### 2° Giorno: Bangkok
 
-Prima colazione in hotel. In mattinata visita guidata della città, indiscussa capitale del cinema che offre l’opportunità di incontrare l’attore preferito in un ristorante, di fare shopping sulla famosissima Rodeo Drive, di passeggiare sui marciapiedi di Hollywood dove i divi di ieri e oggi hanno lasciato le loro impronte. Nel pomeriggio visita dell’Universal Studios, il parco interamente dedicato al cinema. Pernottamento in hotel.
+Arrivo e trasferimento in hotel. Visita guidata dei Templi e del Palazzo Reale. Tempo libero a disposizione. Pernottamento.
 
-### 3° Giorno: Los Angeles
+### 3° Giorno: Bangkok - Chiang Mai
 
-Prima colazione in hotel. Giornata dedicata alla visita del parco Disneyland per un entusiasmante “tuffo” nella fantasia. Il parco offre innumerevoli attrazioni a tema per grandi e piccoli, negozi, luoghi di ristoro. Pernottamento in hotel.
+Prima colazione in hotel. Trasferimento in aeroporto per il volo interno su Chiang Mai. Trasferimento in hotel. Pranzo in ristorante tipico. Partenza per la visita al Wat Phra That Doi Suthep. Rientro a Chiang Mai e visita del Wat Suandok. Proseguimento per Bo Sang e San Kamphaeng. Rientro in hotel. Cena e pernottamento.
 
-### 4° Giorno: Los Angeles - Phoenix
+### 4° Giorno: Chiang Mai - Chiang Rai
 
-Prima colazione in hotel. Si attraversa lo spettacolare scenario del deserto della California e dell'Arizona fino a Phoenix. Cena libera e pernottamento.
+Prima colazione in hotel. Visita del Campo degli elefanti di Mae Sa. Pranzo in ristorante tipico. Successivamente visita del villaggio abitato dalla tribù a Taton. Proseguimento per il famoso “Triangolo d’Oro”. Trasferimento in hotel. Cena e pernottamento.
 
-### 5° Giorno: Phoenix - Grand Canyon - Williams
+### 5° Giorno: Chiang Rai - Pakbeng
 
-Prima colazione in hotel. Visita panoramica al Castello di Montezuma, con storiche abitazioni indiane scavate nella roccia. Si passa Sedona, rinomata località di villeggiatura, e Oak Creek Canyon, scenario di molti film western. Visita panoramica del Grand Canyon South Rim e proseguimento per Williams, sulla storica Route 66. Cena libera e pernottamento in hotel.
+Prima colazione in hotel. Trasferimento in aeroporto per arrivare a Houei Say, cittadina sulla riva del Mekong, in mattinata partenza con una barca e discesa del fiume verso Pakbeng. Pranzo a bordo. Trasferimento in hotel a Pakbeng. Cena e pernottamento.
 
-### 6° Giorno: Williams - Monument Valley - Page
+### 6° Giorno: Pakbeng - Luang Prabang
 
-Prima colazione in hotel. Visita panoramica della spettacolare Monument Valley, con Escursione facoltativa in jeep. Si raggiunge il lago artificiale Powell, in uno spettacolare contrasto di acque blu e rocce rosse. Cena libera e pernottamento.
+Prima colazione in hotel. Visita del mercato di Pakbeng. Partenza per la seconda parte della crociera e breve sosta in un villaggio abitato dai H’Mong della montagna. Arrivo a Luang Prabang. Pranzo a bordo, al termine trasferimento in hotel. Cena e pernottamento.
 
-### 7° Giorno: Page - Bryce Canyon
+### 7° Giorno: Luang Prabang
 
-Prima colazione in hotel. Si arriva allo spettacolare parco nazionale di Bryce Canyon. Gli strati sedimentari sollevati ed erosi da pioggia, gelo e vegetazione sono stati modellati in guglie, cupole, archi di mille forme e sfumature. Cena libera. Sistemazione e pernottamento in hotel.
+Prima colazione in hotel. Visita di mezza giornata delle cascate di Kuong Si. Pranzo in ristorante tipico. Rientro a Luang Prabang e visita della città. Per ammirare il tramonto si sale al Vat Chom Si, posizionato al culmine del Phu Si, collina sacra che domina il Luang Prabang. Rientro in hotel cena e pernottamento.
 
-### 8° Giorno: Bryce Canyon - Las Vegas
+### 8° Giorno: Luang Prabang - Siem Reap
 
-Prima colazione in hotel. Partenza per il parco di Zion, dove il fiume Virgin ha scavato il suo letto tra solide rocce a strapiombo, si arriva a Las Vegas, capitale mondiale del divertimento. In serata Escursione facoltativa per ammirarne le mille luci. Cena libera e pernottamento.
+Prima colazione in hotel. Trasferimento in aeroporto per il volo da Luang Prabang a Siem Reap. Pranzo in ristorante tipico. All’arrivo trasferimento in hotel. Cena e pernottamento.
 
-### 9° Giorno: Las Vegas
+### 9° Giorno: Siem Reap
 
-Prima colazione in hotel. Giornata libera. Escursione facoltativa alla Death Valley (temperatura permettendo). Cena libera e pernottamento in hotel.
+Prima colazione in hotel. Intera giornata dedicata alla visita dei templi di Angkor. Visita della di Angkor Thom. Pranzo in ristorante tipico. Rientro in hotel. Cena e pernottamento.
 
-### 10° Giorno: Las Vegas - Fresno
+### 10° Giorno: Siem Reap - Saigon
 
-Prima colazione in hotel. Percorrendo in parte la storica Route 66 attraverso il deserto Mojave e la fertile valle centrale della California si arriva in serata a Fresno. Cena libera e pernottamento.
+Prima colazione in hotel. Proseguimento delle visite dei Templi di Angkor. Pranzo in ristorante. Trasferimento in aeroporto per il volo da Siem Reap a Saigon. Trasferimento e sistemazione in hotel. Cena e pernottamento.
 
-### 11° Giorno: Fresno - Yosemite - San Francisco
+### 11° Giorno: Saigon
 
-Prima colazione in hotel. Visita del parco nazionale Yosemite, il più famoso della California per i suoi paesaggi scolpiti da ghiacciai preistorici, le cascate scenografiche, le foreste; in serata arrivo a San Francisco. Cena libera e sistemazione in hotel.
+Prima colazione in hotel. Visita dei due volti della città di Saigon, quello coloniale e quello cinese. Sosta nella cattedrale di Notre-Dame e visita del mercato coperto di Ben Thanh. Pranzo in ristorante tipico. Pomeriggio visita del quartiere di Cholon, la Saigon “cinese”. Shopping nella zona commerciale. Rientro in hotel. Cena e pernottamento.
 
-### 12° Giorno: San Francisco
+### 12° Giorno: Saigon - Phu Quoc
 
-Prima colazione in hotel. Mattinata dedicata alla visita di San Francisco una metropoli cosmopolita al di là dell’Oceano. Caratterizzata da una romantica atmosfera con le sue colline, le case vittoriane, il tram a cremagliera, la nebbia che spesso avvolge la famosa baia creando un cLima di mistero attorno al famoso e spettacolare Golden Gate. Pomeriggio dedicato all’Escursione a Muirwoods e Sausalito per ammirare le spettacolari sequoie e la cittadina di artisti dall’atmosfera mediterranea. Serata a disposizione e pernottamento.
+Prima colazione in hotel. Trasferimento in aeroporto per il volo da Saigon all’isola di Phu Quoc. Trasferimento in hotel. Giornata a disposizione per rilassarsi in spiaggia. Trattamento di pernottamento e prima colazione.
 
-### 13° Giorno: San Francisco
+### 13° Giorno: Phu Quoc
 
-Prima colazione in hotel. Intera giornata a disposizione per esplorare la città che offre innumerevoli possibilità di shopping e tante attrazioni. In serata crociera nella baia con cena dove si ammirerà il panorama della città illuminata. Pernottamento in hotel.
+Prima colazione in hotel. Giornata a disposizione per un po’ relax in spiaggia. Pernottamento in hotel.
 
-### 14° Giorno: San Francisco - Hawaii
+### 14° Giorno: Phu Quoc - Italia
 
-Prima colazione in hotel. Trasferimento in aeroporto e volo per le Hawaii. Arrivo e trasferimento in hotel. Cena libera e pernottamento.
+Prima colazione in hotel. Tempo libero a disposizione fino al trasferimento in aeroporto per il volo da Phu Quoc all’Italia.
 
-### DAL 15° Giorno AL 20° Giorno: Hawaii
+### 15° Giorno: Italia
 
-Prima colazione in hotel. Tempo libero a disposizione per relax in spiaggia ed escursioni facoltative. Cena libera e pernottamento.
-
-### 21° Giorno: Hawaii - Italia
-
-Trasferimento per il volo di rientro in Italia.
-
-### 22° Giorno: Italia
-
-Arrivo in Italia.
+Arrivo in Italia. Ritiro del bagaglio. Fine dei nostri servizi.
 
 </div>

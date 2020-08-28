@@ -1,79 +1,59 @@
 ---
-slug: '/east'
-date: '2019-01-07'
-title: 'Sud Est Asiatico'
-cover: '../../images/top-tours/east/east.jpg'
+slug: '/africa'
+date: '2019-01-08'
+title: 'Sud Africa & Seychelles'
+cover: '../../images/top-tours/africa/africa.jpg'
 day: '15 giorni'
 desc: "Collezione 'Mondi Diversi'"
-price: 'A partire da € 3299.00 a persona'
-imgOne: '../../images/top-tours/east/east1.jpg'
-imgTwo: '../../images/top-tours/east/east2.jpg'
-imgThree: '../../images/top-tours/east/east3.jpg'
-imgFour: '../../images/top-tours/east/east4.jpg'
+price: 'A partire da € 3495.00 a persona'
+imgOne: '../../images/top-tours/africa/africa1.jpg'
+imgTwo: '../../images/top-tours/africa/africa2.jpg'
+imgThree: '../../images/top-tours/africa/africa3.jpg'
+imgFour: '../../images/top-tours/africa/africa4.jpg'
 ---
 
 <div class="copy">
 
 ## Descrizione
 
-### 1° Giorno: Italia - Bangkok
+### 1° Giorno: Johannesburg - Mpumalanga
 
-Partenza del volo di linea dall’Italia.
+Arrivo all'aeroporto di Johannesburg, incontro con la guida di lingua Italiana e trasferimento nella regione di Mpumalanga. Pranzo lungo il percorso. Arrivo nella cittadina di White River per due pernottamenti all'Hulala Lakeside, piacevole country lodge, dall'atmosfera accogliente e familiare, ubicato sulle sponde di un laghetto. Cena e pernottamento.
 
-### 2° Giorno: Bangkok
+### 2° Giorno: Mpumalanga
 
-Arrivo e trasferimento in hotel. Visita guidata dei Templi e del Palazzo Reale. Tempo libero a disposizione. Pernottamento.
+Dopo colazione Escursione lungo la suggestiva Panorama Route ricca di paesaggi spettacolari: l'imponente Blyde River Canyon che sarà ammirato dal belvedere prospiciente i Three Rondavels, le cavità di Bourke's Luck Potholes risultato scavate dalla forza erosiva dell'acqua, la finestra panoramica di God's Window e numerose cascate di acqua cristallina. Pranzo in corso di Escursione.
 
-### 3° Giorno: Bangkok - Chiang Mai
+### 3° Giorno: Mpumalanga - Makalali Game Reserve
 
-Prima colazione in hotel. Trasferimento in aeroporto per il volo interno su Chiang Mai. Trasferimento in hotel. Pranzo in ristorante tipico. Partenza per la visita al Wat Phra That Doi Suthep. Rientro a Chiang Mai e visita del Wat Suandok. Proseguimento per Bo Sang e San Kamphaeng. Rientro in hotel. Cena e pernottamento.
+Dopo la colazione partenza per la riserva privata di Makalali, dove si arriverà per l’ora di pranzo. Nel pomeriggio primo fotosafari a bordo di veicoli scoperti 4x4. Cena e pernottamento in lodge.
 
-### 4° Giorno: Chiang Mai - Chiang Rai
+### 4° Giorno: Makalali Game Reserve
 
-Prima colazione in hotel. Visita del Campo degli elefanti di Mae Sa. Pranzo in ristorante tipico. Successivamente visita del villaggio abitato dalla tribù a Taton. Proseguimento per il famoso “Triangolo d’Oro”. Trasferimento in hotel. Cena e pernottamento.
+Giornata di safari nella riserva alla ricerca dei grandi mammiferi africani. Pensione completa e pernottamento in lodge.
 
-### 5° Giorno: Chiang Rai - Pakbeng
+### 5° Giorno: Makalali Game Reserve - Johannesburg - Città del Capo + Volo
 
-Prima colazione in hotel. Trasferimento in aeroporto per arrivare a Houei Say, cittadina sulla riva del Mekong, in mattinata partenza con una barca e discesa del fiume verso Pakbeng. Pranzo a bordo. Trasferimento in hotel a Pakbeng. Cena e pernottamento.
+Dopo il safari del mattino, incontro con la guida parlante Italiano e partenza alla volta di Johannesburg. Arrivo e volo per Città del Capo. Arrivo, incontro con la guida di lingua Italiana e trasferimento in hotel. Cena libera e pernottamento presso il Pepper's Club Luxury Hotel, nuovissimo, moderno, raffinato ed elegante hotel nel cuore della città.
 
-### 6° Giorno: Pakbeng - Luang Prabang
+### 6° Giorno: Città del Capo, “La Penisola del Capo”
 
-Prima colazione in hotel. Visita del mercato di Pakbeng. Partenza per la seconda parte della crociera e breve sosta in un villaggio abitato dai H’Mong della montagna. Arrivo a Luang Prabang. Pranzo a bordo, al termine trasferimento in hotel. Cena e pernottamento.
+Dopo la colazione, incontro con la guida e Escursione alla Penisola del Capo, passando per gli esclusivi sobborghi lungo la costa atlantica come Sea Point, Camps Bay, Clifton e Llandudno. Arrivo ad Hout Bay e, condizioni del mare permettendo,Escursione in barca a Seal Island popolata da una colonia di otarie del Capo. Arrivo al Capo di Buona Speranza e salita, a bordo della comoda funicolare, al faro di Cape Point dove la vista è spettacolare. Pranzo in ristorante locale e prosecuzione perla cittadina Simonstown nelle cui vicinanze a Boulder's Beach si trova una colonia di simpatici pinguini del Capo. Ultima visita della giornata, tempo permettendo, ai giardini botanici di Kirstenbosch, sulle falde orientali di Table Mountain, ospitanti 4000 specie di piante di cui 2600 endemiche della Provincia del Capo, la più famosa della quali è la Protea che viene considerata il fiore nazionale del Sudafrica. Rientro a Città del Capo, cena e pernottamento in hotel.
 
-### 7° Giorno: Luang Prabang
+### 7° Giorno: Città del Capo e La Regione dei Vigneti
 
-Prima colazione in hotel. Visita di mezza giornata delle cascate di Kuong Si. Pranzo in ristorante tipico. Rientro a Luang Prabang e visita della città. Per ammirare il tramonto si sale al Vat Chom Si, posizionato al culmine del Phu Si, collina sacra che domina il Luang Prabang. Rientro in hotel cena e pernottamento.
+Colazione in hotel. Partenza per la regione dei vigneti a poche decine di chilometri da Città del Capo per una visita di una delle tipiche tenute di Franschoek con pranzo e degustazione di vini. Rientro a Città del Capo e visita della città (Cape Castle, South African Museum, il curioso quartiere malese del "Bo-Kaap", Long Street e il centro cittadino, e, condizioni atmosferiche permettendo, ascesa in funiva sulla sommità di Table Mountain). Cena libera e pernottamento in hotel.
 
-### 8° Giorno: Luang Prabang - Siem Reap
+### 8° Giorno: Città del Capo - Seychelles
 
-Prima colazione in hotel. Trasferimento in aeroporto per il volo da Luang Prabang a Siem Reap. Pranzo in ristorante tipico. All’arrivo trasferimento in hotel. Cena e pernottamento.
+Colazione in hotel. Tempo a disposizione e trasferimento con assistenza in aeroporto per il volo alle Isole Seychelles.
 
-### 9° Giorno: Siem Reap
+### Dal 9° al 14° Giorno: Seychelles
 
-Prima colazione in hotel. Intera giornata dedicata alla visita dei templi di Angkor. Visita della di Angkor Thom. Pranzo in ristorante tipico. Rientro in hotel. Cena e pernottamento.
+Arrivo alle Isole Seychelles. Trasferimento per l’hotel.Pranzo libero. Cena e pernottamento.
 
-### 10° Giorno: Siem Reap - Saigon
+### 15° Giorno: Seychelles - Italia
 
-Prima colazione in hotel. Proseguimento delle visite dei Templi di Angkor. Pranzo in ristorante. Trasferimento in aeroporto per il volo da Siem Reap a Saigon. Trasferimento e sistemazione in hotel. Cena e pernottamento.
-
-### 11° Giorno: Saigon
-
-Prima colazione in hotel. Visita dei due volti della città di Saigon, quello coloniale e quello cinese. Sosta nella cattedrale di Notre-Dame e visita del mercato coperto di Ben Thanh. Pranzo in ristorante tipico. Pomeriggio visita del quartiere di Cholon, la Saigon “cinese”. Shopping nella zona commerciale. Rientro in hotel. Cena e pernottamento.
-
-### 12° Giorno: Saigon - Phu Quoc
-
-Prima colazione in hotel. Trasferimento in aeroporto per il volo da Saigon all’isola di Phu Quoc. Trasferimento in hotel. Giornata a disposizione per rilassarsi in spiaggia. Trattamento di pernottamento e prima colazione.
-
-### 13° Giorno: Phu Quoc
-
-Prima colazione in hotel. Giornata a disposizione per un po’ relax in spiaggia. Pernottamento in hotel.
-
-### 14° Giorno: Phu Quoc - Italia
-
-Prima colazione in hotel. Tempo libero a disposizione fino al trasferimento in aeroporto per il volo da Phu Quoc all’Italia.
-
-### 15° Giorno: Italia
-
-Arrivo in Italia. Ritiro del bagaglio. Fine dei nostri servizi.
+Prima colazione in hotel. Trasferimento per l’aeroporto e partenza per il volo in Italia.
 
 </div>

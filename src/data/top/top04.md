@@ -1,78 +1,50 @@
 ---
-slug: '/america'
-date: '2019-01-04'
-title: 'Il Sogno Americano & Bahamas'
-cover: '../../images/top-tours/america/america.jpeg'
-day: '21 giorni'
+slug: '/dubai'
+date: '2019-01-05'
+title: 'Dubai & Maldive'
+cover: '../../images/top-tours/dubai/dubai.jpg'
+day: '18 giorni'
 desc: "Collezione 'Mondi Diversi'"
-price: 'A partire da € 2990.00 a persona'
-imgOne: '../../images/top-tours/america/america1.jpg'
-imgTwo: '../../images/top-tours/america/america2.jpg'
-imgThree: '../../images/top-tours/america/america3.jpg'
-imgFour: '../../images/top-tours/america/america4.jpg'
+price: 'A partire da € 2995.00 a persona'
+imgOne: '../../images/top-tours/dubai/dubai1.jpg'
+imgTwo: '../../images/top-tours/dubai/dubai2.jpg'
+imgThree: '../../images/top-tours/dubai/dubai3.jpg'
+imgFour: '../../images/top-tours/dubai/dubai4.jpg'
 ---
 
 <div class="copy">
 
 ## Descrizione
 
-### 1° Giorno: Italia - New York
+### 1° Giorno: Italia - Dubai
 
-Partenza con volo di linea per New York. Arrivo in aeroporto e trasferimento in hotel. Tempo a disposizione. Cena libera e pernottamento.
+Partenza con volo di linea per Dubai. Pasti a bordo. Arrivo a Dubai e trasferimento in hotel. Pernottamento.
 
-### 2° Giorno: New York
+### 2° Giorno: Dubai
 
-Prima colazione in hotel. Mattinata dedicata alla visita guidata della città dove sarà possibile ammirare le più importanti attrazioni: Time Square, Central Park, St. Patrick’s Cathedral, il Metropolitan Museum of Art, il Rockfeller Center ed il famosissimo ponte di Brooklyn. Ma naturalmente nessun tour di New York sarebbe completo senza una visita alla Statua della Libertà e all’Empire State Building. Cena libera e pernottamento.
+Prima colazione in hotel e mattinata a disposizione. Pranzo in hotel. Nel pomeriggio visita della parte antica di Dubai, comprendente il quartiere di Bastakiya, dove sono ancora visibili le “torri del vento”, antico sistema di ventilazione e condizionamento delle case.
 
-### 3° Giorno: New York
+### 3° Giorno: Dubai
 
-Prima colazione in hotel. Giornata a disposizione per visite facoltative. Pasti liberi e pernottamento.
+Prima colazione in hotel e partenza per l’Escursione “la Dubai del futuro”, dove avrete l’occasione di vedere tutte le famose novità architettoniche della città, come la famosissima Palma di Jumeirah. Prima sosta fotografica all’hotel Atlantis The Palm. Passeggiata lungo la “Marina Walk” con i suoi innumerevoli locali e negozi, a seguire, sosta alle “Emirates Hills” ultimo complesso residenziale di lusso che vuole imitare Beverly Hills a Los Angeles. Lungo la Jumeirah Beach si può ammirare uno degli alberghi icona di Dubai, il Burj Al Arab. Ultima tappa al Souq Al Bahar nelle vicinanze del Burj Khalifa, il più alto grattacielo al mondo (oltre 800 metri). Pranzo presso il Dubai Mall. Pomeriggio a disposizione. Cena e pernottamento in hotel.
 
-### 4° Giorno: New York
+### 4° Giorno: Dubai
 
-Prima colazione in hotel. Giornata a disposizione per visite facoltative prenotabili. Pasti liberi e pernottamento.
+Prima colazione in hotel e mattinata a disposizione per relax o per shopping. Pranzo in hotel. Nel pomeriggio partenza per un’emozionante Escursione in mezzo alle dune a bordo di Jeep 4x4. Sosta ad una fattoria di cammelli e ad un villaggio beduino dove si potrà fotografare la vita del deserto. Proseguimento per il campo tendato per assaporare la particolare atmosfera del tramonto prima di un gustoso barbecue sotto le stelle. Rientro in hotel e pernottamento.
 
-### 5° Giorno: New York - Philadelphia
+### 05° Giorno: Dubai - Maldive
 
-Prima colazione in hotel. Al mattino trasferimento libero alla stazione Penn Station e partenza in treno per Philadelphia. Arrivati alla 30° Street Station, trasferimento libero in hotel. Tempo libero a disposizione e pernottamento.
+Prima colazione in hotel. Trasferimento in aeroporto per volo di linea alle Maldive. Arrivo e trasferimento in hotel. Cena e pernottamento.
 
-### 6° Giorno: Philadelphia
+### DAL 06° AL 16° Giorno: Maldive
 
-Prima colazione in hotel. Mattinata dedicata alla visita guidata della città. Tempo libero a disposizione e pernottamento in hotel.
+Prima colazione in hotel. Giornate a disposizione per relax nella bellissima spiaggia dell’atollo prescelto. Cena e pernottamento.
 
-### 7° Giorno: Philadelphia - Washington
+### 17° Giorno: Maldive - Italia
 
-Prima colazione in hotel. Trasferimento libero alla stazione 30° Street Station. All’arrivo trasferimento libero in hotel. Tempo a disposizione per visitare la capitale degli Stati Uniti e per fare shopping. Pasti liberi e pernottamento.
+Prima colazione in hotel. Trasferimento per il volo di linea verso l’Italia. Pasti a bordo.
 
-### 8° Giorno: Washington
-
-Prima colazione in hotel. Oggi dedicatevi alla visita di Washington salendo a bordo di un bus che effettuerà più di 25 fermate nei luoghi più interessanti della città dal quale potrete scendere e risalire ogni qualvolta avrete il desiderio di effettuare una visita, fare shopping o mangiare. In particolare vi consigliamo di visitare l’Arlington National Cemetery, la Casa Bianca, Il Lincoln Memorial, Capitol Hill, l’obelisco di Washington, i numerosi musei e di camminare lungo la National Mall. Pasti liberi e pernottamento.
-
-### 9° Giorno: Washington - Miami
-
-Prima colazione in hotel. Trasferimento in aeroporto per volo Washington - Miami. Arrivo e trasferimento in hotel. Pasti liberi e pernottamento.
-
-### 10° Giorno: Miami
-
-Prima colazione in hotel. Mattinata dedicata alla visita guidata della città. Tempo libero a disposizione e pernottamento.
-
-### 11° Giorno: Miami
-
-Prima colazione in hotel. Tempo libero a disposizione per escursioni facoltative o relax in spiaggia. Pasti liberi e pernottamento.
-
-### 12° Giorno: Miami - Bahamas
-
-Prima colazione in hotel. Trasferimento per volo Miami – Bahamas. Arrivo e trasferimento in hotel. Sistemazione e pernottamento.
-
-### DAL 13° Giorno AL 19° Giorno: Bahamas
-
-Prima colazione in hotel. Giornate a disposizione per sole e relax in spiaggia. Pernottamento.
-
-### 20° Giorno: Bahamas - Italia
-
-Prima colazione in hotel. Trasferimento per volo di rientro in Italia. Pasti a bordo.
-
-### 21° Giorno: Italia
+### 18° Giorno: Italia
 
 Arrivo in Italia.
 
