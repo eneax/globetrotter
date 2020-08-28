@@ -1,22 +1,16 @@
 ---
-slug: "/ny"
-date: "2018-12-15"
-title: "New York"
-cover: "../../images/group-trip/ny/ny.jpg"
-day: "11 - 15 dicembre 2018"
-desc: "Shopping a New York!!!"
-price: "A partire da € 1195.00 a persona"
+slug: '/ny'
+date: '2018-12-15'
+title: 'New York'
+cover: '../../images/group-trip/ny/ny.jpg'
+day: '11 - 15 dicembre 2018'
+desc: 'Shopping a New York!!!'
+price: 'A partire da € 1195.00 a persona'
+imgOne: '../../images/group-trip/ny/ny1.jpg'
+imgTwo: '../../images/group-trip/ny/ny2.jpg'
+imgThree: '../../images/group-trip/ny/ny3.jpg'
+imgFour: '../../images/group-trip/ny/ny4.jpg'
 ---
-
-<div class="pictures">
-
-![ny 1](../../images/group-trip/ny/ny1.jpg)
-![ny 2](../../images/group-trip/ny/ny2.jpg)
-![ny 3](../../images/group-trip/ny/ny3.jpg)
-![ny 4](../../images/group-trip/ny/ny4.jpg)
-
-</div>
-
 
 <div class="copy">
 
@@ -29,38 +23,43 @@ Poi c’è il Ponte di Brooklyn, il primo costruito in acciaio, che collega il q
 Altri luoghi divenuti ormai icone del paesaggio newyorkese sono Times Square, che di sera si accende delle mille luci delle insegne, e il Central Park, il grande polmone verde di Manhattan dove gli abitanti si ritrovano tra gli scoiattoli e i laghetti per divertirsi, rilassarsi e fare sport all’aria aperta. Anche se ferita al cuore dall’attentato terroristico dell’11 settembre 2001, che ha distrutto un altro simbolo della città, le Torri Gemelle, la metropoli ha mostrato una decisa forza di reazione.
 
 ### 11 dicembre 2018 - Roma Fiumicino - New York
+
 Trasferimento in bus privato per l’aeroporto di partenza. Volo di linea per New York. All’arrivo trasferimento in centro città per la sistemazione in hotel.
 
 ### 12 dicembre 2018 - New York
+
 Prima colazione in hotel. Facoltativo: visita orientativa di Manhattan.
 
 ### 13 dicembre 2018 - New York
+
 Prima colazione in hotel. Facoltativo: visita degli altri quartieri di New York, Bronx, Queens, Brooklyn - Visita notturna della città che non dorme mai.
 
 ### 14 dicembre 2018 - New York
+
 Prima colazione in hotel. In serata trasferimento in aeroporto per il volo di rientro in Italia.
 
 ### 15 dicembre 2018 - Roma Fiumicino
-Arrivo in mattinata a Roma Fiumicino, trasferimento per il rientro in sede. Fine dei nostri servizi.
 
+Arrivo in mattinata a Roma Fiumicino, trasferimento per il rientro in sede. Fine dei nostri servizi.
 
 <div class="quota">
 
-+ <div class="left"> <span> NUMERO MINIMO PARTECIPANTI </span> </div> <div class="right"> <span> BASE 30 </span> </div> 
-+ <div class="left"> <span> QUOTA DI PARTECIPAZIONE IN CAMERA DOPPIA </span> </div> <div class="right"> <span> €1195.00 </span> </div> 
-+ <div class="left"> <span> QUOTA DI PARTECIPAZIONE IN CAMERA SINGOLA </span> </div> <div class="right"> <span> €1445.00 </span> </div> 
-+ <div class="left"> <span> QUOTA DI PARTECIPAZIONE BAMBINI 03-12 ANNI IN 3° e 4° LETTO </span> </div> <div class="right"> <span> €1095.00 </span> </div> 
-+ <div class="left"> <span> ASSICURAZIONE ANNULLAMENTO FACOLTATIVA </span> </div> <div class="right"> <span> €95.00 </span> </div> 
+- <div class="left"> <span> NUMERO MINIMO PARTECIPANTI </span> </div> <div class="right"> <span> BASE 30 </span> </div>
+- <div class="left"> <span> QUOTA DI PARTECIPAZIONE IN CAMERA DOPPIA </span> </div> <div class="right"> <span> €1195.00 </span> </div>
+- <div class="left"> <span> QUOTA DI PARTECIPAZIONE IN CAMERA SINGOLA </span> </div> <div class="right"> <span> €1445.00 </span> </div>
+- <div class="left"> <span> QUOTA DI PARTECIPAZIONE BAMBINI 03-12 ANNI IN 3° e 4° LETTO </span> </div> <div class="right"> <span> €1095.00 </span> </div>
+- <div class="left"> <span> ASSICURAZIONE ANNULLAMENTO FACOLTATIVA </span> </div> <div class="right"> <span> €95.00 </span> </div>
 
 </div>
-
 
 ## Ulteriori Dettagli
 
 ### La quota comprende:
-trasferimento in aeroporto di partenza a/r, volo di linea in classe turistica, tasse aeroportuali, hotel 4 * * * * in centro a Manhattan con trattamento di pernottamento e prima colazione, trasferimento in arrivo e partenza a New York, accompagnatrice/tore professionista per tutta la durata del viaggio, assicurazione RC Generali.
+
+trasferimento in aeroporto di partenza a/r, volo di linea in classe turistica, tasse aeroportuali, hotel 4 \* \* \* \* in centro a Manhattan con trattamento di pernottamento e prima colazione, trasferimento in arrivo e partenza a New York, accompagnatrice/tore professionista per tutta la durata del viaggio, assicurazione RC Generali.
 
 ### La quota non comprende:
+
 Escursioni facoltative: Visita di Manhattan (€50.00), Tour dei contrasti (€50.00), New York di notte (€50.00)
 
 </div>
